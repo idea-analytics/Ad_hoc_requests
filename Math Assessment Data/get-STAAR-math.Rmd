@@ -1,0 +1,137 @@
+---
+title: "Math-Algebra STAAR request"
+author: "Aline Orr"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+#STAAR math request
+This scripts pulls data for Ad Hoc request #1461465846:
+
+1. Student performance on TX State Math Assessments that have achieved "approach, meet, master  standards" for the following subjects: 6th Grade Pre-Algebra, 7th Grade Pre-Algebra, 8th Grade-Algebra I. (Texas: STAAR)
+2. Student performance on TX State Math Assessments that have achieved "approach, meet, master standards" for the following subjects: Algebra II, Geometry, Pre-Calculus. (Final Exam-IA's)
+
+
+
+```{r setup, include=FALSE}
+
+library(ideadata)
+library(tidyverse)
+library(janitor)
+library(here)
+#install.packages("DescTools")
+library(DescTools)
+
+STAAR_23_24 <- get_table(.table_name = "STAAR", .database_name = "Dashboard", 
+                   .schema = "dbo", .server_name = "RGVPDRA-DASQL") %>%
+  filter(TestVersion == "S", 
+         ScoreCode == "S",
+       #  AdminDate %in% c("0421", "0521")) %>%
+         SchoolYear == "2023-2024",
+         SubjectCode %in% c("Math", "Algebra I"),
+         GradeLevel %in% c("06", "07", "08")) %>%
+  select(StudentID,
+         LocalStudentID,
+         GradeLevel,
+         SubjectCode,
+         AdminDate,
+         ScoreCode,
+         ScaleScore,
+         Approaches = LevelII,
+         Meets = LevelIIFinal,
+         Masters = LevelIII) %>%
+  mutate(StudentID = as.numeric(StudentID),
+         LocalStudentID = as.numeric(LocalStudentID),
+         StudentNumber = if_else(LocalStudentID %in% c(0, NA), StudentID, LocalStudentID),
+         StudentNumber = as.numeric(StudentNumber)) %>%
+  filter(StudentNumber != 0) %>%
+  select(-StudentID, -LocalStudentID, -ScoreCode) %>%
+  group_by(StudentNumber) %>%
+  distinct() %>%
+  collect()
+  #unique(STAAR)
+
+STAAR_math <- STAAR_23_24 %>%
+  group_by(StudentNumber) %>%
+  mutate(maxscore = max(ScaleScore))%>%
+  filter(ScaleScore == maxscore) %>%
+  select(-maxscore, -AdminDate, -ScaleScore)%>%
+  distinct()%>%
+  ungroup()
+
+pct_levels <- STAAR_math %>%
+  mutate(Approaches = as.numeric(Approaches),
+         Meets = as.numeric(Meets),
+         Masters = as.numeric(Masters),
+         Meets1 = case_when((Meets == 1 & Masters == 0) ~ 1,
+                            TRUE ~ 0),
+         Approaches1 = case_when((Approaches == 1 & Meets == 0) ~ 1,
+                               TRUE ~ 0))%>%
+  group_by(SubjectCode, GradeLevel) %>%
+  mutate(std_n = n(),
+         n_apprchs = sum(Approaches1),
+         n_meets = sum(Meets1),
+         n_mstrs = sum(Masters),
+         pct_app = n_apprchs/std_n,
+         pct_meet = n_meets/std_n,
+         pct_mst = n_mstrs/std_n)
+
+result_table <- pct_levels %>%
+  select(SubjectCode, std_n, n_apprchs, n_meets, n_mstrs, pct_app, pct_meet, pct_mst) %>%
+  distinct()
+write.csv(result_table, "STAAR math & Algebra1 result table.csv")
+
+
+```
+
+# Pull IDEA internal math results (final exam scores) and summarize as % approaches, % meets, and % masters.
+
+```{r}
+
+iabwa <- get_table(.table_name = "IABWA", 
+                     .server_name = "RGVPDSD-DWPRD2", 
+                     .schema = "Assessments", 
+                     .database_name = "PROD2") %>%
+ # collect()
+  filter(AcademicYear == "2023-2024",
+         AssessmentDate >= "2024-04-20")%>%
+  collect()
+
+chk_unique <- iabwa %>%
+  select(AssessmentType) %>%
+  distinct()
+
+sub_unique <- iabwa %>%
+  select(Subject, AssessmentName)%>%
+  distinct()
+
+iabwa_mathFE <- iabwa %>%
+  filter(AssessmentType == "FE",
+         Subject == "Mathematics")
+
+unique_math <- iabwa_mathFE %>%
+  select(AssessmentName) %>%
+  distinct()
+
+al_pcal_geo_FE <- iabwa_mathFE %>%
+  filter(AssessmentName %in% c("LA_MAT_Algebra2_S24_FE",
+                               "LA_MAT_Pre-Calculus_S24_FE", 
+                               "TX_MAT_Algebra2_S24_FE",
+                               "TX_MAT_Pre-Calculus_S24_FE",
+                               "TX_MAT_Geometry_S24_FE"))%>%
+  select(StudentNumber, AssessmentName, PerfomanceBand)%>%
+  group_by(AssessmentName) %>%
+  mutate(assess_n = n_distinct(StudentNumber)) %>%
+  ungroup()%>%
+  group_by(AssessmentName, PerfomanceBand) %>%
+  mutate(perf_n = n_distinct(StudentNumber)) %>%
+  ungroup()%>%
+  filter(PerfomanceBand %in% c("Approaches", "Masters", "Meets"))%>%
+  mutate(pband_percent = perf_n/assess_n) %>%
+  select(AssessmentName, PerfomanceBand, assess_n, perf_n, pband_percent) %>%
+  distinct()
+
+write.csv(al_pcal_geo_FE, "iabwa_math_FE_approaches_meets_masters.csv")
+
+```
+

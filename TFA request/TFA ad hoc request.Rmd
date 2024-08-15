@@ -1,0 +1,76 @@
+---
+title: "TFA _ data request"
+author: "Aline Orr"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## TFA teacher/student link file
+
+```{r cars}
+
+#Load packages
+
+library(ideadata)
+library(tidyverse)
+library(here)
+library(janitor)
+library(DescTools)
+
+staff_emp <- get_table(.table_name = "Employees",
+                       .database_name = "PROD1", 
+                       .schema = "Staffing", 
+                       .server_name = "RGVPDSD-DWPRD1") %>%
+  collect()
+
+TFA_staff <- staff_emp %>%
+  filter(NameID %in% c('18298',
+                       '61028',
+                       '92139',
+                       '91118',
+                       '90917',
+                       '92011',
+                       '94642',
+                       '91181',
+                       '91984')) 
+  
+tfa_ids <- TFA_staff %>%
+  select(EmployeeKey)%>%
+  pull()
+  
+
+stu_classes <- get_table(.table_name = "StudentClassEnrollment",
+                       .database_name = "PROD1", 
+                       .schema = "Schools", 
+                       .server_name = "RGVPDSD-DWPRD1") %>%
+  filter(AcademicYear == "2023-2024",
+         EmployeeKey %in% tfa_ids) %>%
+  collect()%>%
+  filter(!grepl("Home", CourseName)) %>%
+  filter(!grepl("OATP", CourseName)) %>%
+  filter(!grepl("Academic Block", CourseName)) %>%
+  filter(!grepl("Grade 6 - Advisory", CourseName))
+  
+  
+tch_link <- TFA_staff %>%
+  select(EmployeeKey, EmployeeID = NameID) %>%
+  inner_join(stu_classes %>% select(SchoolYear = AcademicYear, NCES_District_ID = SchoolNumber, EmployeeKey, CourseID = CourseNumber, CourseName, SubjectArea = CourseCreditType, CourseSectionID = ClassSectionID, StudentID = StudentNumber), join_by(EmployeeKey)) %>%
+  select(-EmployeeKey) %>%
+  relocate(EmployeeID, .after = NCES_District_ID)
+  
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

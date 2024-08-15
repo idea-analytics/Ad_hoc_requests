@@ -1,0 +1,24 @@
+"","AssessmentName","PerfomanceBand","assess_n","pband_percent"
+"1","TX_MAT_Algebra2_S24_FE","Critical",3381,0.272404614019521
+"2","TX_MAT_Algebra2_S24_FE","Approaches",3381,0.235137533274179
+"3","TX_MAT_Algebra2_S24_FE","Did Not Meet",3381,0.266193433895297
+"4","TX_MAT_Algebra2_S24_FE","Masters",3381,0.115350488021295
+"5","TX_MAT_Algebra2_S24_FE","Meets",3381,0.110913930789707
+"6","TX_MAT_Geometry_S24_FE","Did Not Meet",4541,0.235630918299934
+"7","TX_MAT_Geometry_S24_FE","Meets",4541,0.117375027526976
+"8","TX_MAT_Geometry_S24_FE","Critical",4541,0.311825589077296
+"9","TX_MAT_Pre-Calculus_S24_FE","Meets",893,0.0582306830907055
+"10","TX_MAT_Geometry_S24_FE","Masters",4541,0.135652939881083
+"11","TX_MAT_Geometry_S24_FE","Approaches",4541,0.19951552521471
+"12","LA_MAT_Algebra2_S24_FE","Advanced",40,0.3
+"13","LA_MAT_Algebra2_S24_FE","Mastery",40,0.225
+"14","LA_MAT_Algebra2_S24_FE","Approaching Basic",40,0.175
+"15","LA_MAT_Algebra2_S24_FE","Basic",40,0.175
+"16","LA_MAT_Algebra2_S24_FE","Unsatisfactory",40,0.125
+"17","TX_MAT_Pre-Calculus_S24_FE","Approaches",893,0.178051511758119
+"18","TX_MAT_Pre-Calculus_S24_FE","Masters",893,0.0414333706606943
+"19","TX_MAT_Pre-Calculus_S24_FE","Critical",893,0.463605823068309
+"20","TX_MAT_Pre-Calculus_S24_FE","Did Not Meet",893,0.258678611422172
+"21","LA_MAT_Pre-Calculus_S24_FE","Advanced",14,0.785714285714286
+"22","LA_MAT_Pre-Calculus_S24_FE","Basic",14,0.0714285714285714
+"23","LA_MAT_Pre-Calculus_S24_FE","Unsatisfactory",14,0.142857142857143

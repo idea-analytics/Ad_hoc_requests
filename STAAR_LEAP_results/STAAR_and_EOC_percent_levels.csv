@@ -1,0 +1,1433 @@
+ADUserID,CourseName,SubjectCode,Total Students,n_approaches,percent_approaches,n_meets,percent_meets,n_masters,percent_masters
+Marisa.Soza,"English Language Arts, Grade 3",Reading,79,62,0.784810127,44,0.556962025,20,0.253164557
+Jonathan.Silva,"English Language Arts, Grade 4",Reading,108,94,0.87037037,69,0.638888889,31,0.287037037
+Martha.Hernandez,"English Language Arts, Grade 5",Reading,112,95,0.848214286,63,0.5625,29,0.258928571
+Catrina.Santacruz,"Mathematics, Grade 3",Math,85,58,0.682352941,25,0.294117647,10,0.117647059
+Juan.Aguilar,"Mathematics, Grade 4",Math,108,74,0.685185185,47,0.435185185,21,0.194444444
+Estrella.Carmona,"Mathematics, Grade 5",Math,112,99,0.883928571,51,0.455357143,13,0.116071429
+Jose.Jimenez,"Science, Grade 5",Science,112,80,0.714285714,44,0.392857143,16,0.142857143
+Ashley.Johnson,AP US History,U.S. History,80,80,1,71,0.8875,49,0.6125
+Ruth.Winkler,Pre-AP Biology,Biology,93,91,0.978494624,66,0.709677419,25,0.268817204
+Sasha.Rodriguez,Pre-AP English I,English I,91,82,0.901098901,69,0.758241758,19,0.208791209
+Dominique.Lopez,US History,U.S. History,82,79,0.963414634,65,0.792682927,35,0.426829268
+Dominique.Lopez,AP US History,U.S. History,82,79,0.963414634,65,0.792682927,35,0.426829268
+Jasmine.Rodriguez,Pre-AP Biology,Biology,102,95,0.931372549,64,0.62745098,20,0.196078431
+Brianna.Ortega,Pre-AP English I,English I,105,80,0.761904762,66,0.628571429,15,0.142857143
+Dustin.Kipp,AP US History,U.S. History,82,80,0.975609756,60,0.731707317,32,0.390243902
+Alfredstone.Aguirre,Advanced Algebra 1,Algebra I,139,94,0.676258993,29,0.208633094,12,0.086330935
+Tiffany.Martinez,Pre-AP Biology,Biology,141,129,0.914893617,81,0.574468085,20,0.141843972
+Lauren.Closner,Pre-AP English I,English I,97,65,0.670103093,45,0.463917526,7,0.072164948
+Thomas.Dillard,Pre-AP Biology,Biology,72,61,0.847222222,29,0.402777778,9,0.125
+Corrie.Rosen,Pre-AP English I,English I,72,46,0.638888889,30,0.416666667,6,0.083333333
+Estefania.Alanis,Pre-AP Biology,Biology,23,20,0.869565217,12,0.52173913,2,0.086956522
+Shelby.Gonzales,"English Language Arts, Grade 3",Reading,60,42,0.7,22,0.366666667,6,0.1
+Christina.Olivarez,"English Language Arts, Grade 3",Reading,62,50,0.806451613,35,0.564516129,13,0.209677419
+Stephanie.Cazares2,"English Language Arts, Grade 4",Reading,71,64,0.901408451,47,0.661971831,24,0.338028169
+Monica.Escott,"English Language Arts, Grade 4",Reading,70,58,0.828571429,36,0.514285714,15,0.214285714
+Osmara.Perez,"English Language Arts, Grade 5",Reading,132,104,0.787878788,69,0.522727273,36,0.272727273
+Veronica.Ozuna,"Mathematics, Grade 3",Math,115,78,0.67826087,39,0.339130435,10,0.086956522
+Valeria.Guerra,"Mathematics, Grade 4",Math,135,103,0.762962963,78,0.577777778,40,0.296296296
+Andrea.Benavides,"Mathematics, Grade 5",Math,132,83,0.628787879,37,0.28030303,9,0.068181818
+Ruben.Mesa,"Science, Grade 5",Science,132,74,0.560606061,27,0.204545455,11,0.083333333
+Jonathan.Delosreyes,AP US History,U.S. History,88,88,1,72,0.818181818,40,0.454545455
+Emily.Delgado,Pre-AP English I,English I,117,92,0.786324786,79,0.675213675,27,0.230769231
+Javier.Tovar,AP US History,U.S. History,67,66,0.985074627,53,0.791044776,29,0.432835821
+Tonya.Slagle,Advanced Algebra 1,Algebra I,11,7,0.636363636,0,0,0,0
+Andrea.Cantu,Pre-AP Biology,Biology,17,10,0.588235294,3,0.176470588,2,0.117647059
+Hannah.Robinson,Pre-AP English I,English I,74,64,0.864864865,56,0.756756757,23,0.310810811
+Reginaldo.Garcia,AP US History,U.S. History,61,59,0.967213115,42,0.68852459,23,0.37704918
+Victoria.Delgado,"English Language Arts, Grade 3",Reading,61,45,0.737704918,25,0.409836066,13,0.213114754
+Kristina.Vasquez,"English Language Arts, Grade 3",Reading,63,50,0.793650794,26,0.412698413,14,0.222222222
+Kimberly.Solis,"English Language Arts, Grade 4",Reading,59,45,0.762711864,22,0.372881356,10,0.169491525
+Ashley.Arviso,"English Language Arts, Grade 4",Reading,59,45,0.762711864,29,0.491525424,14,0.237288136
+Monica.Torres,"English Language Arts, Grade 5",Reading,131,110,0.839694656,77,0.58778626,47,0.358778626
+Christian.Morin,"Mathematics, Grade 3",Math,124,69,0.556451613,29,0.233870968,8,0.064516129
+Celeste.Martinez,"Mathematics, Grade 4",Math,116,64,0.551724138,38,0.327586207,13,0.112068966
+Victoria.Trevino,"Mathematics, Grade 5",Math,129,98,0.759689922,60,0.465116279,20,0.15503876
+Linda.Alcantara,"Science, Grade 5",Science,131,84,0.641221374,37,0.282442748,10,0.076335878
+Maria.Gomez,"Advanced Mathematics, Grade 6",Math,122,86,0.704918033,44,0.360655738,8,0.06557377
+Kristen.Arguelles,"Advanced English Language Arts, Grade 6",Reading,122,90,0.737704918,63,0.516393443,26,0.213114754
+Mariana.Cerda,"Advanced Science, Grade 8-Composite",Science,128,88,0.6875,52,0.40625,14,0.109375
+Hilda.Altamirano,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,131,122,0.93129771,82,0.625954198,45,0.34351145
+Marina.Ivory,"Advanced English Language Arts, Grade 7",Reading,131,95,0.72519084,70,0.534351145,39,0.297709924
+Judith.Cavazos,"Advanced English Language Arts, Grade 8",Reading,131,126,0.961832061,91,0.694656489,47,0.358778626
+Diana.Dejesus,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,131,100,0.763358779,64,0.488549618,31,0.236641221
+Kellie.Duncan,Pre-AP Biology (8th Grade),Biology,118,107,0.906779661,55,0.466101695,4,0.033898305
+Kareem.Abdullah,"Advanced Mathematics, Grade 6",Math,124,70,0.564516129,28,0.225806452,7,0.056451613
+Sharon.Prince,"Advanced English Language Arts, Grade 6",Reading,124,75,0.60483871,41,0.330645161,15,0.120967742
+Lashawn.Bryant,"Advanced English Language Arts, Grade 7",Reading,127,81,0.637795276,51,0.401574803,17,0.133858268
+Anthony.Aguilar2,"Advanced English Language Arts, Grade 8",Reading,118,91,0.771186441,49,0.415254237,20,0.169491525
+Jamaal.Goodwin,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,118,59,0.5,20,0.169491525,8,0.06779661
+Gabriela.Rodriguez2,"English Language Arts, Grade 3",Reading,99,72,0.727272727,53,0.535353535,30,0.303030303
+Zucely.Gomez,"English Language Arts, Grade 4",Reading,120,97,0.808333333,62,0.516666667,29,0.241666667
+Iris.Betancourt,"English Language Arts, Grade 5",Reading,118,95,0.805084746,66,0.559322034,38,0.322033898
+Estefania.Monjaraz,"Mathematics, Grade 3",Math,99,64,0.646464646,28,0.282828283,9,0.090909091
+Criselda.Villarreal,"Mathematics, Grade 4",Math,120,80,0.666666667,46,0.383333333,15,0.125
+Veronica.Delgado,"Mathematics, Grade 5",Math,118,110,0.93220339,76,0.644067797,29,0.245762712
+Anabel.Roeder,"Science, Grade 5",Science,118,81,0.686440678,44,0.372881356,22,0.186440678
+Octavia.Dixon,"Advanced Mathematics, Grade 6",Math,118,74,0.627118644,29,0.245762712,4,0.033898305
+Pedro.Ramirez,"Advanced English Language Arts, Grade 6",Reading,119,87,0.731092437,55,0.462184874,27,0.226890756
+Chris.Plummer,"Advanced Science, Grade 8-Composite",Science,112,74,0.660714286,35,0.3125,10,0.089285714
+Rima.Bouazzedine,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,115,85,0.739130435,23,0.2,8,0.069565217
+Matthew.Smith,"Advanced English Language Arts, Grade 7",Reading,119,108,0.907563025,77,0.647058824,45,0.378151261
+Robert.Smith,"Advanced English Language Arts, Grade 8",Reading,114,103,0.903508772,77,0.675438596,32,0.280701754
+Andrea.Iverson,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,113,81,0.716814159,47,0.415929204,22,0.194690265
+Jaqueline.Vela,"English Language Arts, Grade 3",Reading,125,89,0.712,58,0.464,22,0.176
+Genesis.Cantu,"English Language Arts, Grade 4",Reading,120,91,0.758333333,56,0.466666667,28,0.233333333
+Zaira.Garcia,"English Language Arts, Grade 5",Reading,132,102,0.772727273,78,0.590909091,39,0.295454545
+Adriana.Lopez2,"Mathematics, Grade 3",Math,125,76,0.608,35,0.28,9,0.072
+Crysta.Gonzalez,"Mathematics, Grade 4",Math,120,77,0.641666667,56,0.466666667,27,0.225
+Jesus.Barrera,"Mathematics, Grade 5",Math,132,107,0.810606061,65,0.492424242,17,0.128787879
+Virginia.Marmolejo,"Science, Grade 5",Science,132,80,0.606060606,39,0.295454545,16,0.121212121
+Abel.Cavazos,"English Language Arts, Grade 3",Reading,57,29,0.50877193,18,0.315789474,3,0.052631579
+Maria.Desaro,"English Language Arts, Grade 3",Reading,117,69,0.58974359,38,0.324786325,13,0.111111111
+Jazmin.Molina,"English Language Arts, Grade 4",Reading,64,52,0.8125,35,0.546875,15,0.234375
+Amanda.Vega,"English Language Arts, Grade 4",Reading,61,56,0.918032787,32,0.524590164,10,0.163934426
+Penelope.Rivas,"English Language Arts, Grade 5",Reading,121,104,0.859504132,76,0.628099174,49,0.404958678
+Deborah.Araiza,"Mathematics, Grade 3",Math,118,73,0.618644068,36,0.305084746,9,0.076271186
+Jesus.Jaime,"Mathematics, Grade 4",Math,123,82,0.666666667,58,0.471544715,26,0.211382114
+Cynthia.Cruz,"Mathematics, Grade 5",Math,121,111,0.917355372,94,0.776859504,47,0.388429752
+Lariza.Trevino,"Science, Grade 5",Science,121,100,0.826446281,69,0.570247934,30,0.247933884
+Crystal.Cortez,"English Language Arts, Grade 3",Reading,128,85,0.6640625,50,0.390625,16,0.125
+Alyssa.Rodriguez,"English Language Arts, Grade 4",Reading,69,54,0.782608696,27,0.391304348,17,0.246376812
+Jaime.Zamarripa,"English Language Arts, Grade 4",Reading,68,51,0.75,24,0.352941176,14,0.205882353
+Abigail.Amador,"English Language Arts, Grade 5",Reading,134,94,0.701492537,66,0.492537313,31,0.231343284
+Karla.Flores,"Mathematics, Grade 3",Math,128,70,0.546875,35,0.2734375,12,0.09375
+Monica.Trevino,"Mathematics, Grade 4",Math,129,77,0.596899225,38,0.294573643,12,0.093023256
+Georgina.Gonzalez,"Mathematics, Grade 5",Math,134,109,0.813432836,67,0.5,15,0.111940299
+Karina.Molina,"Science, Grade 5",Science,134,97,0.723880597,56,0.417910448,21,0.156716418
+Ana.Rios,Math Intervention-3rd,Math,31,9,0.290322581,3,0.096774194,0,0
+Raul.Reyes,Math Intervention-3rd,Math,32,15,0.46875,4,0.125,1,0.03125
+Raul.Reyes,Math Intervention-4th,Math,32,15,0.46875,4,0.125,1,0.03125
+Ana.Rios,Math Intervention-4th,Math,31,9,0.290322581,3,0.096774194,0,0
+Ana.Rios,Math Intervention-5th,Math,31,9,0.290322581,3,0.096774194,0,0
+Raul.Reyes,Math Intervention-5th,Math,32,15,0.46875,4,0.125,1,0.03125
+Diana.Carrillo,English Language Arts - Grade 7,Reading,2,1,0.5,1,0.5,0,0
+Maria.Ruizgarcia,"Advanced Mathematics, Grade 6",Math,123,85,0.691056911,45,0.365853659,14,0.113821138
+Roxanne.Rivera,"Advanced English Language Arts, Grade 6",Reading,124,83,0.669354839,63,0.508064516,28,0.225806452
+Vanessa.Sanchez,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,96,80,0.833333333,35,0.364583333,23,0.239583333
+Ayline.Rangel,"Advanced English Language Arts, Grade 7",Reading,135,86,0.637037037,71,0.525925926,44,0.325925926
+Lizette.Garcia2,"Advanced English Language Arts, Grade 8",Reading,96,73,0.760416667,46,0.479166667,20,0.208333333
+Julie.Rosa,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,96,53,0.552083333,23,0.239583333,14,0.145833333
+Melanie.Barrera,Pre-AP Biology (8th Grade),Biology,96,88,0.916666667,46,0.479166667,12,0.125
+Christina.Pruitt,Pre-AP English I,English I,92,73,0.793478261,67,0.72826087,25,0.27173913
+Savannah.Cerna,Advanced Algebra 1,Algebra I,14,14,1,7,0.5,5,0.357142857
+Mariely.Garcia,Pre-AP Biology,Biology,86,83,0.965116279,54,0.627906977,14,0.162790698
+Lorraine.Powell,Pre-AP English I,English I,81,65,0.802469136,53,0.654320988,8,0.098765432
+Alexis.Fruialopes,"Advanced Mathematics, Grade 6",Math,119,113,0.949579832,75,0.630252101,29,0.243697479
+Katia.Galvan,"Advanced English Language Arts, Grade 6",Reading,119,101,0.848739496,73,0.613445378,42,0.352941176
+Abby.Barrera,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,122,113,0.926229508,83,0.680327869,49,0.401639344
+Lizett.Figueroa,"Advanced English Language Arts, Grade 7",Reading,126,113,0.896825397,92,0.73015873,56,0.444444444
+Judith.Perez,"Advanced English Language Arts, Grade 8",Reading,122,111,0.909836066,79,0.647540984,45,0.368852459
+Cassandra.Barreda,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,122,86,0.704918033,47,0.385245902,27,0.221311475
+Yannira.Salinastovar,Pre-AP Biology (8th Grade),Biology,121,113,0.933884298,80,0.661157025,17,0.140495868
+Vannessa.Toscano,"English Language Arts, Grade 3",Reading,117,50,0.427350427,22,0.188034188,3,0.025641026
+Isabel.Rodriguez2,"English Language Arts, Grade 4",Reading,123,66,0.536585366,26,0.211382114,8,0.06504065
+Edward.Herrera,"English Language Arts, Grade 5",Reading,125,59,0.472,31,0.248,9,0.072
+Renisha.Spiller,"Mathematics, Grade 3",Math,116,50,0.431034483,20,0.172413793,1,0.00862069
+Brandy.Dinkins,"Mathematics, Grade 4",Math,123,42,0.341463415,16,0.130081301,2,0.016260163
+Hope.Jackson,"Mathematics, Grade 5",Math,125,76,0.608,29,0.232,7,0.056
+Julissa.Avalos2,"Science, Grade 5",Science,125,53,0.424,21,0.168,4,0.032
+Monica.Reyna,Advanced Algebra 1,Algebra I,10,7,0.7,4,0.4,2,0.2
+Pedro.Alvaradojr,Pre-AP Biology,Biology,11,10,0.909090909,5,0.454545455,3,0.272727273
+Angelica.Flores,Pre-AP English I,English I,127,100,0.787401575,85,0.669291339,29,0.228346457
+Justine.Garcia,"English Language Arts, Grade 3",Reading,122,88,0.721311475,58,0.475409836,22,0.180327869
+Elissa.Perez,"English Language Arts, Grade 4",Reading,130,94,0.723076923,58,0.446153846,26,0.2
+Jessica.Olivo,"English Language Arts, Grade 5",Reading,138,99,0.717391304,57,0.413043478,34,0.246376812
+Griselda.Martinez,"Mathematics, Grade 3",Math,122,73,0.598360656,41,0.336065574,13,0.106557377
+Fernando.Fuentes,"Mathematics, Grade 4",Math,130,80,0.615384615,43,0.330769231,13,0.1
+Esmeralda.Greene,"Mathematics, Grade 5",Math,138,91,0.65942029,44,0.31884058,14,0.101449275
+Rogelio.Huerta,"Science, Grade 5",Science,137,52,0.379562044,18,0.131386861,2,0.01459854
+Enjoli.Mallet,"English Language Arts, Grade 3",Reading,59,37,0.627118644,20,0.338983051,4,0.06779661
+Denise.Davila,"English Language Arts, Grade 4",Reading,84,58,0.69047619,16,0.19047619,5,0.05952381
+Michelle.Solis,"English Language Arts, Grade 5",Reading,65,43,0.661538462,24,0.369230769,8,0.123076923
+Destiny.Mata,"Mathematics, Grade 3",Math,59,36,0.610169492,18,0.305084746,3,0.050847458
+Amber.Carrillo,"Mathematics, Grade 4",Math,85,43,0.505882353,19,0.223529412,5,0.058823529
+Trevor.Hardeman,"Mathematics, Grade 5",Math,64,53,0.828125,33,0.515625,9,0.140625
+Anthony.Pena,"Science, Grade 5",Science,65,48,0.738461538,18,0.276923077,6,0.092307692
+Roxanne.Castaneda,"English Language Arts, Grade 3",Reading,115,90,0.782608696,66,0.573913043,37,0.32173913
+Samyra.Perez,"English Language Arts, Grade 4",Reading,124,110,0.887096774,78,0.629032258,47,0.379032258
+Wendy.Nava,"English Language Arts, Grade 5",Reading,118,94,0.796610169,57,0.483050847,35,0.296610169
+Steven.Guerrero,"Mathematics, Grade 3",Math,118,69,0.584745763,35,0.296610169,11,0.093220339
+Darlena.Cantu,"Mathematics, Grade 4",Math,125,91,0.728,64,0.512,16,0.128
+Stephanie.Farias,"Mathematics, Grade 5",Math,116,88,0.75862069,53,0.456896552,15,0.129310345
+Davlyn.Rodriguez,"Science, Grade 5",Science,117,89,0.760683761,39,0.333333333,12,0.102564103
+Yumaira.Gomezcavazos,Math Intervention-4th,Math,45,13,0.288888889,2,0.044444444,1,0.022222222
+Yumaira.Gomezcavazos,Math Intervention-5th,Math,45,13,0.288888889,2,0.044444444,1,0.022222222
+Eleuterio.Moreno,Algebra 1,Algebra I,147,119,0.80952381,65,0.442176871,26,0.176870748
+Cinthia.Calvomartine,"Advanced Mathematics, Grade 6",Math,150,116,0.773333333,56,0.373333333,19,0.126666667
+Erik.Cardenas,"Advanced English Language Arts, Grade 6",Reading,150,101,0.673333333,71,0.473333333,33,0.22
+Juanita.Pena,"Advanced English Language Arts, Grade 7",Reading,140,95,0.678571429,61,0.435714286,25,0.178571429
+Vanessa.Olivo,"Advanced English Language Arts, Grade 8",Reading,147,111,0.755102041,86,0.585034014,43,0.292517007
+Bryan.Segovia,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,146,65,0.445205479,24,0.164383562,9,0.061643836
+Robert.Padronzamora,Pre-AP Biology (8th Grade),Biology,143,130,0.909090909,81,0.566433566,20,0.13986014
+Cristina.Mercado,English Language Arts - Grade 8,Reading,1,1,1,0,0,0,0
+Cristina.Mercado,Humanities - Grade 8,Social Studies,1,0,0,0,0,0,0
+Jorge.Garcia2,"Advanced Mathematics, Grade 6",Math,117,63,0.538461538,28,0.239316239,8,0.068376068
+Amanda.Munoz2,"Advanced English Language Arts, Grade 6",Reading,118,78,0.661016949,57,0.483050847,22,0.186440678
+Javier.Mejia,Pre-AP Biology (8th Grade),Biology,105,95,0.904761905,52,0.495238095,9,0.085714286
+Marcel.Benitez,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,103,84,0.815533981,23,0.223300971,4,0.038834951
+Crystal.Urbina,"Advanced English Language Arts, Grade 7",Reading,121,90,0.743801653,68,0.561983471,32,0.26446281
+Christopher.Gomez,"Advanced English Language Arts, Grade 8",Reading,103,78,0.757281553,48,0.466019417,20,0.194174757
+Louis.Wilhelmsson,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,102,68,0.666666667,28,0.274509804,10,0.098039216
+Erica.Garcia,Math 6th Grade-Studies,Math,370,283,0.764864865,176,0.475675676,42,0.113513514
+Erica.Garcia,Math 7th Grade-Studies,Math,370,283,0.764864865,176,0.475675676,42,0.113513514
+Erica.Garcia,"Advanced Mathematics, Grade 6",Math,370,283,0.764864865,176,0.475675676,42,0.113513514
+Ashley.Trevino,"Advanced English Language Arts, Grade 6",Reading,125,106,0.848,87,0.696,40,0.32
+Heather.Flete,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,127,90,0.708661417,61,0.480314961,33,0.25984252
+Arquetta.Gentry,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,123,99,0.804878049,39,0.317073171,12,0.097560976
+Racheal.Henline,"Advanced English Language Arts, Grade 7",Reading,122,103,0.844262295,79,0.647540984,42,0.344262295
+James.Miller,"Advanced English Language Arts, Grade 8",Reading,125,110,0.88,77,0.616,35,0.28
+Leon.Camarillo2,Pre-AP Biology,Biology,125,114,0.912,70,0.56,16,0.128
+Ramon.Coronel,AP US History,U.S. History,94,90,0.957446809,73,0.776595745,26,0.276595745
+Melissa.Olivaresamay,Advanced Algebra 1,Algebra I,27,16,0.592592593,5,0.185185185,3,0.111111111
+Alexandra.Garza,Pre-AP English I,English I,113,89,0.787610619,79,0.699115044,22,0.194690265
+Yolanda.Phipps,AP US History,U.S. History,18,18,1,14,0.777777778,6,0.333333333
+Jackie.Plata,AP US History,U.S. History,27,27,1,19,0.703703704,9,0.333333333
+Ismael.Hernandez,AP US History,U.S. History,48,48,1,33,0.6875,12,0.25
+Frank.Leon,Advanced Algebra 1,Algebra I,11,7,0.636363636,2,0.181818182,1,0.090909091
+Leah.Gomezpowers,Pre-AP English I,English I,89,66,0.741573034,57,0.640449438,19,0.213483146
+Alexia.Alonso,AP US History,U.S. History,83,82,0.987951807,73,0.879518072,34,0.409638554
+Javier.Martinez,Pre-AP English I,English I,120,95,0.791666667,77,0.641666667,29,0.241666667
+Brenda.Rios,Algebra 1,Algebra I,110,104,0.945454545,68,0.618181818,29,0.263636364
+Adrian.Diaz,AP Biology,Biology,21,16,0.761904762,2,0.095238095,2,0.095238095
+Jesus.Mendiola,AP US History,U.S. History,85,84,0.988235294,71,0.835294118,43,0.505882353
+Isai.Cabrera,Pre-AP English I,English I,100,73,0.73,58,0.58,18,0.18
+Clarence.Mcshan,Pre-AP Biology (8th Grade),Biology,116,100,0.862068966,44,0.379310345,9,0.077586207
+Thanin.Chow,"Advanced Mathematics, Grade 6",Math,120,72,0.6,42,0.35,12,0.1
+London.Brazell,"Advanced English Language Arts, Grade 6",Reading,120,74,0.616666667,48,0.4,24,0.2
+Emily.Gaviria,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,116,87,0.75,45,0.387931034,23,0.198275862
+Jose.Cisnerosjr,"Advanced English Language Arts, Grade 7",Reading,122,82,0.672131148,65,0.532786885,37,0.303278689
+Pierre.Rice,"Advanced English Language Arts, Grade 8",Reading,116,92,0.793103448,64,0.551724138,35,0.301724138
+Brandon.Hull,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,116,67,0.577586207,42,0.362068966,16,0.137931034
+Lisa.Traugott,"English Language Arts, Grade 3",Reading,116,94,0.810344828,70,0.603448276,37,0.318965517
+Amanda.Shropshire,"English Language Arts, Grade 4",Reading,125,111,0.888,91,0.728,50,0.4
+Kimberlee.Anaya,"English Language Arts, Grade 5",Reading,124,110,0.887096774,88,0.709677419,50,0.403225806
+Alana.Holmes,"Mathematics, Grade 3",Math,116,97,0.836206897,59,0.50862069,22,0.189655172
+Katelynn.Osburnstenc,"Mathematics, Grade 4",Math,125,110,0.88,79,0.632,37,0.296
+Juan.Rivera,"Mathematics, Grade 5",Math,124,113,0.911290323,80,0.64516129,27,0.217741935
+Brandy.Trevino,"Science, Grade 5",Science,123,94,0.764227642,48,0.390243902,21,0.170731707
+Sharayu.Salunkhe,"Advanced Mathematics, Grade 6",Math,124,88,0.709677419,52,0.419354839,12,0.096774194
+Isabel.Garcia,"Advanced English Language Arts, Grade 6",Reading,124,91,0.733870968,71,0.572580645,25,0.201612903
+Veronica.Gutierrez3,"Advanced Science, Grade 8-Composite",Science,120,88,0.733333333,62,0.516666667,21,0.175
+Santiago.Herrera,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,120,112,0.933333333,90,0.75,67,0.558333333
+Alida.Solis,"Advanced English Language Arts, Grade 7",Reading,132,97,0.734848485,67,0.507575758,37,0.28030303
+Nathan.Wilton,"Advanced English Language Arts, Grade 8",Reading,120,105,0.875,83,0.691666667,45,0.375
+Julian.Villarreal2,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,120,81,0.675,46,0.383333333,14,0.116666667
+Erika.Davila2,Algebra 1,Algebra I,113,93,0.82300885,47,0.415929204,23,0.203539823
+Valerie.Curiel,"Advanced English Language Arts, Grade 8",Reading,113,96,0.849557522,71,0.628318584,39,0.345132743
+Hiram.Maldonado,English Language Arts - Grade 6 ,Reading,5,0,0,0,0,0,0
+Hiram.Maldonado,Mathematics -Grade 6,Math,5,0,0,0,0,0,0
+Hiram.Maldonado,English Language Arts - Grade 7,Reading,5,0,0,0,0,0,0
+Hiram.Maldonado,Mathematics -Grade 7,Math,5,0,0,0,0,0,0
+Sylvia.Avila,"Advanced Mathematics, Grade 6",Math,127,89,0.700787402,51,0.401574803,15,0.118110236
+Cassandra.Montelongo,"Advanced English Language Arts, Grade 6",Reading,128,99,0.7734375,74,0.578125,31,0.2421875
+Dulce.Quiroz,"Advanced Science, Grade 8-Composite",Science,110,75,0.681818182,39,0.354545455,13,0.118181818
+Jessica.Salinas2,"Advanced English Language Arts, Grade 7",Reading,121,96,0.79338843,72,0.595041322,33,0.272727273
+Karen.Gonzalezconde,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,113,79,0.699115044,47,0.415929204,25,0.221238938
+Jordan.Luevanofanely,"Advanced Mathematics, Grade 6",Math,100,85,0.85,63,0.63,25,0.25
+Chantal.Wynn,"Advanced English Language Arts, Grade 6",Reading,103,89,0.86407767,69,0.669902913,34,0.330097087
+Deadra.Brown,"Advanced Science, Grade 8-Composite",Science,108,86,0.796296296,63,0.583333333,31,0.287037037
+Juan.Villela,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,106,97,0.91509434,71,0.669811321,44,0.41509434
+Erika.Jefferson,"Advanced English Language Arts, Grade 7",Reading,113,95,0.840707965,74,0.654867257,39,0.345132743
+Anissa.Reyes,"Advanced English Language Arts, Grade 8",Reading,107,95,0.887850467,70,0.654205607,39,0.364485981
+Mindy.Gonzalez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,109,70,0.642201835,40,0.366972477,18,0.165137615
+Adam.Walle,Pre-AP Biology,Biology,29,22,0.75862069,5,0.172413793,0,0
+Dana.Sepulveda,English Language Arts - Grade 6 ,Reading,6,0,0,0,0,0,0
+Dana.Sepulveda,Mathematics -Grade 6,Math,14,0,0,0,0,0,0
+Dana.Sepulveda,Math Intervention-6th,Math,14,0,0,0,0,0,0
+Paola.Moreno,English Language Arts - Grade 7,Reading,6,1,0.166666667,0,0,0,0
+Paola.Moreno,Mathematics -Grade 7,Math,15,0,0,0,0,0,0
+Paola.Moreno,Math Intervention-7th,Math,15,0,0,0,0,0,0
+Paola.Moreno,English Language Arts - Grade 8,Reading,6,1,0.166666667,0,0,0,0
+Dana.Sepulveda,English Language Arts - Grade 8,Reading,6,0,0,0,0,0,0
+Paola.Moreno,Mathematics -Grade 8,Math,15,0,0,0,0,0,0
+Dana.Sepulveda,Mathematics -Grade 8,Math,14,0,0,0,0,0,0
+Paola.Moreno,Math Intervention-8th,Math,15,0,0,0,0,0,0
+Dana.Sepulveda,Math Intervention-8th,Math,14,0,0,0,0,0,0
+Paola.Moreno,Humanities - Grade 8,Social Studies,3,0,0,0,0,0,0
+Dana.Sepulveda,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Paola.Moreno,Science - Grade 8,Science,4,0,0,0,0,0,0
+Dana.Sepulveda,Science - Grade 8,Science,4,2,0.5,0,0,0,0
+Byanca.Guajardo,"Advanced Mathematics, Grade 6",Math,127,81,0.637795276,37,0.291338583,17,0.133858268
+Samantha.Flores2,"Advanced English Language Arts, Grade 6",Reading,127,77,0.606299213,50,0.393700787,24,0.188976378
+Linda.Martinez,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,131,108,0.824427481,50,0.381679389,16,0.122137405
+Jessica.Villanueva,"Advanced English Language Arts, Grade 7",Reading,142,88,0.61971831,64,0.450704225,27,0.190140845
+Genesis.Magallan,"Advanced English Language Arts, Grade 8",Reading,137,111,0.810218978,70,0.510948905,31,0.226277372
+Atanislao.Padron,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,138,74,0.536231884,39,0.282608696,16,0.115942029
+Tanya.Sierra,Pre-AP Biology (8th Grade),Biology,132,119,0.901515152,74,0.560606061,21,0.159090909
+,"English Language Arts, Grade 3",Reading,121,87,0.719008264,59,0.487603306,14,0.115702479
+Leigh.Conley,"English Language Arts, Grade 4",Reading,114,91,0.798245614,49,0.429824561,19,0.166666667
+Lauren.Arrington,"English Language Arts, Grade 5",Reading,110,79,0.718181818,41,0.372727273,14,0.127272727
+Socorro.Roa,"Mathematics, Grade 3",Math,120,84,0.7,45,0.375,16,0.133333333
+Rodgelyn.Maringal,"Mathematics, Grade 4",Math,114,65,0.570175439,31,0.271929825,11,0.096491228
+Ayla.Sessink,"Mathematics, Grade 5",Math,110,88,0.8,45,0.409090909,12,0.109090909
+Yeraidyn.Santosvazue,"Science, Grade 5",Science,111,58,0.522522523,20,0.18018018,9,0.081081081
+Cynthia.Sendejo,"English Language Arts, Grade 3",Reading,125,108,0.864,85,0.68,34,0.272
+Maleni.Hinojosa,"English Language Arts, Grade 4",Reading,123,102,0.829268293,80,0.650406504,44,0.357723577
+Maeleen.Delarosa,"English Language Arts, Grade 5",Reading,113,97,0.85840708,78,0.690265487,50,0.442477876
+Claudia.Vasquez,"Mathematics, Grade 3",Math,124,88,0.709677419,37,0.298387097,10,0.080645161
+Jessica.Medina,"Mathematics, Grade 4",Math,123,88,0.715447154,55,0.447154472,22,0.178861789
+Keren.Barrera,"Mathematics, Grade 5",Math,115,89,0.773913043,57,0.495652174,15,0.130434783
+Nancy.Olmos,"Science, Grade 5",Science,116,78,0.672413793,38,0.327586207,14,0.120689655
+Sonia.Barragan,"Advanced Mathematics, Grade 6",Math,125,104,0.832,74,0.592,29,0.232
+Maricela.Hernandez,"Advanced English Language Arts, Grade 6",Reading,126,103,0.817460317,85,0.674603175,40,0.317460317
+Claudia.Ovalle,"Advanced English Language Arts, Grade 7",Reading,115,87,0.756521739,63,0.547826087,34,0.295652174
+Tarchiner.Kennedy,"Advanced English Language Arts, Grade 7",Reading,107,85,0.794392523,60,0.560747664,39,0.364485981
+Stephanie.Henderson,"English Language Arts, Grade 3",Reading,112,85,0.758928571,58,0.517857143,23,0.205357143
+Emily.Benturapierce,"English Language Arts, Grade 4",Reading,109,93,0.853211009,60,0.550458716,26,0.23853211
+Joeanna.Trujillobuen,"English Language Arts, Grade 5",Reading,111,94,0.846846847,49,0.441441441,19,0.171171171
+Kiandra.Gamez,"Mathematics, Grade 3",Math,110,68,0.618181818,39,0.354545455,6,0.054545455
+Lucy.Arreola,"Mathematics, Grade 4",Math,109,67,0.614678899,33,0.302752294,11,0.100917431
+Gabriel.Gise,"Mathematics, Grade 5",Math,112,80,0.714285714,40,0.357142857,3,0.026785714
+Adriana.Reyes,"Science, Grade 5",Science,112,66,0.589285714,30,0.267857143,9,0.080357143
+Martha.Maresgarza,Advanced Algebra 1,Algebra I,16,14,0.875,2,0.125,1,0.0625
+Adrian.Diaz,Pre-AP Biology,Biology,21,16,0.761904762,2,0.095238095,2,0.095238095
+Joshua.Steptoe,"English Language Arts, Grade 3",Reading,109,59,0.541284404,41,0.376146789,15,0.137614679
+Jacquelyn.Lopez,"English Language Arts, Grade 4",Reading,118,87,0.737288136,59,0.5,26,0.220338983
+Bria.Blackwell,"English Language Arts, Grade 5",Reading,96,61,0.635416667,39,0.40625,16,0.166666667
+Roman.Juarez,"Mathematics, Grade 3",Math,109,53,0.486238532,18,0.165137615,1,0.009174312
+Samantha.Pena,"Mathematics, Grade 4",Math,117,75,0.641025641,39,0.333333333,13,0.111111111
+Aniza.Trujio2,"Mathematics, Grade 5",Math,94,44,0.468085106,19,0.20212766,4,0.042553191
+Diana.Ascencio,"Science, Grade 5",Science,94,63,0.670212766,41,0.436170213,17,0.180851064
+Leslae.Powell,Pre-AP Biology,Biology,94,90,0.957446809,71,0.755319149,26,0.276595745
+Marissa.Soler,Pre-AP English I,English I,94,82,0.872340426,68,0.723404255,20,0.212765957
+April.Ibarra,"Advanced Mathematics, Grade 6",Math,120,86,0.716666667,53,0.441666667,21,0.175
+Heber.Laralopez,"Advanced English Language Arts, Grade 6",Reading,122,93,0.762295082,72,0.590163934,28,0.229508197
+Cinthya.Quinonezacev,"Advanced Mathematics, Grade 7 Pre-Algebr",Algebra I,1,1,1,1,1,0,0
+Rolando.Garza,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,111,84,0.756756757,42,0.378378378,25,0.225225225
+Tehrelle.Billups,"Advanced English Language Arts, Grade 7",Reading,122,108,0.885245902,83,0.680327869,47,0.385245902
+Annaliese.Fielder,"Advanced English Language Arts, Grade 8",Reading,100,91,0.91,65,0.65,36,0.36
+Jeffrey.Olney,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,102,58,0.568627451,21,0.205882353,8,0.078431373
+Victor.Rubio,Pre-AP Biology (8th Grade),Biology,101,96,0.95049505,48,0.475247525,9,0.089108911
+Ragen.Foster,"English Language Arts, Grade 4",Reading,100,60,0.6,31,0.31,10,0.1
+Leah.Mcquitty,"English Language Arts, Grade 5",Reading,62,37,0.596774194,23,0.370967742,9,0.14516129
+Oscar.Galindogarduno,"Mathematics, Grade 4",Math,101,65,0.643564356,30,0.297029703,8,0.079207921
+Corrie.Lofland,"Mathematics, Grade 5",Math,61,33,0.540983607,12,0.196721311,2,0.032786885
+Alexia.Rogers,"Science, Grade 5",Science,61,18,0.295081967,6,0.098360656,0,0
+Jennifer.Guajardo,"Advanced Mathematics, Grade 6",Math,132,82,0.621212121,45,0.340909091,11,0.083333333
+Antton.Robinson,"Advanced Mathematics, Grade 6",Math,111,80,0.720720721,39,0.351351351,12,0.108108108
+Claudia.Garza2,"Advanced English Language Arts, Grade 6",Reading,132,98,0.742424242,64,0.484848485,24,0.181818182
+Brian.Gamas,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,124,122,0.983870968,75,0.60483871,38,0.306451613
+Janice.Castillo,"Advanced English Language Arts, Grade 7",Reading,116,83,0.715517241,56,0.482758621,24,0.206896552
+Cynthia.Garza2,"Advanced English Language Arts, Grade 8",Reading,126,105,0.833333333,63,0.5,35,0.277777778
+Maria.Torres3,"Advanced English Language Arts, Grade 6",Reading,110,76,0.690909091,55,0.5,21,0.190909091
+Brendon.Rushing,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,94,90,0.957446809,49,0.521276596,21,0.223404255
+Chanoah.Nero,"Advanced English Language Arts, Grade 7",Reading,77,61,0.792207792,49,0.636363636,28,0.363636364
+Brianna.Vela,"Advanced English Language Arts, Grade 8",Reading,98,83,0.846938776,58,0.591836735,29,0.295918367
+Roxanna.Castaneda,"English Language Arts, Grade 3",Reading,116,78,0.672413793,47,0.405172414,23,0.198275862
+Marie.Masten,"English Language Arts, Grade 4",Reading,116,86,0.74137931,49,0.422413793,18,0.155172414
+Shelley.Deleon,"English Language Arts, Grade 5",Reading,123,89,0.723577236,59,0.479674797,31,0.25203252
+Maria.Perez,"Mathematics, Grade 3",Math,116,74,0.637931034,34,0.293103448,7,0.060344828
+Kevin.Hopkinsii,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,126,75,0.595238095,40,0.317460317,18,0.142857143
+Irving.Alfaro,"Advanced Science, Grade 8-Composite",Science,126,102,0.80952381,68,0.53968254,31,0.246031746
+Ty.Stubblefield,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,96,63,0.65625,32,0.333333333,14,0.145833333
+Nicolas.Rodriguez,Pre-AP Biology (8th Grade),Biology,95,95,1,73,0.768421053,28,0.294736842
+Somphors.Keo,"Mathematics, Grade 4",Math,116,66,0.568965517,27,0.232758621,5,0.043103448
+Jesse.Rodriguez2,"Mathematics, Grade 5",Math,123,85,0.691056911,40,0.325203252,5,0.040650407
+Juan.Flores,"Science, Grade 5",Science,122,73,0.598360656,26,0.213114754,5,0.040983607
+Antonieta.Banuelosma,Pre-AP English I,English I,65,58,0.892307692,48,0.738461538,19,0.292307692
+Celeste.Perez,Mathematics -Grade 6,Math,62,36,0.580645161,14,0.225806452,1,0.016129032
+Rebeca.Vazquez,"Advanced English Language Arts, Grade 8",Reading,95,76,0.8,47,0.494736842,19,0.2
+Celeste.Perez,"Advanced Mathematics, Grade 6",Math,62,36,0.580645161,14,0.225806452,1,0.016129032
+Monique.Apodaca,"Advanced English Language Arts, Grade 6",Reading,53,42,0.79245283,30,0.566037736,8,0.150943396
+Isaac.Martinez2,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,100,84,0.84,39,0.39,8,0.08
+Antonieta.Banuelosma,"Advanced English Language Arts, Grade 7",Reading,29,23,0.793103448,16,0.551724138,7,0.24137931
+Annabelle.Galindo,"Advanced English Language Arts, Grade 7",Reading,78,58,0.743589744,40,0.512820513,18,0.230769231
+Nayeli.Velasquez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,95,32,0.336842105,15,0.157894737,10,0.105263158
+Diana.Suarez1,Pre-AP Biology (8th Grade),Biology,109,102,0.935779817,51,0.467889908,12,0.110091743
+Maria.Flores,"English Language Arts, Grade 3",Reading,111,81,0.72972973,57,0.513513514,25,0.225225225
+Elizabeth.Winston,"English Language Arts, Grade 4",Reading,131,109,0.832061069,81,0.618320611,43,0.328244275
+Stephany.Rincon,"English Language Arts, Grade 5",Reading,118,96,0.813559322,76,0.644067797,45,0.381355932
+Gabriela.Vargas,"Mathematics, Grade 3",Math,112,51,0.455357143,18,0.160714286,3,0.026785714
+Anastasia.Gomez,"Mathematics, Grade 4",Math,131,84,0.641221374,47,0.358778626,11,0.083969466
+Jennifer.Padilla,"Mathematics, Grade 5",Math,117,96,0.820512821,59,0.504273504,16,0.136752137
+Perla.Gonzalez,"Science, Grade 5",Science,118,81,0.686440678,36,0.305084746,17,0.144067797
+Jaclyn.Tovar,Math Intervention-3rd,Math,80,32,0.4,10,0.125,1,0.0125
+Jaclyn.Tovar,Math Intervention-4th,Math,80,32,0.4,10,0.125,1,0.0125
+Jaclyn.Tovar,Math Intervention-5th,Math,80,32,0.4,10,0.125,1,0.0125
+Leonardo.Garcia,Advanced Algebra 1,Algebra I,16,10,0.625,1,0.0625,0,0
+Mariaelena.Hernandez,Pre-AP Biology,Biology,18,16,0.888888889,8,0.444444444,0,0
+Sandra.Torrez,Pre-AP English I,English I,83,65,0.78313253,56,0.674698795,17,0.204819277
+Christina.Miholercal,"English Language Arts, Grade 3",Reading,68,61,0.897058824,53,0.779411765,38,0.558823529
+Nadine.Mertes,"English Language Arts, Grade 3",Reading,69,54,0.782608696,40,0.579710145,19,0.275362319
+Victoria.Smedley,"English Language Arts, Grade 4",Reading,129,120,0.930232558,86,0.666666667,57,0.441860465
+Giselle.Gallegos,"English Language Arts, Grade 5",Reading,119,109,0.915966387,81,0.680672269,49,0.411764706
+Liza.Chermak,"Mathematics, Grade 3",Math,124,75,0.60483871,37,0.298387097,8,0.064516129
+Veronica.Carrillo,"Mathematics, Grade 4",Math,127,84,0.661417323,51,0.401574803,13,0.102362205
+Cusandra.Serrano,"Mathematics, Grade 5",Math,118,98,0.830508475,54,0.457627119,15,0.127118644
+Mikayla.Smithdouglas,"Science, Grade 5",Science,117,85,0.726495726,43,0.367521368,20,0.170940171
+Rosalio.Reyes,Math Intervention-6th,Math,186,124,0.666666667,66,0.35483871,15,0.080645161
+Rosalio.Reyes,Math Intervention-7th,Math,186,124,0.666666667,66,0.35483871,15,0.080645161
+Angela.Zimmerman,English Language Arts - Grade 8,Reading,8,0,0,0,0,0,0
+Angela.Zimmerman,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Javier.Sena,"Advanced Mathematics, Grade 6",Math,81,57,0.703703704,26,0.320987654,6,0.074074074
+Caitlin.Gonzalez,"Advanced English Language Arts, Grade 6",Reading,82,65,0.792682927,53,0.646341463,28,0.341463415
+Steven.Neiheisel,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,118,95,0.805084746,45,0.381355932,20,0.169491525
+Sasha.Mullenbach,"Advanced English Language Arts, Grade 7",Reading,105,77,0.733333333,56,0.533333333,23,0.219047619
+Gustavo.Torres,"Advanced English Language Arts, Grade 8",Reading,106,94,0.886792453,73,0.688679245,40,0.377358491
+Andrea.Gutierrez2,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,105,61,0.580952381,29,0.276190476,17,0.161904762
+Cecilia.Martinez2,Pre-AP Biology (8th Grade),Biology,131,121,0.923664122,72,0.549618321,14,0.106870229
+Yolanda.Johnson,English Language Arts - Grade 6 ,Reading,3,0,0,0,0,0,0
+Yolanda.Johnson,Mathematics -Grade 6,Math,2,1,0.5,0,0,0,0
+Alexis.Scott,"Advanced Mathematics, Grade 6",Math,125,93,0.744,44,0.352,9,0.072
+Cheliza.Guzman,"Advanced English Language Arts, Grade 6",Reading,125,93,0.744,70,0.56,28,0.224
+Jessica.Osborne,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,100,74,0.74,27,0.27,11,0.11
+Adrienne.Phillips,"Advanced English Language Arts, Grade 8",Reading,101,89,0.881188119,66,0.653465347,34,0.336633663
+Michael.Manca,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,101,80,0.792079208,46,0.455445545,28,0.277227723
+Victor.Flores2,Pre-AP Biology (8th Grade),Biology,98,94,0.959183673,68,0.693877551,15,0.153061224
+Jose.Morga,AP US History,U.S. History,69,64,0.927536232,36,0.52173913,11,0.15942029
+Jesus.Gonzalez,"Advanced Mathematics, Grade 6",Math,128,87,0.6796875,49,0.3828125,15,0.1171875
+Michelle.Carpio,"Advanced English Language Arts, Grade 6",Reading,128,100,0.78125,73,0.5703125,32,0.25
+Hernan.Velarios,"Advanced Mathematics, Grade 7 Pre-Algebr",Algebra I,90,77,0.855555556,54,0.6,21,0.233333333
+Hernan.Velarios,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,90,77,0.855555556,54,0.6,21,0.233333333
+Elaine.Reyna,"Advanced English Language Arts, Grade 7",Reading,105,81,0.771428571,66,0.628571429,36,0.342857143
+Bianca.Flores,"Advanced English Language Arts, Grade 8",Reading,97,79,0.81443299,57,0.587628866,31,0.319587629
+Rosa.Magana2,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,96,81,0.84375,54,0.5625,32,0.333333333
+Jaqueline.Becerra,Pre-AP Biology (8th Grade),Biology,99,90,0.909090909,67,0.676767677,24,0.242424242
+Aimee.Pineda,"English Language Arts, Grade 3",Reading,71,51,0.718309859,31,0.436619718,14,0.197183099
+Geniqua.Miner,"Mathematics, Grade 3",Math,70,41,0.585714286,16,0.228571429,4,0.057142857
+Maria.Vargas,AP US History,U.S. History,68,66,0.970588235,40,0.588235294,21,0.308823529
+Yamiletz.Salinas,Pre-AP Biology,Biology,22,17,0.772727273,4,0.181818182,1,0.045454545
+Raul.Ribelin,"English Language Arts, Grade 3",Reading,107,62,0.579439252,37,0.345794393,13,0.121495327
+Daniella.Deleon,"English Language Arts, Grade 4",Reading,94,54,0.574468085,32,0.340425532,17,0.180851064
+Ashlynn.Godfrey,"English Language Arts, Grade 5",Reading,124,110,0.887096774,72,0.580645161,38,0.306451613
+Matthew.Luck,"Mathematics, Grade 3",Math,107,47,0.439252336,20,0.186915888,6,0.056074766
+David.Gardner,"Mathematics, Grade 4",Math,94,32,0.340425532,19,0.20212766,9,0.095744681
+Kelsey.Labier,"Mathematics, Grade 5",Math,124,97,0.782258065,64,0.516129032,13,0.10483871
+Brittney.Bell,"Science, Grade 5",Science,124,96,0.774193548,55,0.443548387,28,0.225806452
+Alyssa.Kimball,"Advanced Mathematics, Grade 6",Math,46,26,0.565217391,14,0.304347826,6,0.130434783
+Anjelica.Jones,"Advanced English Language Arts, Grade 6",Reading,95,73,0.768421053,48,0.505263158,19,0.2
+Eliseo.Olivares,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,38,24,0.631578947,9,0.236842105,3,0.078947368
+Anjelica.Jones,"Advanced English Language Arts, Grade 7",Reading,95,73,0.768421053,48,0.505263158,19,0.2
+Michelle.Hernandez,"Advanced English Language Arts, Grade 8",Reading,38,34,0.894736842,28,0.736842105,11,0.289473684
+Eliseo.Olivares,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,36,18,0.5,11,0.305555556,6,0.166666667
+Lorraine.Bernal,Pre-AP Biology (8th Grade),Biology,37,34,0.918918919,19,0.513513514,9,0.243243243
+Jeffrey.Brown,"English Language Arts, Grade 3",Reading,107,74,0.691588785,50,0.46728972,24,0.224299065
+Kayven.Sambula,"English Language Arts, Grade 4",Reading,93,76,0.817204301,58,0.623655914,28,0.301075269
+Aaijea.Howard,"English Language Arts, Grade 5",Reading,95,88,0.926315789,74,0.778947368,44,0.463157895
+Sarah.Perez2,"Mathematics, Grade 3",Math,107,65,0.607476636,26,0.242990654,6,0.056074766
+Alexa.Anastos,"Mathematics, Grade 4",Math,95,67,0.705263158,43,0.452631579,14,0.147368421
+Gretchen.Murphy,"Mathematics, Grade 5",Math,95,81,0.852631579,48,0.505263158,11,0.115789474
+Janette.Torres,"Science, Grade 5",Science,95,78,0.821052632,52,0.547368421,21,0.221052632
+Casara.Cruz,"English Language Arts, Grade 3",Reading,53,34,0.641509434,15,0.283018868,4,0.075471698
+Daniela.Martinez,"English Language Arts, Grade 3",Reading,56,33,0.589285714,23,0.410714286,13,0.232142857
+Veronica.Flores,"English Language Arts, Grade 4",Reading,57,51,0.894736842,28,0.49122807,10,0.175438596
+Daniela.Alfaro,"English Language Arts, Grade 4",Reading,59,49,0.830508475,33,0.559322034,10,0.169491525
+Marcela.Mireles,"English Language Arts, Grade 4",Reading,53,49,0.924528302,42,0.79245283,21,0.396226415
+Kristy.Guerra2,"English Language Arts, Grade 5",Reading,150,122,0.813333333,95,0.633333333,56,0.373333333
+Alva.Ruiz,"Mathematics, Grade 3",Math,52,26,0.5,10,0.192307692,4,0.076923077
+Karen.Cantu,"Mathematics, Grade 3",Math,83,54,0.65060241,34,0.409638554,11,0.13253012
+Kassandra.Cantu,"Mathematics, Grade 4",Math,116,53,0.456896552,26,0.224137931,6,0.051724138
+Victor.Guajardo,"Mathematics, Grade 4",Math,26,24,0.923076923,22,0.846153846,10,0.384615385
+Jesus.Islas,"Mathematics, Grade 5",Math,150,109,0.726666667,58,0.386666667,19,0.126666667
+Prisma.Beltran,"Science, Grade 5",Science,148,96,0.648648649,49,0.331081081,22,0.148648649
+Suzette.Gomez,"English Language Arts, Grade 3",Reading,128,111,0.8671875,79,0.6171875,38,0.296875
+Paola.Alaniz,"English Language Arts, Grade 4",Reading,128,100,0.78125,56,0.4375,31,0.2421875
+Lizbeth.Garzasanchez,"English Language Arts, Grade 5",Reading,133,112,0.842105263,73,0.54887218,40,0.30075188
+Marely.Garza,"Mathematics, Grade 3",Math,127,106,0.834645669,58,0.456692913,18,0.141732283
+Adriana.Gonzalez,"Mathematics, Grade 4",Math,128,87,0.6796875,45,0.3515625,27,0.2109375
+Rodolfo.Rodriguez1,"Mathematics, Grade 5",Math,133,106,0.796992481,61,0.458646617,17,0.127819549
+Liz.Contrerasgomez,"Science, Grade 5",Science,133,96,0.721804511,44,0.330827068,11,0.082706767
+Ambar.Reyes,English Language Arts - Grade 7,Reading,2,0,0,0,0,0,0
+Ambar.Reyes,Mathematics -Grade 7,Math,2,0,0,0,0,0,0
+Raquel.Vasquez,"Advanced Mathematics, Grade 6",Math,127,81,0.637795276,40,0.31496063,6,0.047244094
+Jaidre.Mata,"Advanced English Language Arts, Grade 6",Reading,127,65,0.511811024,47,0.37007874,14,0.11023622
+Rebecca.Sanchez2,"Advanced English Language Arts, Grade 7",Reading,116,75,0.646551724,45,0.387931034,21,0.181034483
+Jacqueline.Medina,"Advanced English Language Arts, Grade 8",Reading,124,107,0.862903226,73,0.588709677,29,0.233870968
+Erick.Cantu,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,124,63,0.508064516,24,0.193548387,12,0.096774194
+Tiffany.Martinez,Pre-AP Biology (8th Grade),Biology,141,129,0.914893617,81,0.574468085,20,0.141843972
+Sarah.Santana,"English Language Arts, Grade 3",Reading,112,88,0.785714286,68,0.607142857,31,0.276785714
+Ashley.Cardenas,"English Language Arts, Grade 4",Reading,233,205,0.879828326,147,0.630901288,86,0.369098712
+Alice.Valdez,"English Language Arts, Grade 5",Reading,120,106,0.883333333,78,0.65,46,0.383333333
+Hayley.Haushill,"Mathematics, Grade 3",Math,112,82,0.732142857,41,0.366071429,8,0.071428571
+Lisa.Koenig,"Mathematics, Grade 4",Math,118,90,0.762711864,53,0.449152542,20,0.169491525
+Alejandra.Montellano,"Mathematics, Grade 5",Math,122,99,0.81147541,57,0.467213115,13,0.106557377
+Alejandra.Cuellar,"Science, Grade 5",Science,122,87,0.713114754,51,0.418032787,24,0.196721311
+Sara.Olivarez,AP US History,U.S. History,71,71,1,54,0.76056338,29,0.408450704
+Sonia.Viera,Advanced Algebra 1,Algebra I,17,11,0.647058824,0,0,0,0
+Anyssa.Villarreal,Pre-AP Biology,Biology,104,96,0.923076923,47,0.451923077,7,0.067307692
+Anibal.Ramirez,Pre-AP English I,English I,104,66,0.634615385,44,0.423076923,5,0.048076923
+Briana.Palacios,Math Intervention-6th,Math,135,83,0.614814815,46,0.340740741,14,0.103703704
+Briana.Palacios,Math Intervention-7th,Math,135,83,0.614814815,46,0.340740741,14,0.103703704
+Dymond.Sam,"Advanced Mathematics, Grade 6",Math,125,106,0.848,63,0.504,18,0.144
+Chante.Cepeda,"Advanced English Language Arts, Grade 6",Reading,128,94,0.734375,62,0.484375,22,0.171875
+Jose.Casas,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,110,102,0.927272727,62,0.563636364,34,0.309090909
+Victoria.Baldwin,"Advanced English Language Arts, Grade 7",Reading,104,85,0.817307692,67,0.644230769,22,0.211538462
+Amanda.Gonzalez2,"Advanced English Language Arts, Grade 8",Reading,110,104,0.945454545,86,0.781818182,51,0.463636364
+Brittanie.Best,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,113,92,0.814159292,58,0.513274336,27,0.238938053
+Metzery.Cantu,Pre-AP Biology (8th Grade),Biology,109,108,0.990825688,95,0.871559633,35,0.321100917
+Elaine.Rivera,"English Language Arts, Grade 3",Reading,109,61,0.559633028,36,0.330275229,3,0.027522936
+Amanda.Rangel,"English Language Arts, Grade 4",Reading,125,88,0.704,44,0.352,18,0.144
+Chastity.Richmond,"English Language Arts, Grade 5",Reading,109,81,0.743119266,63,0.577981651,32,0.293577982
+Lisa.Geigenmiller,"Mathematics, Grade 3",Math,106,47,0.443396226,20,0.188679245,2,0.018867925
+Juana.Bocanegra,"Mathematics, Grade 4",Math,125,70,0.56,37,0.296,8,0.064
+Roberto.Cepeda,"Mathematics, Grade 5",Math,109,59,0.541284404,28,0.256880734,8,0.073394495
+Sherly.Leonard,"Science, Grade 5",Science,109,65,0.596330275,31,0.28440367,14,0.128440367
+Jazmin.Ochoa,"Advanced Science, Grade 8-Composite",Science,105,94,0.895238095,76,0.723809524,47,0.447619048
+Brenda.Rios,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,110,104,0.945454545,68,0.618181818,29,0.263636364
+Carina.Ibanez,"Advanced English Language Arts, Grade 7",Reading,228,205,0.899122807,177,0.776315789,107,0.469298246
+Amanda.Pena2,"Advanced English Language Arts, Grade 8",Reading,109,103,0.944954128,84,0.770642202,53,0.486238532
+Kristina.Rodriguez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,108,86,0.796296296,48,0.444444444,28,0.259259259
+Jerrica.Newman,English Language Arts - Grade 7,Reading,5,0,0,0,0,0,0
+Jerrica.Newman,Mathematics -Grade 7,Math,4,0,0,0,0,0,0
+Tyn.Fleet,"Advanced Mathematics, Grade 6",Math,120,74,0.616666667,28,0.233333333,6,0.05
+Tevante.Sanders,"Advanced English Language Arts, Grade 6",Reading,119,66,0.554621849,32,0.268907563,3,0.025210084
+Jessica.Parson,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,132,97,0.734848485,32,0.242424242,5,0.037878788
+Fredrick.Lazare,"Advanced English Language Arts, Grade 7",Reading,118,80,0.677966102,53,0.449152542,19,0.161016949
+Diamond.Gordon,"Advanced English Language Arts, Grade 8",Reading,132,92,0.696969697,39,0.295454545,20,0.151515152
+Sage.Wells,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,132,63,0.477272727,26,0.196969697,11,0.083333333
+Jessica.Parson,Pre-AP Biology (8th Grade),Biology,132,102,0.772727273,46,0.348484848,2,0.015151515
+Alma.Olmos,"Advanced Mathematics, Grade 6",Math,125,70,0.56,26,0.208,7,0.056
+Reymundo.Garcia2,Math Intervention-6th,Math,90,46,0.511111111,18,0.2,4,0.044444444
+Alexander.Post,Math Intervention-7th,Math,67,35,0.52238806,20,0.298507463,5,0.074626866
+Lane.Emery,"Advanced English Language Arts, Grade 6",Reading,95,49,0.515789474,30,0.315789474,6,0.063157895
+Austin.Gallego,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,96,84,0.875,42,0.4375,14,0.145833333
+Danyelle.Simmons,"Advanced English Language Arts, Grade 7",Reading,97,62,0.639175258,35,0.360824742,15,0.154639175
+Bryanna.Godinez,"Advanced English Language Arts, Grade 8",Reading,91,64,0.703296703,43,0.472527473,15,0.164835165
+Cody.Christian,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,95,45,0.473684211,19,0.2,9,0.094736842
+Javier.Garza,Pre-AP Biology (8th Grade),Biology,94,82,0.872340426,25,0.265957447,6,0.063829787
+Hugh.Fowlks,English Language Arts - Grade 6 ,Reading,1,0,0,0,0,0,0
+Hugh.Fowlks,Mathematics -Grade 6,Math,1,1,1,0,0,0,0
+Alyssa.Gutierrez,"Advanced Mathematics, Grade 6",Math,97,59,0.608247423,18,0.18556701,5,0.051546392
+Ashlee.Thorpe,"Advanced English Language Arts, Grade 6",Reading,97,72,0.742268041,53,0.546391753,15,0.154639175
+Kathya.Cavazos,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,89,72,0.808988764,31,0.348314607,14,0.157303371
+Jonathan.Hernandez2,"Advanced English Language Arts, Grade 7",Reading,83,60,0.722891566,49,0.590361446,26,0.313253012
+Kassandra.Kim,"Advanced English Language Arts, Grade 8",Reading,85,64,0.752941176,45,0.529411765,22,0.258823529
+Lilliana.Lozano,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,87,61,0.701149425,29,0.333333333,12,0.137931034
+Itzel.Garcia,Pre-AP Biology,Biology,87,82,0.942528736,65,0.747126437,24,0.275862069
+Monique.Garza,"Advanced Mathematics, Grade 6",Math,125,83,0.664,39,0.312,14,0.112
+Zoe.Dehoyos,"Advanced English Language Arts, Grade 6",Reading,126,103,0.817460317,79,0.626984127,43,0.341269841
+Sarah.Andrade,Pre-AP Biology (8th Grade),Biology,100,90,0.9,38,0.38,7,0.07
+Kevin.Valdez,"Advanced Mathematics, Grade 7 Pre-Algebr",Algebra I,1,1,1,1,1,1,1
+Jordynn.Wilson,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,111,89,0.801801802,38,0.342342342,15,0.135135135
+Valerie.Nieto,"Advanced English Language Arts, Grade 7",Reading,126,102,0.80952381,66,0.523809524,28,0.222222222
+Flor.Ponce,"Advanced English Language Arts, Grade 8",Reading,100,76,0.76,47,0.47,17,0.17
+Jose.Bernal,"Advanced Social Studies, Grade 7-Texas H",Social Studies,1,1,1,1,1,1,1
+Katelyn.Hernandez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,100,56,0.56,18,0.18,9,0.09
+Iris.Martinez,Math Intervention-6th,Math,249,180,0.722891566,111,0.445783133,40,0.16064257
+Iris.Martinez,Math Intervention-7th,Math,249,180,0.722891566,111,0.445783133,40,0.16064257
+Pricilla.Guzman,"Advanced Mathematics, Grade 6",Math,122,104,0.852459016,64,0.524590164,27,0.221311475
+Nora.Dimas,"Advanced English Language Arts, Grade 6",Reading,122,102,0.836065574,75,0.614754098,39,0.319672131
+Juan.Hernandezjr,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,126,107,0.849206349,64,0.507936508,36,0.285714286
+Carmen.Jimenez,"Advanced English Language Arts, Grade 7",Reading,126,107,0.849206349,71,0.563492063,33,0.261904762
+Jacob.Soliz,"Advanced English Language Arts, Grade 8",Reading,125,104,0.832,82,0.656,37,0.296
+Anamaru.Deleon,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,126,89,0.706349206,58,0.46031746,25,0.198412698
+Evelyn.Camacho2,Pre-AP Biology (8th Grade),Biology,126,116,0.920634921,73,0.579365079,17,0.134920635
+Alexandria.Greene,English Language Arts - Grade 7,Reading,165,102,0.618181818,63,0.381818182,33,0.2
+James.Salone,"Advanced Mathematics, Grade 6",Math,120,84,0.7,35,0.291666667,9,0.075
+Angel.Munoz,"Advanced English Language Arts, Grade 6",Reading,121,70,0.578512397,46,0.380165289,13,0.107438017
+Vivian.Gardner,Pre-AP Biology (8th Grade),Biology,101,92,0.910891089,42,0.415841584,4,0.03960396
+Haylei.Janssens,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,99,66,0.666666667,16,0.161616162,5,0.050505051
+Jonathon.Ortiz,"Advanced English Language Arts, Grade 8",Reading,97,71,0.731958763,45,0.463917526,23,0.237113402
+Alexandria.Greene,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,95,47,0.494736842,16,0.168421053,3,0.031578947
+Brianna.Brooks,"English Language Arts, Grade 3",Reading,124,75,0.60483871,37,0.298387097,11,0.088709677
+Briana.Calvin,"English Language Arts, Grade 4",Reading,113,74,0.654867257,39,0.345132743,16,0.14159292
+Gabriela.Lopez,"English Language Arts, Grade 5",Reading,107,82,0.76635514,53,0.495327103,32,0.299065421
+Carleigh.Standifer,"Mathematics, Grade 3",Math,125,58,0.464,16,0.128,3,0.024
+Quinesha.Franklin,"Mathematics, Grade 4",Math,114,50,0.438596491,29,0.254385965,10,0.087719298
+Taishe.Abrams,"Mathematics, Grade 5",Math,107,81,0.757009346,57,0.53271028,21,0.196261682
+Caitlyn.Polloni,"Science, Grade 5",Science,107,62,0.579439252,35,0.327102804,14,0.130841121
+Natalie.Sanchez,English Language Arts - Grade 6 ,Reading,7,1,0.142857143,0,0,0,0
+Natalie.Sanchez,Mathematics -Grade 6,Math,7,3,0.428571429,0,0,0,0
+Natalie.Sanchez,English Language Arts - Grade 8,Reading,7,1,0.142857143,0,0,0,0
+Natalie.Sanchez,Mathematics -Grade 8,Math,7,3,0.428571429,0,0,0,0
+Natalie.Sanchez,Humanities - Grade 8,Social Studies,3,0,0,0,0,0,0
+Natalie.Sanchez,Science - Grade 8,Science,3,0,0,0,0,0,0
+Pablo.Garza2,"Advanced Mathematics, Grade 6",Math,130,88,0.676923077,38,0.292307692,4,0.030769231
+Melissa.Zapata,"Advanced English Language Arts, Grade 6",Reading,131,88,0.671755725,65,0.496183206,30,0.229007634
+Julio.Turrubiartes,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,92,85,0.923913043,46,0.5,20,0.217391304
+Erica.Guzman,"Advanced English Language Arts, Grade 7",Reading,114,81,0.710526316,60,0.526315789,25,0.219298246
+Erica.Cazares,"Advanced English Language Arts, Grade 8",Reading,93,84,0.903225806,59,0.634408602,24,0.258064516
+Jesus.Mendoza,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,93,65,0.698924731,29,0.311827957,12,0.129032258
+Sarafey.Zuniga,Pre-AP Biology (8th Grade),Biology,92,90,0.97826087,55,0.597826087,13,0.141304348
+Paulina.Saucedarios,"English Language Arts, Grade 3",Reading,120,81,0.675,51,0.425,29,0.241666667
+Breanna.Moore,"English Language Arts, Grade 4",Reading,114,84,0.736842105,42,0.368421053,19,0.166666667
+Erinne.Hopkins,"English Language Arts, Grade 5",Reading,82,55,0.670731707,35,0.426829268,16,0.195121951
+Jeremy.Byrd,"Mathematics, Grade 3",Math,234,98,0.418803419,48,0.205128205,19,0.081196581
+Jeremy.Byrd,"Mathematics, Grade 4",Math,234,98,0.418803419,48,0.205128205,19,0.081196581
+Jasmyn.Eckermann,"Mathematics, Grade 5",Math,83,56,0.674698795,29,0.34939759,4,0.048192771
+Norrisa.Terry,"Science, Grade 5",Science,83,39,0.469879518,9,0.108433735,3,0.036144578
+Caitlin.Bahr,AP US History,U.S. History,84,81,0.964285714,56,0.666666667,34,0.404761905
+Yulissa.Santos,AP US History,U.S. History,86,77,0.895348837,40,0.465116279,13,0.151162791
+Giovanni.Vazquez,Advanced Algebra 1,Algebra I,61,53,0.868852459,21,0.344262295,10,0.163934426
+Jennifer.Campos1,Pre-AP English I,English I,101,87,0.861386139,71,0.702970297,17,0.168316832
+David.Vera,Pre-AP Biology,Biology,65,57,0.876923077,30,0.461538462,3,0.046153846
+Cynthia.Alaniz,Pre-AP English I,English I,31,21,0.677419355,17,0.548387097,1,0.032258065
+Ashley.Figueroa,"English Language Arts, Grade 3",Reading,98,80,0.816326531,54,0.551020408,28,0.285714286
+Paola.Estrada,"English Language Arts, Grade 4",Reading,82,75,0.914634146,50,0.609756098,29,0.353658537
+Rocio.Rivas,"English Language Arts, Grade 5",Reading,49,36,0.734693878,21,0.428571429,9,0.183673469
+Mary.Goewey,"Mathematics, Grade 3",Math,98,68,0.693877551,34,0.346938776,14,0.142857143
+Marissa.Romero,"Mathematics, Grade 4",Math,82,36,0.43902439,20,0.243902439,4,0.048780488
+Dominique.Hill,"Mathematics, Grade 5",Math,49,27,0.551020408,17,0.346938776,2,0.040816327
+Dominique.Hill,"Science, Grade 5",Science,48,28,0.583333333,15,0.3125,8,0.166666667
+Carlos.Enriquez,AP US History,U.S. History,124,122,0.983870968,82,0.661290323,45,0.362903226
+Antonio.Herrera,Pre-AP English I,English I,125,105,0.84,93,0.744,35,0.28
+Demi.Jarrell,"English Language Arts, Grade 3",Reading,119,81,0.680672269,55,0.462184874,28,0.235294118
+Sabina.Saenz,"English Language Arts, Grade 4",Reading,111,82,0.738738739,49,0.441441441,12,0.108108108
+Heriberto.Cruz2,"English Language Arts, Grade 5",Reading,117,93,0.794871795,65,0.555555556,38,0.324786325
+Andrea.Belmontes,"Mathematics, Grade 3",Math,118,54,0.457627119,17,0.144067797,4,0.033898305
+Aaron.Castro,"Mathematics, Grade 4",Math,111,54,0.486486486,26,0.234234234,3,0.027027027
+Bryan.Juarez,"Mathematics, Grade 5",Math,119,80,0.672268908,44,0.369747899,14,0.117647059
+Mariana.Mount,"Science, Grade 5",Science,118,84,0.711864407,51,0.43220339,17,0.144067797
+Elizabet.Vargas,Advanced Algebra 1,Algebra I,24,8,0.333333333,1,0.041666667,0,0
+Summer.Rash,Pre-AP Biology,Biology,95,90,0.947368421,66,0.694736842,20,0.210526316
+Pike.Nichols,Pre-AP English I,English I,95,58,0.610526316,42,0.442105263,7,0.073684211
+Brianna.Mata,"English Language Arts, Grade 3",Reading,41,18,0.43902439,11,0.268292683,5,0.12195122
+Jade.Broaders,"English Language Arts, Grade 4",Reading,50,34,0.68,16,0.32,3,0.06
+Katelyn.Callan,"English Language Arts, Grade 5",Reading,52,31,0.596153846,19,0.365384615,8,0.153846154
+Adrianna.Canales,"Mathematics, Grade 3",Math,41,18,0.43902439,5,0.12195122,0,0
+Noe.Moreno,"Mathematics, Grade 4",Math,50,19,0.38,12,0.24,4,0.08
+Liam.Obrien,"Mathematics, Grade 5",Math,52,21,0.403846154,12,0.230769231,2,0.038461538
+Liam.Obrien,"Science, Grade 5",Science,50,19,0.38,4,0.08,1,0.02
+Andy.Carrera,English Language Arts - Grade 7,Reading,1,0,0,0,0,0,0
+Andy.Carrera,Mathematics -Grade 7,Math,1,0,0,0,0,0,0
+Andy.Carrera,Humanities - Grade 8,Social Studies,1,0,0,0,0,0,0
+Ana.Valdez,"Advanced Mathematics, Grade 6",Math,111,80,0.720720721,41,0.369369369,8,0.072072072
+Mariah.Contreras,"Advanced English Language Arts, Grade 6",Reading,111,82,0.738738739,60,0.540540541,20,0.18018018
+Nikea.Hurt,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,68,54,0.794117647,24,0.352941176,9,0.132352941
+Irene.Poncedeleon,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,91,72,0.791208791,29,0.318681319,12,0.131868132
+Jessica.Jacobs,"Advanced English Language Arts, Grade 7",Reading,107,72,0.672897196,47,0.439252336,21,0.196261682
+Alvis.Mahome,"Advanced English Language Arts, Grade 8",Reading,92,58,0.630434783,36,0.391304348,15,0.163043478
+Jorje.Gamez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,91,46,0.505494505,18,0.197802198,5,0.054945055
+Daniel.Aguilar,Pre-AP Biology (8th Grade),Biology,92,80,0.869565217,32,0.347826087,2,0.02173913
+Jessica.Gutierrez2,"English Language Arts, Grade 3",Reading,135,97,0.718518519,63,0.466666667,23,0.17037037
+Nicolette.Griffin,"English Language Arts, Grade 4",Reading,118,82,0.694915254,49,0.415254237,21,0.177966102
+Andrews.Correa,"English Language Arts, Grade 5",Reading,113,68,0.601769912,43,0.380530973,18,0.159292035
+Alfred.Ramos,"Mathematics, Grade 3",Math,135,75,0.555555556,29,0.214814815,7,0.051851852
+Leticia.Chavez,"Mathematics, Grade 4",Math,118,37,0.313559322,13,0.110169492,2,0.016949153
+Gabriel.Rodriguez2,"Mathematics, Grade 5",Math,113,78,0.690265487,36,0.318584071,8,0.07079646
+Denise.Martinez,"English Language Arts, Grade 3",Reading,126,86,0.682539683,50,0.396825397,27,0.214285714
+Monica.Solis,"English Language Arts, Grade 4",Reading,112,75,0.669642857,48,0.428571429,19,0.169642857
+Jessica.Guerra,"English Language Arts, Grade 5",Reading,127,99,0.779527559,60,0.472440945,24,0.188976378
+Victoria.Vargas,"Science, Grade 5",Science,113,55,0.486725664,20,0.17699115,6,0.053097345
+Ashley.Delao,"Mathematics, Grade 3",Math,125,78,0.624,29,0.232,3,0.024
+Amanda.Arocha,"Mathematics, Grade 4",Math,112,64,0.571428571,36,0.321428571,9,0.080357143
+Yesenia.Jimenez,"Mathematics, Grade 5",Math,127,70,0.551181102,34,0.267716535,6,0.047244094
+Laura.Mares,"Science, Grade 5",Science,128,69,0.5390625,27,0.2109375,6,0.046875
+Jessejr.Duron,Math Intervention-3rd,Math,32,6,0.1875,1,0.03125,0,0
+Megan.Mcclinton,English Language Arts - Grade 6 ,Reading,2,0,0,0,0,0,0
+Megan.Mcclinton,Mathematics -Grade 6,Math,2,0,0,0,0,0,0
+Elmer.Bolalin,"Advanced Mathematics, Grade 6",Math,121,104,0.859504132,63,0.520661157,24,0.198347107
+Avigail.Hicks,"Advanced English Language Arts, Grade 6",Reading,121,98,0.809917355,70,0.578512397,30,0.247933884
+Dillon.Morgan,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,113,91,0.805309735,43,0.380530973,21,0.185840708
+Stephanie.Valdez,"Advanced English Language Arts, Grade 7",Reading,115,99,0.860869565,79,0.686956522,43,0.373913043
+Desiree.Garcia2,"Advanced English Language Arts, Grade 8",Reading,113,100,0.884955752,62,0.548672566,32,0.283185841
+Daniel.Regalado,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,113,66,0.584070796,30,0.265486726,9,0.079646018
+Emily.Barack,Pre-AP Biology (8th Grade),Biology,113,107,0.946902655,78,0.690265487,25,0.221238938
+Alvaro.Ramirez,"Advanced Mathematics, Grade 6",Math,131,101,0.770992366,56,0.427480916,18,0.13740458
+Melin.Mendoza,"English Language Arts, Grade 4",Reading,120,97,0.808333333,66,0.55,26,0.216666667
+Bianca.Meza,"English Language Arts, Grade 5",Reading,58,49,0.844827586,30,0.517241379,19,0.327586207
+Liliana.Montana,"Mathematics, Grade 4",Math,120,70,0.583333333,34,0.283333333,11,0.091666667
+Corinne.Price,"Mathematics, Grade 5",Math,60,41,0.683333333,19,0.316666667,7,0.116666667
+Corinne.Price,"Science, Grade 5",Science,59,34,0.576271186,15,0.254237288,7,0.118644068
+Angel.Gonzalez,AP US History,U.S. History,79,74,0.936708861,48,0.607594937,22,0.278481013
+Alexis.Albe,Pre-AP English I,English I,121,102,0.842975207,83,0.685950413,34,0.280991736
+Levi.Palacios,"English Language Arts, Grade 3",Reading,116,96,0.827586207,70,0.603448276,28,0.24137931
+Randi.Bates,"English Language Arts, Grade 4",Reading,111,83,0.747747748,51,0.459459459,15,0.135135135
+Ashlie.Deline,"English Language Arts, Grade 5",Reading,114,93,0.815789474,68,0.596491228,33,0.289473684
+Cameron.Bennett,"Mathematics, Grade 3",Math,117,76,0.64957265,36,0.307692308,7,0.05982906
+Renaldo.Francis,"Mathematics, Grade 4",Math,111,40,0.36036036,15,0.135135135,3,0.027027027
+Courtney.Tout,"Mathematics, Grade 5",Math,113,87,0.769911504,50,0.442477876,7,0.061946903
+Tracie.Rhodesmay,"Science, Grade 5",Science,114,71,0.622807018,26,0.228070175,4,0.035087719
+Bridget.Barrientez,English Language Arts - Grade 6 ,Reading,7,0,0,0,0,0,0
+Bridget.Barrientez,Mathematics -Grade 6,Math,5,0,0,0,0,0,0
+Bridget.Barrientez,English Language Arts - Grade 7,Reading,7,0,0,0,0,0,0
+Bridget.Barrientez,Mathematics -Grade 7,Math,5,0,0,0,0,0,0
+Bridget.Barrientez,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Ivan.Martinez,"Advanced English Language Arts, Grade 6",Reading,132,104,0.787878788,84,0.636363636,40,0.303030303
+Christian.Deleon,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,129,99,0.76744186,35,0.271317829,16,0.124031008
+Yoselyn.Casas,"Advanced English Language Arts, Grade 7",Reading,120,104,0.866666667,73,0.608333333,38,0.316666667
+Magdalina.Lira,"Advanced English Language Arts, Grade 8",Reading,129,120,0.930232558,88,0.682170543,49,0.379844961
+Cassandra.Salazar,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,129,95,0.736434109,41,0.317829457,19,0.147286822
+Felix.Guerra,"Advanced English Language Arts, Grade 6",Reading,122,66,0.540983607,42,0.344262295,15,0.12295082
+David.Coddington,"Advanced Mathematics, Grade 6",Math,122,85,0.696721311,45,0.368852459,13,0.106557377
+Arlene.Cantu,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,123,114,0.926829268,81,0.658536585,45,0.365853659
+Lesley.Beltran,"Advanced English Language Arts, Grade 7",Reading,128,91,0.7109375,69,0.5390625,24,0.1875
+Meagan.Ford,"Advanced English Language Arts, Grade 8",Reading,123,104,0.845528455,69,0.56097561,40,0.325203252
+Kayla.Rodriguez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,123,83,0.674796748,54,0.43902439,32,0.260162602
+Shyanne.Sauceda,Pre-AP Biology (8th Grade),Biology,123,117,0.951219512,78,0.634146341,21,0.170731707
+Monika.Garcia,Advanced Algebra 1,Algebra I,12,7,0.583333333,1,0.083333333,0,0
+Viridiana.Garciarive,Pre-AP Biology,Biology,12,11,0.916666667,4,0.333333333,2,0.166666667
+Rosario.Johnson,Pre-AP English I,English I,98,72,0.734693878,61,0.62244898,11,0.112244898
+Tony.Ubani,Math Intervention-6th,Math,208,144,0.692307692,94,0.451923077,40,0.192307692
+Tony.Ubani,Math Intervention-7th,Math,208,144,0.692307692,94,0.451923077,40,0.192307692
+Belle.Douglass,"Advanced Mathematics, Grade 6",Math,120,90,0.75,57,0.475,24,0.2
+Christopher.Alfaro,"Advanced English Language Arts, Grade 6",Reading,120,76,0.633333333,53,0.441666667,20,0.166666667
+Andrea.Virgen,"Advanced Science, Grade 8-Composite",Science,114,56,0.49122807,28,0.245614035,12,0.105263158
+Adrian.Rodriguez1,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,112,82,0.732142857,38,0.339285714,16,0.142857143
+Cierra.Lowery,"Advanced English Language Arts, Grade 7",Reading,91,59,0.648351648,41,0.450549451,19,0.208791209
+Marcus.Lewis,"Advanced English Language Arts, Grade 8",Reading,114,78,0.684210526,47,0.412280702,22,0.192982456
+Jacey.Iglehart,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,114,54,0.473684211,20,0.175438596,10,0.087719298
+Priscilla.Urbina,Pre-AP English I,English I,48,34,0.708333333,27,0.5625,6,0.125
+Jessica.Garza4,Advanced Algebra 1,Algebra I,87,72,0.827586207,28,0.32183908,8,0.091954023
+Krystal.Garcia,Pre-AP Biology,Biology,15,15,1,9,0.6,3,0.2
+Maria.Neyra,Pre-AP English I,English I,90,71,0.788888889,56,0.622222222,14,0.155555556
+Brittany.Garcia,AP US History,U.S. History,59,57,0.966101695,43,0.728813559,20,0.338983051
+Madelin.Gutierrez,Pre-AP English I,English I,76,59,0.776315789,45,0.592105263,13,0.171052632
+Jamie.Payne,"English Language Arts, Grade 3",Reading,107,72,0.672897196,45,0.420560748,15,0.140186916
+Crystal.Arreola,"English Language Arts, Grade 4",Reading,102,80,0.784313725,37,0.362745098,13,0.12745098
+Sara.Miles,"English Language Arts, Grade 5",Reading,96,77,0.802083333,58,0.604166667,32,0.333333333
+Jakub.Kosiba,"Mathematics, Grade 3",Math,107,60,0.560747664,29,0.271028037,9,0.08411215
+Pagge.Taylor,"Mathematics, Grade 4",Math,104,55,0.528846154,21,0.201923077,5,0.048076923
+Janay.Garner,"Mathematics, Grade 5",Math,97,76,0.783505155,51,0.525773196,19,0.195876289
+Juan.Medina,"Science, Grade 5",Science,97,72,0.742268041,44,0.453608247,21,0.216494845
+Eric.Sanchez,Math Intervention-3rd,Math,80,29,0.3625,6,0.075,0,0
+Eric.Sanchez,Math Intervention-4th,Math,80,29,0.3625,6,0.075,0,0
+Eric.Sanchez,Math Intervention-5th,Math,80,29,0.3625,6,0.075,0,0
+Jocelyn.Hooper,"English Language Arts, Grade 4",Reading,109,67,0.614678899,30,0.275229358,9,0.082568807
+Cara.Clarke,"English Language Arts, Grade 5",Reading,54,28,0.518518519,22,0.407407407,6,0.111111111
+Amanda.Meadows,"Mathematics, Grade 4",Math,79,22,0.278481013,11,0.139240506,1,0.012658228
+Mircle.Carter,"Mathematics, Grade 4",Math,108,36,0.333333333,17,0.157407407,1,0.009259259
+Tanisha.Leblanc,"Mathematics, Grade 5",Math,82,38,0.463414634,17,0.207317073,1,0.012195122
+Tanisha.Leblanc,"Science, Grade 5",Science,54,17,0.314814815,4,0.074074074,1,0.018518519
+Guadalupe.Altamirano,Advanced Algebra 1,Algebra I,24,21,0.875,9,0.375,3,0.125
+Josselyne.Saenz,Pre-AP Biology,Biology,73,64,0.876712329,41,0.561643836,6,0.082191781
+Isaac.Martinez,Pre-AP English I,English I,82,60,0.731707317,48,0.585365854,12,0.146341463
+Adanary.Ramirez,"Advanced Mathematics, Grade 6",Math,115,102,0.886956522,73,0.634782609,24,0.208695652
+Carina.Ibanez,"Advanced English Language Arts, Grade 6",Reading,228,205,0.899122807,177,0.776315789,107,0.469298246
+Jannet.Meza,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,78,60,0.769230769,20,0.256410256,14,0.179487179
+Leslie.Coronado,"Advanced English Language Arts, Grade 8",Reading,78,58,0.743589744,39,0.5,18,0.230769231
+Crystal.Torres,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,78,29,0.371794872,14,0.179487179,8,0.102564103
+Norma.Alvarado,AP US History,U.S. History,90,88,0.977777778,64,0.711111111,32,0.355555556
+Maximiliano.Cruz,Advanced Algebra 1,Algebra I,9,7,0.777777778,3,0.333333333,1,0.111111111
+Lizbeth.Guzman,Pre-AP Biology,Biology,10,6,0.6,4,0.4,1,0.1
+Israel.Trejo,Pre-AP English I,English I,105,77,0.733333333,62,0.59047619,13,0.123809524
+Alex.Davila,"Advanced Science, Grade 8-Composite",Science,76,49,0.644736842,30,0.394736842,12,0.157894737
+Ruben.Mancha,AP US History,U.S. History,67,67,1,52,0.776119403,20,0.298507463
+Lilly.Garza,Pre-AP English I,English I,65,45,0.692307692,33,0.507692308,11,0.169230769
+Janis.Salinas,"Mathematics, Grade 4",Math,116,47,0.405172414,27,0.232758621,7,0.060344828
+Jasmine.Gonzalez,"English Language Arts, Grade 4",Reading,116,72,0.620689655,40,0.344827586,12,0.103448276
+Sabrina.Mendoza,"English Language Arts, Grade 3",Reading,96,71,0.739583333,54,0.5625,35,0.364583333
+Lynda.Mandujano,"English Language Arts, Grade 3",Reading,102,73,0.715686275,55,0.539215686,31,0.303921569
+Angelina.Gonzales,"English Language Arts, Grade 4",Reading,60,55,0.916666667,41,0.683333333,18,0.3
+Lurae.Caldwell,"English Language Arts, Grade 4",Reading,60,52,0.866666667,39,0.65,20,0.333333333
+Zeleste.Zamora,"English Language Arts, Grade 5",Reading,114,95,0.833333333,66,0.578947368,34,0.298245614
+Gitzel.Martinez,"Mathematics, Grade 3",Math,121,78,0.644628099,36,0.297520661,5,0.041322314
+Christen.Lopez,"Mathematics, Grade 4",Math,120,93,0.775,62,0.516666667,23,0.191666667
+Nancy.Delangel,"Mathematics, Grade 5",Math,115,100,0.869565217,71,0.617391304,31,0.269565217
+Leticia.Delossanto,"Science, Grade 5",Science,114,84,0.736842105,40,0.350877193,18,0.157894737
+Anyssa.Solorio,Math Intervention-3rd,Math,38,19,0.5,6,0.157894737,0,0
+Anyssa.Solorio,Math Intervention-4th,Math,38,19,0.5,6,0.157894737,0,0
+Anyssa.Solorio,Math Intervention-5th,Math,38,19,0.5,6,0.157894737,0,0
+Jessica.Martinez1,"English Language Arts, Grade 3",Reading,113,86,0.761061947,57,0.504424779,14,0.123893805
+Nidia.Alvarez,"Mathematics, Grade 3",Math,113,85,0.752212389,53,0.469026549,7,0.061946903
+Jessica.Suarez,Mathematics -Grade 6,Math,8,0,0,0,0,0,0
+Jessica.Suarez,English Language Arts - Grade 6 ,Reading,8,0,0,0,0,0,0
+Jessica.Suarez,Mathematics -Grade 7,Math,8,0,0,0,0,0,0
+Jessica.Suarez,English Language Arts - Grade 7,Reading,8,0,0,0,0,0,0
+Erica.Lopez2,"English Language Arts, Grade 3",Reading,63,47,0.746031746,29,0.46031746,11,0.174603175
+Ulu.Gil,"English Language Arts, Grade 3",Reading,67,41,0.611940299,18,0.268656716,6,0.089552239
+Stephanie.Valle,"English Language Arts, Grade 4",Reading,57,48,0.842105263,32,0.561403509,16,0.280701754
+Natalie.Roeglin,"English Language Arts, Grade 4",Reading,62,49,0.790322581,33,0.532258065,15,0.241935484
+Sarah.Galvan,"English Language Arts, Grade 5",Reading,116,102,0.879310345,71,0.612068966,40,0.344827586
+Francisco.Vasquez,"Mathematics, Grade 3",Math,130,81,0.623076923,36,0.276923077,8,0.061538462
+Laura.Giron,"Mathematics, Grade 4",Math,119,91,0.764705882,51,0.428571429,22,0.18487395
+Ana.Duran,"Mathematics, Grade 5",Math,116,96,0.827586207,54,0.465517241,8,0.068965517
+Graciela.Munoz,"Science, Grade 5",Science,116,76,0.655172414,39,0.336206897,15,0.129310345
+Monica.Gutierrez2,"English Language Arts, Grade 3",Reading,120,89,0.741666667,52,0.433333333,23,0.191666667
+Amanda.Villa,"English Language Arts, Grade 4",Reading,109,89,0.816513761,63,0.577981651,32,0.293577982
+Anna.Zuniga,"English Language Arts, Grade 5",Reading,121,92,0.760330579,60,0.495867769,42,0.347107438
+Alexis.Garza,"Mathematics, Grade 3",Math,120,80,0.666666667,36,0.3,10,0.083333333
+Jorge.Alanis,"Mathematics, Grade 4",Math,111,69,0.621621622,41,0.369369369,23,0.207207207
+Belinda.Escobedo,"Mathematics, Grade 5",Math,121,103,0.851239669,74,0.611570248,30,0.247933884
+Desiree.Galvan,"Science, Grade 5",Science,121,85,0.702479339,40,0.330578512,17,0.140495868
+Jimmie.Griffin,English Language Arts - Grade 7,Reading,5,0,0,0,0,0,0
+Jimmie.Griffin,Mathematics -Grade 7,Math,5,0,0,0,0,0,0
+Breanna.Moore2,"Advanced Mathematics, Grade 6",Math,121,71,0.58677686,19,0.157024793,1,0.008264463
+Troy.Baham,"Advanced English Language Arts, Grade 6",Reading,120,88,0.733333333,49,0.408333333,14,0.116666667
+Ricky.Shorts,Pre-AP Biology (8th Grade),Biology,133,111,0.834586466,46,0.345864662,3,0.022556391
+Melissa.Beaudinvando,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,133,83,0.62406015,21,0.157894737,5,0.037593985
+Beyonce.Morales,"Advanced English Language Arts, Grade 7",Reading,125,95,0.76,70,0.56,29,0.232
+Gloria.Miranda,"Advanced English Language Arts, Grade 8",Reading,134,103,0.768656716,82,0.611940299,37,0.276119403
+Karen.Chavez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,133,55,0.413533835,16,0.120300752,6,0.045112782
+Sarai.Garza,Math Intervention-6th,Math,189,131,0.693121693,65,0.343915344,14,0.074074074
+Sarai.Garza,Math Intervention-7th,Math,189,131,0.693121693,65,0.343915344,14,0.074074074
+Jeanette.Montes,"Advanced Mathematics, Grade 6",Math,91,74,0.813186813,34,0.373626374,9,0.098901099
+Sofia.Cortez,"Advanced English Language Arts, Grade 6",Reading,90,73,0.811111111,55,0.611111111,29,0.322222222
+Forisse.Hardin,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,114,108,0.947368421,91,0.798245614,63,0.552631579
+Shawn.Avina,"Advanced English Language Arts, Grade 7",Reading,121,97,0.801652893,70,0.578512397,30,0.247933884
+Jennifer.Culwell,"Advanced English Language Arts, Grade 8",Reading,113,106,0.938053097,79,0.699115044,46,0.407079646
+Isabel.Ortizquiroz,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,113,92,0.814159292,55,0.486725664,33,0.292035398
+Jeannett.Blancooroz,Pre-AP Biology (8th Grade),Biology,113,109,0.96460177,89,0.787610619,29,0.256637168
+Tatiana.Dawson,"Advanced English Language Arts, Grade 6",Reading,99,77,0.777777778,52,0.525252525,19,0.191919192
+Steven.Rose,Math Intervention-6th,Math,200,134,0.67,68,0.34,17,0.085
+Steven.Rose,Math Intervention-7th,Math,200,134,0.67,68,0.34,17,0.085
+Ricardo.Mondragon,"Advanced Mathematics, Grade 6",Math,99,72,0.727272727,29,0.292929293,3,0.03030303
+Elliot.Ross,"Advanced Science, Grade 8-Composite",Science,90,41,0.455555556,20,0.222222222,5,0.055555556
+Luis.Escobar,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,91,60,0.659340659,22,0.241758242,6,0.065934066
+Tatum.Miller,"Advanced English Language Arts, Grade 7",Reading,99,70,0.707070707,58,0.585858586,35,0.353535354
+Sarah.Park,"Advanced English Language Arts, Grade 8",Reading,93,73,0.784946237,43,0.462365591,16,0.172043011
+Alexis.Casiano,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,91,56,0.615384615,32,0.351648352,12,0.131868132
+Bethany.Vera,"English Language Arts, Grade 3",Reading,79,68,0.860759494,53,0.670886076,19,0.240506329
+Laura.Sosa,"English Language Arts, Grade 3",Reading,59,57,0.966101695,56,0.949152542,51,0.86440678
+Savannah.Nieto,"English Language Arts, Grade 4",Reading,62,62,1,58,0.935483871,43,0.693548387
+Vivianna.Luna,"English Language Arts, Grade 4",Reading,33,31,0.939393939,21,0.636363636,6,0.181818182
+Enrique.Jimenez,"English Language Arts, Grade 4",Reading,90,79,0.877777778,44,0.488888889,12,0.133333333
+Ericka.Zambrano,"English Language Arts, Grade 5",Reading,117,104,0.888888889,79,0.675213675,57,0.487179487
+Geovannie.Hernandez,"Mathematics, Grade 3",Math,79,51,0.64556962,14,0.17721519,2,0.025316456
+Bethany.Herrera,"Mathematics, Grade 3",Math,59,59,1,49,0.830508475,17,0.288135593
+Jeni.Leivas,"Mathematics, Grade 4",Math,62,55,0.887096774,45,0.725806452,18,0.290322581
+Vivianna.Luna,"Mathematics, Grade 4",Math,90,51,0.566666667,20,0.222222222,3,0.033333333
+Jaime.Lopez,"Mathematics, Grade 5",Math,116,95,0.818965517,64,0.551724138,22,0.189655172
+Cynthia.Quiett,"Science, Grade 5",Science,116,96,0.827586207,56,0.482758621,27,0.232758621
+Jaime.Jasso,"English Language Arts, Grade 3",Reading,26,18,0.692307692,15,0.576923077,4,0.153846154
+Jocelyn.Torres,"English Language Arts, Grade 3",Reading,113,76,0.672566372,46,0.407079646,23,0.203539823
+Linda.Deleonperez,"English Language Arts, Grade 4",Reading,127,89,0.700787402,62,0.488188976,23,0.181102362
+Dyna.Sayavedra,"English Language Arts, Grade 5",Reading,117,84,0.717948718,65,0.555555556,35,0.299145299
+Jaime.Jasso,"Mathematics, Grade 3",Math,26,16,0.615384615,8,0.307692308,2,0.076923077
+Xavier.Martinez,"Mathematics, Grade 3",Math,114,75,0.657894737,55,0.48245614,21,0.184210526
+Aslin.Cantu,"Mathematics, Grade 4",Math,127,93,0.732283465,62,0.488188976,25,0.196850394
+Marlen.Martinez,"Mathematics, Grade 5",Math,117,96,0.820512821,73,0.623931624,23,0.196581197
+Alexis.Rios,"Science, Grade 5",Science,117,81,0.692307692,34,0.290598291,10,0.085470085
+Amanda.Howard,Pre-AP English I,English I,61,45,0.737704918,36,0.590163934,12,0.196721311
+Amanda.Sandoval,"English Language Arts, Grade 3",Reading,122,95,0.778688525,62,0.508196721,29,0.237704918
+Samantha.Mendiola,"English Language Arts, Grade 4",Reading,124,106,0.85483871,69,0.556451613,35,0.282258065
+Jennifer.Settles,"English Language Arts, Grade 5",Reading,114,93,0.815789474,58,0.50877193,20,0.175438596
+Angelina.Martinez,"Mathematics, Grade 3",Math,122,77,0.631147541,33,0.270491803,7,0.057377049
+Christina.Jimenez,"Mathematics, Grade 4",Math,124,67,0.540322581,39,0.314516129,8,0.064516129
+Jessica.Stellrecht,"Mathematics, Grade 5",Math,114,91,0.798245614,51,0.447368421,13,0.114035088
+Michael.Wockner,"Science, Grade 5",Science,114,77,0.675438596,35,0.307017544,7,0.061403509
+Stephanie.Chavero,"English Language Arts, Grade 3",Reading,66,55,0.833333333,38,0.575757576,15,0.227272727
+Pedro.Aguilar,"English Language Arts, Grade 3",Reading,67,46,0.686567164,34,0.507462687,20,0.298507463
+Julia.Cisneros,"English Language Arts, Grade 4",Reading,69,67,0.971014493,57,0.826086957,30,0.434782609
+Cassandra.Silva,"English Language Arts, Grade 4",Reading,57,33,0.578947368,14,0.245614035,3,0.052631579
+Margaret.Rogers,"English Language Arts, Grade 5",Reading,112,97,0.866071429,61,0.544642857,35,0.3125
+Olinda.Almanza,"Mathematics, Grade 3",Math,124,80,0.64516129,33,0.266129032,9,0.072580645
+Andrea.Castellano,"Mathematics, Grade 4",Math,122,73,0.598360656,47,0.385245902,19,0.155737705
+Sandra.Garcia,"Mathematics, Grade 5",Math,113,99,0.876106195,61,0.539823009,19,0.168141593
+Valeria.Salinas2,"Science, Grade 5",Science,113,88,0.778761062,39,0.345132743,17,0.150442478
+Howard.Williams,Math Intervention-6th,Math,244,196,0.803278689,142,0.581967213,45,0.18442623
+Howard.Williams,Math Intervention-7th,Math,244,196,0.803278689,142,0.581967213,45,0.18442623
+Cecily.Reyes,"Advanced Mathematics, Grade 6",Math,130,96,0.738461538,60,0.461538462,18,0.138461538
+Claudia.Garcia3,"Advanced English Language Arts, Grade 6",Reading,131,92,0.702290076,68,0.519083969,29,0.221374046
+Amy.Rethman,"Advanced Science, Grade 8-Composite",Science,103,71,0.689320388,40,0.388349515,12,0.116504854
+Armando.Silva,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,106,106,1,79,0.745283019,42,0.396226415
+Alyssa.Lopez,"Advanced English Language Arts, Grade 7",Reading,115,96,0.834782609,78,0.67826087,43,0.373913043
+Bridget.Martinez,"Advanced English Language Arts, Grade 8",Reading,104,93,0.894230769,63,0.605769231,29,0.278846154
+Inez.Martinez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,106,65,0.613207547,24,0.226415094,5,0.047169811
+Rene.Gomezsantibanez,Advanced Algebra 1,Algebra I,9,9,1,4,0.444444444,1,0.111111111
+Karen.Pallares,Pre-AP Biology,Biology,11,10,0.909090909,1,0.090909091,0,0
+Angel.Rosas,Pre-AP Biology,Biology,19,15,0.789473684,8,0.421052632,2,0.105263158
+Carlos.Camacho,"Advanced Mathematics, Grade 6",Math,136,102,0.75,44,0.323529412,16,0.117647059
+Tiffany.Maldonado,"Advanced English Language Arts, Grade 6",Reading,136,118,0.867647059,102,0.75,58,0.426470588
+Joetta.Gueta,Advanced Algebra 1,Algebra I,123,90,0.731707317,30,0.243902439,14,0.113821138
+Tomas.Cisneros,"Advanced English Language Arts, Grade 7",Reading,101,84,0.831683168,56,0.554455446,33,0.326732673
+Perla.Lopez,"Advanced English Language Arts, Grade 8",Reading,118,111,0.940677966,82,0.694915254,43,0.36440678
+John.Cobian,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,117,69,0.58974359,34,0.290598291,16,0.136752137
+Lou.Delacruz,Pre-AP Biology (8th Grade),Biology,126,120,0.952380952,75,0.595238095,17,0.134920635
+Sandra.Garcia4,Advanced Algebra 1,Algebra I,6,5,0.833333333,1,0.166666667,0,0
+Juan.Onofre,Pre-AP Biology,Biology,12,11,0.916666667,1,0.083333333,0,0
+Stacey.Rodriguez,Pre-AP English I,English I,113,92,0.814159292,84,0.743362832,34,0.300884956
+Jose.Castellanos,"English Language Arts, Grade 3",Reading,116,64,0.551724138,42,0.362068966,24,0.206896552
+Rolando.Leos,"English Language Arts, Grade 3",Reading,129,89,0.689922481,63,0.488372093,34,0.263565891
+Sandra.Saldana,"English Language Arts, Grade 4",Reading,115,95,0.826086957,70,0.608695652,37,0.32173913
+Erica.Garza3,"English Language Arts, Grade 5",Reading,113,81,0.716814159,57,0.504424779,25,0.221238938
+Leilandra.Montgomery,"English Language Arts, Grade 4",Reading,117,74,0.632478632,35,0.299145299,13,0.111111111
+Autumn.Rodriguez,"English Language Arts, Grade 5",Reading,115,80,0.695652174,60,0.52173913,41,0.356521739
+Samantha.Rochford,"Mathematics, Grade 3",Math,118,62,0.525423729,25,0.211864407,6,0.050847458
+Elizabet.Frayre,"Mathematics, Grade 4",Math,118,53,0.449152542,27,0.228813559,9,0.076271186
+Javier.Maldonado,"Mathematics, Grade 5",Math,115,88,0.765217391,53,0.460869565,8,0.069565217
+Americo.Paredes,"Mathematics, Grade 3",Math,129,59,0.457364341,28,0.217054264,8,0.062015504
+David.Garcia2,"Mathematics, Grade 4",Math,113,67,0.592920354,40,0.353982301,13,0.115044248
+Alda.Jimenez,"Mathematics, Grade 5",Math,114,92,0.807017544,53,0.464912281,19,0.166666667
+Erin.Moore,"Science, Grade 5",Science,115,58,0.504347826,14,0.12173913,5,0.043478261
+Vijay.Kanuga,"Science, Grade 5",Science,114,68,0.596491228,20,0.175438596,8,0.070175439
+Diana.Garza1,AP US History,U.S. History,73,72,0.98630137,58,0.794520548,33,0.452054795
+Alma.Reyna,Advanced Algebra 1,Algebra I,15,7,0.466666667,1,0.066666667,0,0
+Antonio.Pena,Pre-AP Biology,Biology,22,15,0.681818182,4,0.181818182,1,0.045454545
+Eduardo.Hernandez,Pre-AP English I,English I,96,80,0.833333333,68,0.708333333,24,0.25
+John.Pardo,AP US History,U.S. History,39,38,0.974358974,19,0.487179487,9,0.230769231
+Audrey.Contreras,Pre-AP Biology,Biology,83,80,0.963855422,52,0.626506024,17,0.204819277
+Matthew.Tavares,Pre-AP English I,English I,86,68,0.790697674,53,0.61627907,10,0.11627907
+Gabriel.Hernandez,AP US History,U.S. History,87,86,0.988505747,60,0.689655172,25,0.287356322
+Daniel.Rodriguez1,Pre-AP Biology,Biology,95,92,0.968421053,71,0.747368421,26,0.273684211
+Stephanie.Martinez2,Pre-AP English I,English I,93,79,0.849462366,73,0.784946237,24,0.258064516
+Claude.Johnson,AP US History,U.S. History,106,101,0.952830189,67,0.632075472,23,0.216981132
+Norma.Mendoza,Pre-AP English I,English I,89,71,0.797752809,57,0.640449438,10,0.112359551
+Samantha.Cancino,"Advanced Mathematics, Grade 6",Math,55,48,0.872727273,31,0.563636364,7,0.127272727
+Genaya.Preston,"Advanced English Language Arts, Grade 6",Reading,56,36,0.642857143,25,0.446428571,11,0.196428571
+Leslie.Gonzalez2,"Advanced Science, Grade 8-Composite",Science,59,50,0.847457627,38,0.644067797,20,0.338983051
+Jasmine.Mingo,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,62,39,0.629032258,12,0.193548387,4,0.064516129
+Oshera.Rodriguez2,"Advanced English Language Arts, Grade 7",Reading,57,38,0.666666667,30,0.526315789,9,0.157894737
+Jhamir.Adams,"Advanced English Language Arts, Grade 8",Reading,65,48,0.738461538,34,0.523076923,14,0.215384615
+Darian.Herrera,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,63,41,0.650793651,24,0.380952381,10,0.158730159
+Erica.Montalvo,Pre-AP Biology (8th Grade),Biology,74,70,0.945945946,48,0.648648649,11,0.148648649
+April.Beltran,"English Language Arts, Grade 3",Reading,138,98,0.710144928,71,0.514492754,35,0.253623188
+Dianey.Veliz,"English Language Arts, Grade 4",Reading,126,92,0.73015873,52,0.412698413,20,0.158730159
+Jolisa.Arellano,"English Language Arts, Grade 5",Reading,137,104,0.759124088,59,0.430656934,24,0.175182482
+Vanessa.Guerra2,"Mathematics, Grade 3",Math,139,109,0.784172662,66,0.474820144,17,0.122302158
+Daniel.Medrano,"Mathematics, Grade 4",Math,125,62,0.496,29,0.232,15,0.12
+Gregorio.Gutierrez,"Mathematics, Grade 5",Math,137,80,0.583941606,31,0.226277372,7,0.051094891
+Efren.Trevino,"Science, Grade 5",Science,137,99,0.722627737,48,0.350364964,15,0.109489051
+Alexandra.Castillo,Mathematics -Grade 7,Math,127,94,0.74015748,68,0.535433071,29,0.228346457
+Ana.Gutierrez3,"Advanced Mathematics, Grade 6",Math,116,92,0.793103448,46,0.396551724,14,0.120689655
+Rubenia.Ayalaescal,"Advanced English Language Arts, Grade 6",Reading,116,96,0.827586207,82,0.706896552,41,0.353448276
+Oziel.Garcia,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,126,104,0.825396825,49,0.388888889,20,0.158730159
+Evelyn.Gonzales,"Advanced English Language Arts, Grade 7",Reading,127,111,0.874015748,84,0.661417323,53,0.417322835
+Alma.Blanco,"Advanced English Language Arts, Grade 8",Reading,126,112,0.888888889,91,0.722222222,57,0.452380952
+Robert.Gonzalez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,125,89,0.712,46,0.368,24,0.192
+Amber.Rodriguez,Pre-AP Biology (8th Grade),Biology,125,118,0.944,90,0.72,27,0.216
+Melissa.Nolan,"Advanced Mathematics, Grade 6",Math,128,76,0.59375,30,0.234375,8,0.0625
+Julieta.Rizo,"Advanced English Language Arts, Grade 6",Reading,129,87,0.674418605,51,0.395348837,19,0.147286822
+Julia.Romero,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,116,68,0.586206897,17,0.146551724,3,0.025862069
+Yaritza.Marin,"Advanced English Language Arts, Grade 7",Reading,125,94,0.752,67,0.536,38,0.304
+Eric.Perez,"Advanced English Language Arts, Grade 8",Reading,117,88,0.752136752,57,0.487179487,24,0.205128205
+Carlos.Puentes,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,116,45,0.387931034,18,0.155172414,6,0.051724138
+Michelle.Medina,Pre-AP Biology (8th Grade),Biology,116,106,0.913793103,50,0.431034483,5,0.043103448
+Crystal.Estrada,"English Language Arts, Grade 3",Reading,125,91,0.728,54,0.432,26,0.208
+Perla.Ruiz,"English Language Arts, Grade 4",Reading,127,93,0.732283465,57,0.448818898,20,0.157480315
+Michelle.Chavira,"English Language Arts, Grade 5",Reading,110,80,0.727272727,58,0.527272727,30,0.272727273
+Bonnie.Arroyo,"Mathematics, Grade 3",Math,125,65,0.52,22,0.176,5,0.04
+Destiny.Moralesorteg,"Mathematics, Grade 4",Math,127,60,0.472440945,29,0.228346457,11,0.086614173
+Liliana.Lujan,"Mathematics, Grade 5",Math,111,70,0.630630631,36,0.324324324,16,0.144144144
+Diana.Carlson,"Science, Grade 5",Science,111,63,0.567567568,28,0.252252252,10,0.09009009
+Alexander.Loeffler,Math Intervention-6th,Math,243,159,0.654320988,98,0.403292181,26,0.106995885
+Alexander.Loeffler,Math Intervention-7th,Math,243,159,0.654320988,98,0.403292181,26,0.106995885
+Clarissa.Reyes,"Advanced Mathematics, Grade 6",Math,122,85,0.696721311,48,0.393442623,13,0.106557377
+Jacquelyn.Lopez2,"Advanced English Language Arts, Grade 6",Reading,122,98,0.803278689,76,0.62295082,42,0.344262295
+Leslie.Pedroza,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,109,104,0.95412844,59,0.541284404,31,0.28440367
+Karina.Zavala,"Advanced English Language Arts, Grade 7",Reading,123,96,0.780487805,67,0.544715447,37,0.300813008
+Rachelle.Clough,"Advanced English Language Arts, Grade 8",Reading,109,100,0.917431193,81,0.743119266,40,0.366972477
+Derek.Noriskin,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,108,85,0.787037037,53,0.490740741,28,0.259259259
+Britney.Moore,Pre-AP Biology (8th Grade),Biology,109,109,1,88,0.80733945,29,0.266055046
+Luis.Closner,Pre-AP English I,English I,47,36,0.765957447,30,0.638297872,12,0.255319149
+Mikal.Conner,"English Language Arts, Grade 3",Reading,109,70,0.642201835,35,0.321100917,12,0.110091743
+Arianne.Davis,"English Language Arts, Grade 4",Reading,117,79,0.675213675,35,0.299145299,11,0.094017094
+Amani.Haynes,"English Language Arts, Grade 5",Reading,122,85,0.696721311,49,0.401639344,21,0.172131148
+Tajuanae.Bowie,"Mathematics, Grade 3",Math,109,57,0.52293578,27,0.247706422,8,0.073394495
+Latoya.Gafford,"Mathematics, Grade 4",Math,117,58,0.495726496,19,0.162393162,3,0.025641026
+Laquincia.Mcmillan,"Mathematics, Grade 5",Math,123,65,0.528455285,30,0.243902439,7,0.056910569
+Bertina.Johnson,"Science, Grade 5",Science,123,49,0.398373984,8,0.06504065,2,0.016260163
+Briana.Cruz,"English Language Arts, Grade 3",Reading,126,69,0.547619048,39,0.30952381,14,0.111111111
+Brianda.Martinez,"English Language Arts, Grade 5",Reading,120,58,0.483333333,39,0.325,20,0.166666667
+Maricela.Valdez,"Mathematics, Grade 3",Math,126,68,0.53968254,30,0.238095238,3,0.023809524
+Marissa.Requenez,"Mathematics, Grade 5",Math,120,69,0.575,35,0.291666667,7,0.058333333
+Patricia.Herrera2,"Science, Grade 5",Science,120,40,0.333333333,9,0.075,1,0.008333333
+Ernesto.Cantu3,"Advanced Mathematics, Grade 6",Math,59,38,0.644067797,17,0.288135593,2,0.033898305
+Gloria.Martinezperez,"Advanced English Language Arts, Grade 6",Reading,59,32,0.542372881,25,0.423728814,7,0.118644068
+Sonia.Soliz,"Advanced English Language Arts, Grade 7",Reading,69,42,0.608695652,27,0.391304348,12,0.173913043
+Britni.Dehoyos,"English Language Arts, Grade 4",Reading,119,102,0.857142857,66,0.554621849,39,0.327731092
+Jessica.Vasquez,"English Language Arts, Grade 5",Reading,128,106,0.828125,72,0.5625,41,0.3203125
+Christopher.Garza2,"Mathematics, Grade 4",Math,120,79,0.658333333,49,0.408333333,16,0.133333333
+Justine.Gonzalez,"Mathematics, Grade 5",Math,128,101,0.7890625,56,0.4375,11,0.0859375
+Valerie.Rubio,"Science, Grade 5",Science,128,99,0.7734375,50,0.390625,18,0.140625
+Yvette.Rodriguez,Advanced Algebra 1,Algebra I,18,12,0.666666667,2,0.111111111,0,0
+Jordan.Ricewoodruff,Pre-AP English I,English I,106,83,0.783018868,66,0.622641509,22,0.20754717
+Paola.Frias,Advanced Algebra 1,Algebra I,22,9,0.409090909,2,0.090909091,0,0
+Lance.Gruber,Pre-AP Biology,Biology,23,19,0.826086957,10,0.434782609,3,0.130434783
+Laura.Waitulionis,Pre-AP English I,English I,67,47,0.701492537,41,0.611940299,11,0.164179104
+Yezenia.Soto,"Advanced Mathematics, Grade 6",Math,107,85,0.794392523,51,0.476635514,18,0.168224299
+Shlynda.Askew,"Advanced English Language Arts, Grade 6",Reading,107,84,0.785046729,68,0.635514019,39,0.364485981
+Meagan.Peoples,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,113,83,0.734513274,31,0.274336283,14,0.123893805
+Nicole.Swartz,"Advanced English Language Arts, Grade 7",Reading,117,97,0.829059829,76,0.64957265,53,0.452991453
+Kayla.Williams,"Advanced English Language Arts, Grade 8",Reading,113,101,0.89380531,81,0.716814159,37,0.327433628
+Gloria.Williams,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,113,80,0.707964602,33,0.292035398,18,0.159292035
+Eboni.Steward,Pre-AP Biology (8th Grade),Biology,113,98,0.867256637,46,0.407079646,11,0.097345133
+Joshua.Gonzales,"Advanced Mathematics, Grade 6",Math,71,41,0.577464789,18,0.253521127,8,0.112676056
+Caitlyn.Skalitsky,"Advanced English Language Arts, Grade 6",Reading,71,43,0.605633803,23,0.323943662,8,0.112676056
+Jessica.Garza4,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,87,72,0.827586207,28,0.32183908,8,0.091954023
+Amara.Valdez,"Advanced English Language Arts, Grade 7",Reading,75,50,0.666666667,29,0.386666667,16,0.213333333
+Dina.Ysasi,"Advanced English Language Arts, Grade 8",Reading,86,66,0.76744186,48,0.558139535,23,0.26744186
+Katherine.Lozano,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,85,47,0.552941176,19,0.223529412,8,0.094117647
+Elizabeth.Lozano,Pre-AP Biology (8th Grade),Biology,86,78,0.906976744,55,0.639534884,14,0.162790698
+Teresa.Gomez1,"Advanced English Language Arts, Grade 8",Reading,109,98,0.899082569,66,0.605504587,32,0.293577982
+Ruben.Martinez,"Advanced Mathematics, Grade 6",Math,127,96,0.755905512,47,0.37007874,15,0.118110236
+Karen.Longoria,"Advanced English Language Arts, Grade 6",Reading,127,96,0.755905512,62,0.488188976,18,0.141732283
+Brianna.Martinez,"Advanced Science, Grade 8-Composite",Science,109,70,0.642201835,39,0.357798165,9,0.082568807
+Carolina.Ugarte,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,110,101,0.918181818,72,0.654545455,44,0.4
+Gloria.Rodriguez2,"Advanced English Language Arts, Grade 7",Reading,96,61,0.635416667,48,0.5,22,0.229166667
+Jonathan.Escamilla,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,109,67,0.614678899,20,0.183486239,10,0.091743119
+Jessejr.Duron,Math Intervention-5th,Math,32,6,0.1875,1,0.03125,0,0
+Myra.Lujan,"Advanced Mathematics, Grade 6",Math,79,49,0.620253165,26,0.329113924,9,0.113924051
+Angelique.Gomez,"Advanced English Language Arts, Grade 6",Reading,81,53,0.654320988,34,0.419753086,13,0.160493827
+Justin.Arnsworth,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,100,81,0.81,38,0.38,28,0.28
+Bianca.Arambula,"Advanced English Language Arts, Grade 7",Reading,86,63,0.73255814,50,0.581395349,18,0.209302326
+Ryan.Otero,"Advanced English Language Arts, Grade 8",Reading,100,80,0.8,49,0.49,24,0.24
+Tevin.Dieckhausking,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,98,55,0.56122449,13,0.132653061,6,0.06122449
+Helen.Seager,Pre-AP Biology,Biology,98,87,0.887755102,42,0.428571429,6,0.06122449
+Karla.Garcia1,"English Language Arts, Grade 3",Reading,103,82,0.796116505,62,0.601941748,34,0.330097087
+Marissa.Martinez,"English Language Arts, Grade 4",Reading,107,94,0.878504673,62,0.579439252,36,0.336448598
+Madelynn.Lumbreras,"Mathematics, Grade 3",Math,104,76,0.730769231,31,0.298076923,9,0.086538462
+Jolynn.Delacerda,"Mathematics, Grade 4",Math,107,77,0.719626168,41,0.38317757,8,0.074766355
+Emily.Alvarado,Pre-AP English I,English I,111,79,0.711711712,62,0.558558559,19,0.171171171
+Jessejr.Duron,Math Intervention-4th,Math,32,6,0.1875,1,0.03125,0,0
+Cayetano.Castro,AP US History,U.S. History,59,56,0.949152542,29,0.491525424,10,0.169491525
+Danteryia.Murray,"English Language Arts, Grade 3",Reading,118,98,0.830508475,77,0.652542373,43,0.36440678
+Tonisha.Huizar,"English Language Arts, Grade 4",Reading,115,107,0.930434783,75,0.652173913,42,0.365217391
+Kelsy.Moreno,"English Language Arts, Grade 5",Reading,110,100,0.909090909,74,0.672727273,41,0.372727273
+Alexandria.Cantu,"Mathematics, Grade 3",Math,118,92,0.779661017,64,0.542372881,25,0.211864407
+Ana.Aleman,"Mathematics, Grade 4",Math,114,80,0.701754386,54,0.473684211,26,0.228070175
+Chelsea.Gillett,"Mathematics, Grade 5",Math,110,92,0.836363636,60,0.545454545,22,0.2
+Shalisa.Ramos,"Science, Grade 5",Science,108,89,0.824074074,41,0.37962963,15,0.138888889
+Zulma.Cavazos,"English Language Arts, Grade 3",Reading,108,79,0.731481481,47,0.435185185,23,0.212962963
+Cecilia.Pena,"English Language Arts, Grade 4",Reading,97,79,0.81443299,49,0.505154639,20,0.206185567
+Roxanna.Lima,"English Language Arts, Grade 5",Reading,93,76,0.817204301,51,0.548387097,26,0.279569892
+Chloe.Deleon,"Mathematics, Grade 3",Math,108,73,0.675925926,46,0.425925926,10,0.092592593
+Thomas.Walls,"Mathematics, Grade 4",Math,97,69,0.711340206,38,0.391752577,15,0.154639175
+Mandy.Herrera,"Mathematics, Grade 5",Math,91,72,0.791208791,40,0.43956044,10,0.10989011
+Patricia.Rodriguez2,"Science, Grade 5",Science,93,63,0.677419355,30,0.322580645,5,0.053763441
+Asanti.Mcgowan,AP US History,U.S. History,83,80,0.963855422,67,0.807228916,31,0.373493976
+Samantha.Estevis,Advanced Algebra 1,Algebra I,13,7,0.538461538,5,0.384615385,1,0.076923077
+Kelia.Lopez,Pre-AP Biology,Biology,15,13,0.866666667,6,0.4,2,0.133333333
+Bryant.Cardenas,Pre-AP English I,English I,77,60,0.779220779,49,0.636363636,17,0.220779221
+Gerardo.Latigo,AP US History,U.S. History,87,83,0.954022989,61,0.701149425,23,0.264367816
+Juan.Guzman,Advanced Algebra 1,Algebra I,18,9,0.5,2,0.111111111,0,0
+Ricardo.Tamez,Pre-AP Biology,Biology,104,92,0.884615385,38,0.365384615,6,0.057692308
+Dandre.Jackson,Pre-AP English I,English I,105,62,0.59047619,45,0.428571429,8,0.076190476
+Steven.Wnorowski,AP US History,U.S. History,68,65,0.955882353,45,0.661764706,25,0.367647059
+Bradley.Chavez,Pre-AP Biology,Biology,104,92,0.884615385,51,0.490384615,7,0.067307692
+Mackenzie.Pomroy2,Pre-AP English I,English I,105,68,0.647619048,50,0.476190476,11,0.104761905
+Jennifer.Resendiz,"English Language Arts, Grade 3",Reading,126,86,0.682539683,57,0.452380952,23,0.182539683
+Maria.Ramirezmontoya,"English Language Arts, Grade 4",Reading,125,78,0.624,42,0.336,14,0.112
+Paloma.Salazar,"English Language Arts, Grade 5",Reading,120,84,0.7,65,0.541666667,31,0.258333333
+Crystal.Rios,"Mathematics, Grade 3",Math,126,70,0.555555556,25,0.198412698,5,0.03968254
+Marco.Cazares,"Mathematics, Grade 4",Math,125,86,0.688,49,0.392,8,0.064
+Amanda.Valdez,"Mathematics, Grade 5",Math,121,97,0.801652893,54,0.446280992,10,0.082644628
+Anthony.Arredondo,"Science, Grade 5",Science,119,65,0.546218487,25,0.210084034,6,0.050420168
+Joseromano.Gavino,Math Intervention-3rd,Math,15,5,0.333333333,2,0.133333333,0,0
+Joseromano.Gavino,Math Intervention-4th,Math,15,5,0.333333333,2,0.133333333,0,0
+Joseromano.Gavino,Math Intervention-5th,Math,15,5,0.333333333,2,0.133333333,0,0
+Daniel.Gomez,English Language Arts - Grade 7,Reading,5,2,0.4,0,0,0,0
+Daniel.Gomez,Mathematics -Grade 7,Math,3,2,0.666666667,0,0,0,0
+Daniel.Gomez,English Language Arts - Grade 8,Reading,5,2,0.4,0,0,0,0
+Daniel.Gomez,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,2,1,0.5,0,0,0,0
+Daniel.Gomez,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Daniel.Gomez,Pre-AP Biology (8th Grade),Biology,2,2,1,1,0.5,0,0
+Angelica.Soto,"Advanced Mathematics, Grade 6",Math,74,62,0.837837838,40,0.540540541,14,0.189189189
+Andrea.Acosta,"Advanced English Language Arts, Grade 6",Reading,75,57,0.76,47,0.626666667,23,0.306666667
+Briana.Vasquez,Pre-AP Biology (8th Grade),Biology,109,94,0.862385321,39,0.357798165,4,0.036697248
+Andrea.Esnayra,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,110,87,0.790909091,46,0.418181818,18,0.163636364
+Tya.Ramos,"Advanced English Language Arts, Grade 7",Reading,93,69,0.741935484,48,0.516129032,20,0.215053763
+Tevin.Henry,"Advanced English Language Arts, Grade 8",Reading,110,95,0.863636364,65,0.590909091,37,0.336363636
+Erick.Munoz,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,109,54,0.495412844,22,0.201834862,9,0.082568807
+Jessica.Garza2,AP Biology,Biology,18,18,1,12,0.666666667,3,0.166666667
+Oscar.Ayala,AP US History,U.S. History,78,76,0.974358974,61,0.782051282,29,0.371794872
+Jessica.Garza2,Pre-AP Biology,Biology,18,18,1,12,0.666666667,3,0.166666667
+Alysondra.Mesa,Pre-AP English I,English I,116,107,0.922413793,94,0.810344828,29,0.25
+Mary.Delacruz,Advanced Algebra 1,Algebra I,65,54,0.830769231,25,0.384615385,11,0.169230769
+Daniella.Gutierrez,"Advanced English Language Arts, Grade 8",Reading,45,32,0.711111111,16,0.355555556,8,0.177777778
+Alejandro.Garza,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,45,18,0.4,6,0.133333333,1,0.022222222
+Samantha.Vasquez2,"Advanced Science, Grade 8-Composite",Science,42,26,0.619047619,13,0.30952381,1,0.023809524
+Daniella.Gutierrez,English II,English II,124,94,0.758064516,76,0.612903226,4,0.032258065
+Marvin.Harris,Advanced Algebra 1,Algebra I,18,11,0.611111111,4,0.222222222,2,0.111111111
+Yamiletz.Salinas,AP Biology,Biology,22,17,0.772727273,4,0.181818182,1,0.045454545
+Natalie.Torres,"Advanced Mathematics, Grade 6",Math,84,53,0.630952381,23,0.273809524,1,0.011904762
+Brenna.Kilbride,"Advanced English Language Arts, Grade 6",Reading,84,61,0.726190476,38,0.452380952,12,0.142857143
+Jennifer.Hall,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,103,75,0.72815534,23,0.223300971,3,0.029126214
+James.Wilcox,"Advanced English Language Arts, Grade 7",Reading,88,60,0.681818182,34,0.386363636,16,0.181818182
+Dohnyka.Dennard,"Advanced English Language Arts, Grade 8",Reading,102,73,0.715686275,44,0.431372549,17,0.166666667
+Kenneth.May2,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,103,45,0.436893204,18,0.174757282,5,0.048543689
+Lamar.Smothers,Pre-AP Biology (8th Grade),Biology,103,91,0.883495146,53,0.514563107,10,0.097087379
+Dharti.Rama,"Advanced Mathematics, Grade 6",Math,53,32,0.603773585,17,0.320754717,8,0.150943396
+Grecia.Guerrero,"Advanced English Language Arts, Grade 6",Reading,104,64,0.615384615,40,0.384615385,14,0.134615385
+Grecia.Guerrero,"Advanced English Language Arts, Grade 7",Reading,104,64,0.615384615,40,0.384615385,14,0.134615385
+Cynthia.Alaniz,"Advanced English Language Arts, Grade 8",Reading,44,32,0.727272727,21,0.477272727,8,0.181818182
+Irvingalexis.Lealrey,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,44,23,0.522727273,9,0.204545455,6,0.136363636
+Amanda.Sanchez1,Math Intervention-3rd,Math,111,16,0.144144144,1,0.009009009,0,0
+Christina.Hull,AP Biology,Biology,1,1,1,1,1,0,0
+Jacob.Thoman,AP US History,U.S. History,73,73,1,57,0.780821918,30,0.410958904
+Kaitlyn.Anderson,Advanced Algebra 1,Algebra I,11,8,0.727272727,3,0.272727273,2,0.181818182
+Aaron.Dimas,Pre-AP Biology,Biology,117,110,0.94017094,83,0.709401709,26,0.222222222
+Melissa.Saenz,Pre-AP English I,English I,113,97,0.85840708,81,0.716814159,27,0.238938053
+Abril.Cosinochavarri,AP US History,U.S. History,78,77,0.987179487,55,0.705128205,26,0.333333333
+Ramiro.Gonzalez,Advanced Algebra 1,Algebra I,10,8,0.8,3,0.3,3,0.3
+Jaqueline.Moreno,Pre-AP Biology,Biology,94,88,0.936170213,72,0.765957447,26,0.276595745
+Amber.Garza,Pre-AP English I,English I,96,71,0.739583333,62,0.645833333,22,0.229166667
+Maria.Cadena,English Language Arts - Grade 7,Reading,130,114,0.876923077,91,0.7,53,0.407692308
+Gisell.Vasquez,"Advanced Mathematics, Grade 6",Math,129,101,0.782945736,73,0.565891473,35,0.271317829
+Olivia.Ruiz,"Advanced English Language Arts, Grade 6",Reading,128,110,0.859375,89,0.6953125,43,0.3359375
+Kendra.Barrientos,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,120,105,0.875,86,0.716666667,49,0.408333333
+Maria.Cadena,"Advanced English Language Arts, Grade 7",Reading,130,114,0.876923077,91,0.7,53,0.407692308
+Alvaro.Pulido,"Advanced English Language Arts, Grade 8",Reading,122,100,0.819672131,82,0.672131148,48,0.393442623
+Bianca.Rodriguez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,122,75,0.614754098,37,0.303278689,12,0.098360656
+Bree.Sharpe,Pre-AP Biology (8th Grade),Biology,120,110,0.916666667,77,0.641666667,25,0.208333333
+Aubree.Diaz,AP Biology,Biology,1,1,1,0,0,0,0
+Samantha.Cancino,Advanced Algebra 1,Algebra I,6,6,1,2,0.333333333,0,0
+Erica.Montalvo,Pre-AP Biology,Biology,74,70,0.945945946,48,0.648648649,11,0.148648649
+Jesus.Gonzalez3,Pre-AP English I,English I,56,37,0.660714286,33,0.589285714,8,0.142857143
+Leopoldo.Fariasiii,Pre-AP Biology,Biology,21,14,0.666666667,3,0.142857143,0,0
+Daniella.Gutierrez,English I,English I,116,72,0.620689655,66,0.568965517,12,0.103448276
+Amaru.Wilson,"Advanced English Language Arts, Grade 6",Reading,108,75,0.694444444,50,0.462962963,24,0.222222222
+Daeja.Perez,"Advanced English Language Arts, Grade 7",Reading,93,70,0.752688172,56,0.602150538,22,0.23655914
+Krystal.Darby,"Advanced Mathematics, Grade 6",Math,107,76,0.710280374,41,0.38317757,9,0.08411215
+Vivian.Yzaguirre,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,99,84,0.848484848,36,0.363636364,10,0.101010101
+Orlando.Williams,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,87,48,0.551724138,19,0.218390805,9,0.103448276
+Malik.Greggs,Pre-AP Biology (8th Grade),Biology,88,83,0.943181818,44,0.5,8,0.090909091
+Amaris.Sanchez,Advanced Algebra 1,Algebra I,12,12,1,6,0.5,2,0.166666667
+Yaritza.Escamilla,Biology,Biology,128,110,0.859375,68,0.53125,18,0.140625
+Patrick.Mcgee,Advanced Algebra 1,Algebra I,16,16,1,13,0.8125,4,0.25
+Brenda.Huerta,English Language Arts - Grade 6 ,Reading,4,0,0,0,0,0,0
+Brenda.Huerta,Mathematics -Grade 6,Math,2,1,0.5,0,0,0,0
+Brenda.Huerta,English Language Arts - Grade 8,Reading,4,0,0,0,0,0,0
+Brenda.Huerta,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Amara.Guerrero,"Advanced Mathematics, Grade 6",Math,66,38,0.575757576,11,0.166666667,1,0.015151515
+Madison.Northcutt,"Advanced English Language Arts, Grade 6",Reading,66,37,0.560606061,27,0.409090909,9,0.136363636
+Claudia.Galindosoto,"Advanced English Language Arts, Grade 7",Reading,80,46,0.575,29,0.3625,12,0.15
+Anthony.Sepulveda,"English Language Arts, Grade 5",Reading,39,24,0.615384615,12,0.307692308,6,0.153846154
+Itzel.Reyna,"Mathematics, Grade 3",Math,109,55,0.504587156,20,0.183486239,8,0.073394495
+Irma.Ramos2,"Mathematics, Grade 4",Math,113,64,0.566371681,29,0.256637168,6,0.053097345
+Cesia.Cepeda,"Mathematics, Grade 5",Math,39,23,0.58974359,14,0.358974359,2,0.051282051
+Christine.Craig,"Science, Grade 4",Science,1,1,1,0,0,0,0
+Cesia.Cepeda,"Science, Grade 5",Science,39,14,0.358974359,6,0.153846154,4,0.102564103
+Emmanuel.Trevino,AP US History,U.S. History,84,82,0.976190476,65,0.773809524,31,0.369047619
+Amy.Remmy,Pre-AP English I,English I,106,93,0.877358491,80,0.754716981,31,0.29245283
+Andrea.Salinas2,Pre-AP Biology,Biology,86,72,0.837209302,48,0.558139535,4,0.046511628
+Janay.Howard,"English Language Arts, Grade 3",Reading,99,48,0.484848485,29,0.292929293,4,0.04040404
+Starr.Morado,"English Language Arts, Grade 4",Reading,91,65,0.714285714,30,0.32967033,6,0.065934066
+Shelby.Williams,"English Language Arts, Grade 5",Reading,110,65,0.590909091,44,0.4,21,0.190909091
+Priscilla.Aime,"Mathematics, Grade 3",Math,101,36,0.356435644,10,0.099009901,2,0.01980198
+Bianca.Jenkins,"Mathematics, Grade 4",Math,91,45,0.494505495,17,0.186813187,1,0.010989011
+Kassandra.Martinez2,"Mathematics, Grade 5",Math,113,69,0.610619469,39,0.345132743,6,0.053097345
+Jackie.Sattiewhite,"Science, Grade 5",Science,114,56,0.49122807,19,0.166666667,10,0.087719298
+Amanda.Sanchez1,Math Intervention-4th,Math,111,16,0.144144144,1,0.009009009,0,0
+Jackson.Green,AP US History,U.S. History,36,35,0.972222222,20,0.555555556,9,0.25
+Aschley.Enriquez,English Language Arts - Grade 6 ,Reading,50,36,0.72,25,0.5,7,0.14
+Stephanie.Sotorodrig,Mathematics -Grade 6,Math,50,34,0.68,12,0.24,5,0.1
+Christopher.Jackson,English Language Arts - Grade 8,Reading,72,49,0.680555556,27,0.375,13,0.180555556
+Phillip.Kee,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,71,40,0.563380282,10,0.14084507,5,0.070422535
+Michaela.Trenton,"Advanced English Language Arts, Grade 7",Reading,60,47,0.783333333,35,0.583333333,20,0.333333333
+Brandon.Horelica,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,71,28,0.394366197,13,0.183098592,5,0.070422535
+Nohely.Alaniz,Pre-AP Biology,Biology,71,57,0.802816901,34,0.478873239,9,0.126760563
+Amanda.Sanchez1,Math Intervention-5th,Math,111,16,0.144144144,1,0.009009009,0,0
+Yaritza.Escamilla,AP Biology,Biology,128,110,0.859375,68,0.53125,18,0.140625
+Candance.Williams,"Science, Grade 4",Science,1,1,1,0,0,0,0
+Marina.Velasquez,Mathematics -Grade 6,Math,5,0,0,0,0,0,0
+Marina.Velasquez,English Language Arts - Grade 6 ,Reading,8,0,0,0,0,0,0
+Roxanna.Escobedo,"Advanced Mathematics, Grade 6",Math,133,118,0.887218045,76,0.571428571,27,0.203007519
+Natasha.Villarreal,"Advanced English Language Arts, Grade 6",Reading,133,119,0.894736842,94,0.706766917,51,0.383458647
+Cristina.Deltoro,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,122,107,0.87704918,62,0.508196721,38,0.31147541
+Laura.Gonzalez1,"Advanced English Language Arts, Grade 7",Reading,129,113,0.875968992,82,0.635658915,45,0.348837209
+Diana.Chavez1,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,122,101,0.827868852,66,0.540983607,40,0.327868852
+Dulce.Colunga,Pre-AP Biology,Biology,122,116,0.950819672,84,0.68852459,25,0.204918033
+Paulina.Guerra,"Pre-AP English Language Arts, Grade 8",Reading,123,110,0.894308943,84,0.682926829,49,0.398373984
+Jennifer.Stolze,Mathematics -Grade 7,Math,1,0,0,0,0,0,0
+Jennifer.Stolze,English Language Arts - Grade 7,Reading,3,1,0.333333333,0,0,0,0
+Jennifer.Stolze,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Jennifer.Stolze,English Language Arts - Grade 8,Reading,3,1,0.333333333,0,0,0,0
+Christine.Hinojosa,Pre-AP Biology,Biology,23,21,0.913043478,13,0.565217391,1,0.043478261
+Brittany.Brown2,Advanced Algebra 1,Algebra I,11,6,0.545454545,0,0,0,0
+Lynnea.Compton,Pre-AP Biology,Biology,12,12,1,5,0.416666667,0,0
+Destiny.Morris,Pre-AP English I,English I,77,60,0.779220779,49,0.636363636,15,0.194805195
+Cassandra.Pena,"English Language Arts, Grade 3",Reading,106,89,0.839622642,52,0.490566038,26,0.245283019
+Lesly.Garza,"English Language Arts, Grade 4",Reading,104,78,0.75,41,0.394230769,21,0.201923077
+Hannah.Lopez,"English Language Arts, Grade 5",Reading,113,101,0.89380531,67,0.592920354,30,0.265486726
+Beatriz.Vasquez,"Mathematics, Grade 3",Math,106,75,0.70754717,38,0.358490566,14,0.132075472
+Roberto.Guzman1,"Mathematics, Grade 4",Math,104,67,0.644230769,39,0.375,11,0.105769231
+Jose.Gonzalez6,"Mathematics, Grade 5",Math,113,95,0.840707965,58,0.513274336,20,0.17699115
+Josie.Govea,"Science, Grade 5",Science,113,74,0.654867257,33,0.292035398,11,0.097345133
+Rebecca.Gregory,Humanities - Grade 8,Social Studies,3,0,0,0,0,0,0
+Rebecca.Gregory,English Language Arts - Grade 8,Reading,7,0,0,0,0,0,0
+Sarah.Perez,Advanced Algebra 1,Algebra I,12,11,0.916666667,3,0.25,2,0.166666667
+Munir.Shakir,Pre-AP Biology,Biology,17,15,0.882352941,5,0.294117647,2,0.117647059
+Luis.Correa,Advanced Algebra 1,Algebra I,7,6,0.857142857,3,0.428571429,1,0.142857143
+Hamp.Brown,Advanced Algebra 1,Algebra I,26,9,0.346153846,1,0.038461538,0,0
+Wendy.Bradford,Pre-AP Biology,Biology,31,22,0.709677419,6,0.193548387,0,0
+Mikayla.Williams,Pre-AP English I,English I,117,77,0.658119658,56,0.478632479,3,0.025641026
+Margaret.Summers,English Language Arts - Grade 7,Reading,9,0,0,0,0,0,0
+Betty.Berggren,English Language Arts - Grade 8,Reading,4,0,0,0,0,0,0
+Betty.Berggren,Humanities - Grade 8,Social Studies,4,0,0,0,0,0,0
+Michelle.Gonsalez,Pre-AP English I,English I,60,37,0.616666667,31,0.516666667,7,0.116666667
+Marissa.Cepedaluna,"Advanced Mathematics, Grade 6",Math,129,96,0.744186047,51,0.395348837,14,0.108527132
+Gisela.Castillo,"Advanced English Language Arts, Grade 6",Reading,129,99,0.76744186,71,0.550387597,25,0.19379845
+Sonia.Martinez,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,117,104,0.888888889,57,0.487179487,24,0.205128205
+Paulina.Mendoza,"Advanced English Language Arts, Grade 7",Reading,122,93,0.762295082,70,0.573770492,37,0.303278689
+Alexandra.Estrada,"Advanced English Language Arts, Grade 8",Reading,118,88,0.745762712,57,0.483050847,28,0.237288136
+Rene.Jaime,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,117,47,0.401709402,20,0.170940171,4,0.034188034
+Victoria.Garza3,Pre-AP Biology (8th Grade),Biology,117,104,0.888888889,60,0.512820513,9,0.076923077
+Matthew.Perez,"Advanced Mathematics, Grade 6",Math,116,80,0.689655172,49,0.422413793,13,0.112068966
+Savannah.Dill,"Advanced English Language Arts, Grade 6",Reading,116,91,0.784482759,70,0.603448276,32,0.275862069
+Laura.Griffin,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,73,58,0.794520548,22,0.301369863,6,0.082191781
+Jeremy.Rodriguez2,"Advanced English Language Arts, Grade 7",Reading,105,86,0.819047619,67,0.638095238,43,0.40952381
+Domonique.Johnson,"Advanced English Language Arts, Grade 8",Reading,73,64,0.876712329,42,0.575342466,21,0.287671233
+Joseph.Vasquez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,73,39,0.534246575,17,0.232876712,5,0.068493151
+Andrea.Salinas2,Pre-AP Biology (8th Grade),Biology,86,72,0.837209302,48,0.558139535,4,0.046511628
+Alyson.Harrison,Pre-AP English I,English I,56,53,0.946428571,48,0.857142857,16,0.285714286
+Tamara.Delafuente,AP US History,U.S. History,76,72,0.947368421,58,0.763157895,34,0.447368421
+Carmetrice.Solomon,"Mathematics, Grade 3",Math,105,56,0.533333333,19,0.180952381,1,0.00952381
+Corrie.Hall,"English Language Arts, Grade 3",Reading,105,67,0.638095238,39,0.371428571,10,0.095238095
+Alejandra.Guzman,"English Language Arts, Grade 3",Reading,126,90,0.714285714,68,0.53968254,33,0.261904762
+Vanessa.Serna,"English Language Arts, Grade 4",Reading,120,85,0.708333333,57,0.475,26,0.216666667
+Diana.Avila,"English Language Arts, Grade 5",Reading,108,77,0.712962963,54,0.5,22,0.203703704
+Roberto.Arellano,"Mathematics, Grade 3",Math,125,76,0.608,33,0.264,11,0.088
+Hector.Soteloguzman,"Mathematics, Grade 4",Math,120,57,0.475,33,0.275,13,0.108333333
+Luis.Rodriguez3,"Mathematics, Grade 5",Math,108,87,0.805555556,41,0.37962963,7,0.064814815
+Jessica.Garcia5,"Science, Grade 5",Science,108,73,0.675925926,31,0.287037037,15,0.138888889
+Margaret.Summers,English Language Arts - Grade 6 ,Reading,9,0,0,0,0,0,0
+Margaret.Summers,Mathematics -Grade 6,Math,7,0,0,0,0,0,0
+Steven.Neiheisel,Advanced Algebra 1,Algebra I,118,95,0.805084746,45,0.381355932,20,0.169491525
+Cecilia.Martinez2,Pre-AP Biology,Biology,131,121,0.923664122,72,0.549618321,14,0.106870229
+Cynthia.Urteaga,Pre-AP English I,English I,80,68,0.85,61,0.7625,21,0.2625
+Alanisa.Galindo,Advanced Algebra 1,Algebra I,13,9,0.692307692,5,0.384615385,0,0
+Jaritze.Calderon,Pre-AP Biology,Biology,15,12,0.8,7,0.466666667,1,0.066666667
+Latoya.Brown,"Mathematics, Grade 3",Math,117,59,0.504273504,24,0.205128205,5,0.042735043
+Marissa.Velazquez,"Science, Grade 5",Science,30,18,0.6,10,0.333333333,1,0.033333333
+Marissa.Velazquez,"Mathematics, Grade 5",Math,30,23,0.766666667,11,0.366666667,4,0.133333333
+Marissa.Velazquez,"English Language Arts, Grade 5",Reading,30,19,0.633333333,14,0.466666667,9,0.3
+Kathryn.Oneill,English Language Arts - Grade 8,Reading,2,0,0,0,0,0,0
+Kathryn.Oneill,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Jalal.Elrosoul,"English Language Arts, Grade 3",Reading,117,79,0.675213675,42,0.358974359,17,0.145299145
+Roberta.Flores,"Mathematics, Grade 3",Math,88,43,0.488636364,12,0.136363636,1,0.011363636
+Marco.Aguilar2,Pre-AP Biology,Biology,19,18,0.947368421,9,0.473684211,1,0.052631579
+Juan.Garcia8,Advanced Algebra 1,Algebra I,13,9,0.692307692,2,0.153846154,1,0.076923077
+Rosalie.Carr,Pre-AP Biology,Biology,15,13,0.866666667,5,0.333333333,0,0
+Abubakar.Abubakar,Pre-AP English I,English I,63,48,0.761904762,43,0.682539683,11,0.174603175
+Amberlee.Ortiz,"English Language Arts, Grade 3",Reading,88,44,0.5,30,0.340909091,14,0.159090909
+Kimberly.Teran,Advanced Algebra 1,Algebra I,17,17,1,10,0.588235294,5,0.294117647
+Leroy.Waterman,Advanced Algebra 1,Algebra I,19,9,0.473684211,2,0.105263158,1,0.052631579
+Arturo.Torres2,Advanced Algebra 1,Algebra I,8,7,0.875,2,0.25,0,0
+Jesus.Cavazos,AP US History,U.S. History,67,66,0.985074627,48,0.71641791,19,0.28358209
+Juan.Carranzachavez,Advanced Algebra 1,Algebra I,12,5,0.416666667,0,0,0,0
+Maria.Gonzalezperez,"Advanced Mathematics, Grade 7 Pre-Algebr",Algebra I,1,0,0,0,0,0,0
+Dominic.Pierce,"Advanced Social Studies, Grade 7-Texas H",Social Studies,1,0,0,0,0,0,0
+Erik.Mariscal2,English Language Arts - Grade 6 ,Reading,1,0,0,0,0,0,0
+Erik.Mariscal2,Mathematics -Grade 6,Math,1,1,1,0,0,0,0
+Daniel.Gomez,Mathematics -Grade 6,Math,3,2,0.666666667,0,0,0,0
+Daniel.Gomez,English Language Arts - Grade 6 ,Reading,5,2,0.4,0,0,0,0
+Marla.Salinas,Advanced Algebra 1,Algebra I,24,18,0.75,6,0.25,2,0.083333333
+Stephanie.Fisher,Pre-AP Biology,Biology,27,26,0.962962963,14,0.518518519,2,0.074074074
+Alysha.Johnson,Pre-AP English I,English I,110,90,0.818181818,80,0.727272727,29,0.263636364
+Kenya.Bland,"English Language Arts, Grade 4",Reading,58,45,0.775862069,21,0.362068966,10,0.172413793
+Gabriela.Botello,"Mathematics, Grade 4",Math,115,57,0.495652174,32,0.27826087,6,0.052173913
+Kathya.Valladares,Advanced Algebra 1,Algebra I,12,12,1,6,0.5,3,0.25
+Angela.Ramirez2,Pre-AP Biology (8th Grade),Biology,12,7,0.583333333,2,0.166666667,0,0
+Tara.Quiroz,"Mathematics, Grade 3",Math,111,74,0.666666667,33,0.297297297,7,0.063063063
+Rebekah.Saiz,"English Language Arts, Grade 3",Reading,108,80,0.740740741,50,0.462962963,25,0.231481481
+Trinity.Luna,"English Language Arts, Grade 4",Reading,116,93,0.801724138,47,0.405172414,22,0.189655172
+Carlos.Llamas,AP Biology,Biology,1,1,1,0,0,0,0
+Rebecca.Gregory,Mathematics -Grade 7,Math,4,0,0,0,0,0,0
+Rebecca.Gregory,English Language Arts - Grade 7,Reading,7,0,0,0,0,0,0
+Rebecca.Gregory,Mathematics -Grade 6,Math,4,0,0,0,0,0,0
+Rebecca.Gregory,English Language Arts - Grade 6 ,Reading,7,0,0,0,0,0,0
+Jennifer.Bravo,Advanced Algebra 1,Algebra I,13,5,0.384615385,1,0.076923077,1,0.076923077
+Alquin.Spencer,Pre-AP Biology,Biology,11,10,0.909090909,3,0.272727273,0,0
+Travis.Sanders,Advanced Algebra 1,Algebra I,10,3,0.3,0,0,0,0
+Marco.Aguilar2,AP Biology,Biology,19,18,0.947368421,9,0.473684211,1,0.052631579
+Lizette.Maldonado,English Language Arts - Grade 8,Reading,8,1,0.125,0,0,0,0
+Deborah.Andrepoint,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Leticia.Gutierrezled,Mathematics -Grade 8,Math,7,1,0.142857143,1,0.142857143,0,0
+Leticia.Gutierrezled,Science - Grade 8,Science,1,0,0,0,0,0,0
+Annemarie.Hensley,AP US History,U.S. History,78,75,0.961538462,51,0.653846154,26,0.333333333
+Sofonias.Gebre,Pre-AP Biology,Biology,88,70,0.795454545,41,0.465909091,11,0.125
+Marvin.Mendoza,Pre-AP English I,English I,92,63,0.684782609,44,0.47826087,18,0.195652174
+Lou.Delacruz,Pre-AP Biology,Biology,126,120,0.952380952,75,0.595238095,17,0.134920635
+Tameka.Thomas,English II,English II,2,0,0,0,0,0,0
+Victoria.Rodulfo,Mathematics -Grade 7,Math,4,0,0,0,0,0,0
+Victoria.Rodulfo,English Language Arts - Grade 7,Reading,4,0,0,0,0,0,0
+Victoria.Rodulfo,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Victoria.Rodulfo,Science - Grade 8,Science,2,0,0,0,0,0,0
+Victoria.Rodulfo,English Language Arts - Grade 8,Reading,4,0,0,0,0,0,0
+Victoria.Rodulfo,Mathematics -Grade 8,Math,4,0,0,0,0,0,0
+Linette.Garza,"Advanced English Language Arts, Grade 8",Reading,84,76,0.904761905,54,0.642857143,35,0.416666667
+Victor.Gonzalez,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,83,64,0.771084337,35,0.421686747,18,0.21686747
+Graciela.Alvarez,Pre-AP Biology (8th Grade),Biology,82,80,0.975609756,59,0.719512195,28,0.341463415
+Joanna.Mendez,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,82,60,0.731707317,41,0.5,26,0.317073171
+Melissa.Faulkner,"Advanced Mathematics, Grade 7 Pre-Algebr",Algebra I,1,1,1,1,1,0,0
+Cynthia.Martinez3,"Advanced English Language Arts, Grade 7",Reading,2,0,0,0,0,0,0
+Lizette.Maldonado,English Language Arts - Grade 6 ,Reading,8,1,0.125,0,0,0,0
+Leticia.Gutierrezled,Mathematics -Grade 6,Math,7,1,0.142857143,1,0.142857143,0,0
+Sanjuanita.Garcia,Mathematics -Grade 7,Math,1,0,0,0,0,0,0
+Sanjuanita.Garcia,English Language Arts - Grade 7,Reading,2,0,0,0,0,0,0
+Sanjuanita.Garcia,English Language Arts - Grade 8,Reading,2,0,0,0,0,0,0
+Sanjuanita.Garcia,Humanities - Grade 8,Social Studies,1,0,0,0,0,0,0
+Esperanza.Carraman,"English Language Arts, Grade 4",Reading,45,39,0.866666667,24,0.533333333,10,0.222222222
+Katia.Trevino,"Mathematics, Grade 4",Math,46,37,0.804347826,18,0.391304348,3,0.065217391
+Esperanza.Carraman,"English Language Arts, Grade 5",Reading,45,39,0.866666667,24,0.533333333,10,0.222222222
+Aaron.Botello,"Science, Grade 5",Science,23,19,0.826086957,11,0.47826087,1,0.043478261
+Katia.Trevino,"Mathematics, Grade 5",Math,46,37,0.804347826,18,0.391304348,3,0.065217391
+Daniel.Loredo,Advanced Algebra 1,Algebra I,12,11,0.916666667,0,0,0,0
+Victor.Deltoro,"Advanced Mathematics, Grade 7 Pre-Algebr",Algebra I,1,1,1,1,1,0,0
+Marina.Velasquez,Mathematics -Grade 7,Math,5,0,0,0,0,0,0
+Marina.Velasquez,English Language Arts - Grade 7,Reading,8,0,0,0,0,0,0
+Marina.Velasquez,English Language Arts - Grade 8,Reading,8,0,0,0,0,0,0
+Marina.Velasquez,Humanities - Grade 8,Social Studies,3,0,0,0,0,0,0
+Alexis.Bosler,English Language Arts - Grade 7,Reading,3,0,0,0,0,0,0
+Alexis.Bosler,Mathematics -Grade 7,Math,3,0,0,0,0,0,0
+Iris.Zamora,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,96,42,0.4375,17,0.177083333,5,0.052083333
+Ana.Correa,"Advanced English Language Arts, Grade 8",Reading,96,74,0.770833333,50,0.520833333,23,0.239583333
+Keyla.Zamora,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,96,72,0.75,27,0.28125,10,0.104166667
+Odalys.Rodriguez2,Pre-AP Biology (8th Grade),Biology,95,86,0.905263158,45,0.473684211,9,0.094736842
+Anthony.Coleman2,Pre-AP Biology,Biology,12,11,0.916666667,6,0.5,1,0.083333333
+Karina.Magallanez,"Science, Grade 5",Science,109,65,0.596330275,26,0.23853211,8,0.073394495
+Jernelle.English,"English Language Arts, Grade 5",Reading,109,79,0.724770642,57,0.52293578,25,0.229357798
+Fatima.Villarreal,"Mathematics, Grade 5",Math,109,86,0.788990826,55,0.504587156,6,0.055045872
+Derrick.Gonzales,"Advanced English Language Arts, Grade 8",Reading,90,80,0.888888889,54,0.6,29,0.322222222
+Tamar.Dsouza,Advanced Algebra 1,Algebra I,13,10,0.769230769,4,0.307692308,0,0
+Ariel.Reyes,Pre-AP Biology,Biology,18,17,0.944444444,6,0.333333333,3,0.166666667
+Armando.Gallardo,IB Biology SL-Year I,Biology,2,2,1,1,0.5,0,0
+Linda.Trevinoestrada,English Language Arts - Grade 7,Reading,2,0,0,0,0,0,0
+Linda.Trevinoestrada,Mathematics -Grade 7,Math,2,0,0,0,0,0,0
+Viviane.Manzano,English II,English II,26,18,0.692307692,18,0.692307692,2,0.076923077
+Yumaira.Gomezcavazos,Math Intervention-3rd,Math,45,13,0.288888889,2,0.044444444,1,0.022222222
+Diana.Carrillo,English Language Arts - Grade 6 ,Reading,2,1,0.5,1,0.5,0,0
+Diana.Carrillo,Mathematics -Grade 6,Math,1,0,0,0,0,0,0
+Jimmie.Griffin,Mathematics -Grade 6,Math,5,0,0,0,0,0,0
+Jimmie.Griffin,English Language Arts - Grade 6 ,Reading,5,0,0,0,0,0,0
+Katelyn.Bansek,English Language Arts - Grade 8,Reading,1,0,0,0,0,0,0
+Katelyn.Bansek,Humanities - Grade 8,Social Studies,1,0,0,0,0,0,0
+Jacob.Solis,AP Biology,Biology,2,2,1,0,0,0,0
+Eric.Anchondo,Advanced Algebra 1,Algebra I,14,9,0.642857143,2,0.142857143,1,0.071428571
+Dora.Paz,Mathematics -Grade 6,Math,3,1,0.333333333,0,0,0,0
+Dora.Paz,English Language Arts - Grade 6 ,Reading,3,0,0,0,0,0,0
+Jennifer.Dye,English Language Arts - Grade 6 ,Reading,3,0,0,0,0,0,0
+Jennifer.Dye,Mathematics -Grade 6,Math,3,1,0.333333333,0,0,0,0
+Angela.Zimmerman,Mathematics -Grade 6,Math,6,0,0,0,0,0,0
+Angela.Zimmerman,English Language Arts - Grade 6 ,Reading,8,0,0,0,0,0,0
+Jannett.Aguinaga,English II,English II,2,2,1,2,1,2,1
+Margaret.Summers,English Language Arts - Grade 8,Reading,9,0,0,0,0,0,0
+Margaret.Summers,Mathematics -Grade 8,Math,7,0,0,0,0,0,0
+Margaret.Summers,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Sarah.Liu,Advanced Algebra 1,Algebra I,12,10,0.833333333,2,0.166666667,0,0
+Eduardo.Saldana,Pre-AP Biology,Biology,18,15,0.833333333,7,0.388888889,0,0
+Margaret.Summers,Science - Grade 8,Science,2,0,0,0,0,0,0
+Angela.Zimmerman,Mathematics -Grade 7,Math,6,0,0,0,0,0,0
+Angela.Zimmerman,English Language Arts - Grade 7,Reading,8,0,0,0,0,0,0
+Margaret.Summers,Mathematics -Grade 7,Math,7,0,0,0,0,0,0
+Sarahi.Ontiveros,Pre-AP Biology (8th Grade),Biology,127,121,0.952755906,83,0.653543307,18,0.141732283
+Ildah.Leija,Mathematics -Grade 7,Math,23,0,0,0,0,0,0
+Ildah.Leija,English Language Arts - Grade 7,Reading,14,0,0,0,0,0,0
+Ildah.Leija,Math Intervention-7th,Math,23,0,0,0,0,0,0
+Robert.Eguia,Pre-AP Biology,Biology,24,22,0.916666667,15,0.625,4,0.166666667
+Vivian.Yzaguirre,Advanced Algebra 1,Algebra I,99,84,0.848484848,36,0.363636364,10,0.101010101
+Tempestt.Venable,English Language Arts - Grade 8,Reading,2,0,0,0,0,0,0
+Tempestt.Venable,Science - Grade 8,Science,2,0,0,0,0,0,0
+Tempestt.Venable,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Tempestt.Venable,Mathematics -Grade 8,Math,2,0,0,0,0,0,0
+Lizette.Maldonado,English Language Arts - Grade 7,Reading,8,1,0.125,0,0,0,0
+Leticia.Gutierrezled,Mathematics -Grade 7,Math,7,1,0.142857143,1,0.142857143,0,0
+Campbell.Green,English Language Arts - Grade 8,Reading,2,0,0,0,0,0,0
+Campbell.Green,Humanities - Grade 8,Social Studies,1,0,0,0,0,0,0
+Campbell.Green,Science - Grade 8,Science,1,0,0,0,0,0,0
+Jerrica.Newman,English Language Arts - Grade 8,Reading,5,0,0,0,0,0,0
+Jerrica.Newman,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Jennifer.Culwell,English Language Arts - Grade 8,Reading,113,106,0.938053097,79,0.699115044,46,0.407079646
+Cecilia.Vasquez,Math Intervention-3rd,Math,85,28,0.329411765,7,0.082352941,0,0
+Cecilia.Vasquez,Math Intervention-5th,Math,85,28,0.329411765,7,0.082352941,0,0
+Cecilia.Vasquez,Math Intervention-4th,Math,85,28,0.329411765,7,0.082352941,0,0
+Alejandra.Najera,Mathematics -Grade 6,Math,2,1,0.5,0,0,0,0
+Alexis.Bosler,English Language Arts - Grade 6 ,Reading,3,0,0,0,0,0,0
+Alexis.Bosler,Mathematics -Grade 6,Math,3,0,0,0,0,0,0
+,"English Language Arts, Grade 5",Reading,121,87,0.719008264,59,0.487603306,14,0.115702479
+Lizeth.Bocanegra,Math Intervention-3rd,Math,40,17,0.425,3,0.075,0,0
+Lizeth.Bocanegra,Math Intervention-4th,Math,40,17,0.425,3,0.075,0,0
+Lizeth.Bocanegra,Math Intervention-5th,Math,40,17,0.425,3,0.075,0,0
+Abigail.Zamorano,Math Intervention-6th,Math,21,4,0.19047619,1,0.047619048,0,0
+Abigail.Zamorano,Math Intervention-7th,Math,21,4,0.19047619,1,0.047619048,0,0
+Andrea.Cantu,AP Biology,Biology,17,10,0.588235294,3,0.176470588,2,0.117647059
+Patricia.Gutierrez,"Advanced Science, Grade 6-Earth Science",Science,1,1,1,0,0,0,0
+Kassandra.Leija,Mathematics -Grade 8,Math,2,0,0,0,0,0,0
+Kassandra.Leija,English Language Arts - Grade 8,Reading,2,0,0,0,0,0,0
+Lazarus.Roth,English Language Arts - Grade 7,Reading,109,71,0.651376147,44,0.403669725,22,0.201834862
+Adriana.Guzman,Math Intervention-3rd,Math,32,4,0.125,0,0,0,0
+Adriana.Guzman,Math Intervention-5th,Math,32,4,0.125,0,0,0,0
+Kassandra.Leija,English Language Arts - Grade 7,Reading,2,0,0,0,0,0,0
+Kassandra.Leija,Mathematics -Grade 7,Math,2,0,0,0,0,0,0
+Adriana.Guzman,Math Intervention-4th,Math,32,4,0.125,0,0,0,0
+Jerrica.Newman,Mathematics -Grade 8,Math,4,0,0,0,0,0,0
+Marcela.Mireles,"English Language Arts, Grade 3",Reading,53,49,0.924528302,42,0.79245283,21,0.396226415
+Hannah.Robinson,English I,English I,74,64,0.864864865,56,0.756756757,23,0.310810811
+Hussain.Dhanani,English Language Arts - Grade 8,Reading,4,0,0,0,0,0,0
+Hussain.Dhanani,Humanities - Grade 8,Social Studies,4,0,0,0,0,0,0
+Sydnee.Mitchelljemis,Pre-AP Biology,Biology,28,26,0.928571429,5,0.178571429,1,0.035714286
+Janae.Hammond,Advanced Algebra 1,Algebra I,45,26,0.577777778,4,0.088888889,2,0.044444444
+Bridget.Barrientez,English Language Arts - Grade 8,Reading,7,0,0,0,0,0,0
+Alma.Olmos,Math Intervention-6th,Math,125,70,0.56,26,0.208,7,0.056
+Jordynn.Wilson,Algebra 1,Algebra I,111,89,0.801801802,38,0.342342342,15,0.135135135
+Victoria.Ramirez,Math Intervention-3rd,Math,17,3,0.176470588,0,0,0,0
+Victoria.Ramirez,Math Intervention-4th,Math,17,3,0.176470588,0,0,0,0
+Victoria.Ramirez,Math Intervention-5th,Math,17,3,0.176470588,0,0,0,0
+Claudia.Reyes,"Advanced Mathematics, Grade 6",Math,8,1,0.125,0,0,0,0
+Michelle.Cantu2,"Advanced English Language Arts, Grade 6",Reading,13,3,0.230769231,0,0,0,0
+Michelle.Cantu2,"Advanced English Language Arts, Grade 7",Reading,13,3,0.230769231,0,0,0,0
+Claudia.Reyes,"Advanced Mathematics, Grade 8-Algebra I",Algebra I,2,1,0.5,0,0,0,0
+Michelle.Cantu2,"Advanced English Language Arts, Grade 8",Reading,13,3,0.230769231,0,0,0,0
+Elia.Guzman,Math Intervention-5th,Math,106,34,0.320754717,7,0.066037736,0,0
+Melanie.Kaesberg,Mathematics -Grade 6,Math,5,1,0.2,0,0,0,0
+Melanie.Kaesberg,English Language Arts - Grade 6 ,Reading,5,0,0,0,0,0,0
+Ildah.Leija,Mathematics -Grade 6,Math,23,0,0,0,0,0,0
+Ildah.Leija,English Language Arts - Grade 6 ,Reading,14,0,0,0,0,0,0
+Ildah.Leija,Math Intervention-6th,Math,23,0,0,0,0,0,0
+Santiago.Limon,Pre-AP Biology,Biology,9,6,0.666666667,2,0.222222222,1,0.111111111
+Russell.Willis,Pre-AP Biology,Biology,20,16,0.8,4,0.2,2,0.1
+Jonathon.Ortiz,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,100,49,0.49,16,0.16,3,0.03
+Mark.Bracey,"Advanced English Language Arts, Grade 8",Reading,100,73,0.73,47,0.47,24,0.24
+Alexandria.Greene,"Advanced English Language Arts, Grade 8",Reading,165,102,0.618181818,63,0.381818182,33,0.2
+Elia.Guzman,Math Intervention-4th,Math,106,34,0.320754717,7,0.066037736,0,0
+Isaac.Martinez2,Algebra 1,Algebra I,100,84,0.84,39,0.39,8,0.08
+Diana.Suarez1,Biology,Biology,109,102,0.935779817,51,0.467889908,12,0.110091743
+Stephanie.Clark,Algebra 1,Algebra I,3,3,1,2,0.666666667,0,0
+Laura.Amador,Pre-AP English I,English I,2,0,0,0,0,0,0
+Elia.Guzman,Math Intervention-3rd,Math,106,34,0.320754717,7,0.066037736,0,0
+Erica.Garza2,English Language Arts - Grade 7,Reading,1,0,0,0,0,0,0
+Erica.Garza2,Mathematics -Grade 7,Math,1,0,0,0,0,0,0
+Monica.Nevarez,Math Intervention-4th,Math,66,26,0.393939394,5,0.075757576,0,0
+Monica.Nevarez,Math Intervention-5th,Math,66,26,0.393939394,5,0.075757576,0,0
+Kara.Paulino,"English Language Arts, Grade 3",Reading,86,66,0.76744186,48,0.558139535,21,0.244186047
+Melinda.Perezcaro,Math Intervention-3rd,Math,44,18,0.409090909,7,0.159090909,0,0
+Melinda.Perezcaro,Math Intervention-4th,Math,44,18,0.409090909,7,0.159090909,0,0
+Melinda.Perezcaro,Math Intervention-5th,Math,44,18,0.409090909,7,0.159090909,0,0
+Ildah.Leija,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Ildah.Leija,English Language Arts - Grade 8,Reading,14,0,0,0,0,0,0
+Yumaira.Gomezcavazos,"Mathematics, Grade 5",Math,45,13,0.288888889,2,0.044444444,1,0.022222222
+Steven.Guerrero,Math Intervention-3rd,Math,118,69,0.584745763,35,0.296610169,11,0.093220339
+Austin.Gallego,Advanced Algebra 1,Algebra I,96,84,0.875,42,0.4375,14,0.145833333
+Alejandra.Najera,Humanities - Grade 8,Social Studies,1,0,0,0,0,0,0
+Alejandra.Najera,English Language Arts - Grade 8,Reading,2,0,0,0,0,0,0
+Tanisha.Leblanc,Math Intervention-3rd,Math,82,38,0.463414634,17,0.207317073,1,0.012195122
+Tanisha.Leblanc,Math Intervention-4th,Math,82,38,0.463414634,17,0.207317073,1,0.012195122
+Tanisha.Leblanc,Math Intervention-5th,Math,82,38,0.463414634,17,0.207317073,1,0.012195122
+Natalie.Sanchez,Mathematics -Grade 7,Math,7,3,0.428571429,0,0,0,0
+Natalie.Sanchez,English Language Arts - Grade 7,Reading,7,1,0.142857143,0,0,0,0
+Thuya.Aung,Math Intervention-6th,Math,234,143,0.611111111,63,0.269230769,10,0.042735043
+Thuya.Aung,Math Intervention-7th,Math,234,143,0.611111111,63,0.269230769,10,0.042735043
+Yolanda.Johnson,English Language Arts - Grade 8,Reading,3,0,0,0,0,0,0
+Yolanda.Johnson,Humanities - Grade 8,Social Studies,2,1,0.5,0,0,0,0
+,AP US History,U.S. History,1,1,1,0,0,0,0
+Natalie.Gifford,"English Language Arts, Grade 3",Reading,8,0,0,0,0,0,0
+Natalie.Gifford,"Mathematics, Grade 3",Math,8,0,0,0,0,0,0
+Natalie.Gifford,"Mathematics, Grade 4",Math,8,0,0,0,0,0,0
+Natalie.Gifford,"English Language Arts, Grade 4",Reading,8,0,0,0,0,0,0
+Natalie.Gifford,"Mathematics, Grade 5",Math,8,0,0,0,0,0,0
+Natalie.Gifford,"English Language Arts, Grade 5",Reading,8,0,0,0,0,0,0
+Natalie.Gifford,"Science, Grade 5",Science,2,0,0,0,0,0,0
+Carla.Rios,Advanced Algebra 1,Algebra I,2,2,1,2,1,0,0
+Ruth.Knecht,Math Intervention-3rd,Math,116,74,0.637931034,32,0.275862069,11,0.094827586
+Kenieka.Francis,English Language Arts - Grade 8,Reading,3,0,0,0,0,0,0
+Kenieka.Francis,Science - Grade 8,Science,2,0,0,0,0,0,0
+Kenieka.Francis,Humanities - Grade 8,Social Studies,2,0,0,0,0,0,0
+Kenieka.Francis,Mathematics -Grade 8,Math,3,0,0,0,0,0,0
+Kenieka.Francis,English Language Arts - Grade 7,Reading,3,0,0,0,0,0,0
+Kenieka.Francis,Mathematics -Grade 7,Math,3,0,0,0,0,0,0
+Ashley.Cardenas,"English Language Arts, Grade 5",Reading,233,205,0.879828326,147,0.630901288,86,0.369098712
+Briana.Adames,"English Language Arts, Grade 4",Reading,116,101,0.870689655,70,0.603448276,41,0.353448276
+Amanda.Morrishartoug,Pre-AP Biology (8th Grade),Biology,33,30,0.909090909,16,0.484848485,8,0.242424242
+Krystal.Garza2,"Advanced Social Studies, Gr 8-U.S. Histo",Social Studies,31,15,0.483870968,9,0.290322581,4,0.129032258
+Marissa.Gomez,Math Intervention-4th,Math,14,3,0.214285714,0,0,0,0
+Marissa.Gomez,Math Intervention-5th,Math,14,3,0.214285714,0,0,0,0
+Javier.Tovar,US History,U.S. History,67,66,0.985074627,53,0.791044776,29,0.432835821
+Lyzette.Garza,"Science, Grade 4",Science,1,0,0,0,0,0,0
+Carly.Medeiros,"English Language Arts, Grade 5",Reading,3,1,0.333333333,0,0,0,0
+Samantha.Medeirosort,"Science, Grade 5",Science,3,1,0.333333333,0,0,0,0
+Linda.Nichols,"Mathematics, Grade 5",Math,4,3,0.75,0,0,0,0
+Annette.Longoria,Math Intervention-6th,Math,31,20,0.64516129,6,0.193548387,1,0.032258065
+Lindsay.Medina,Math Intervention-6th,Math,185,120,0.648648649,73,0.394594595,19,0.102702703
+Paola.Moreno,"Mathematics, Grade 8",Math,15,0,0,0,0,0,0
+Paola.Moreno,"Science, Grade 8-Composite",Science,4,0,0,0,0,0,0
+Dana.Sepulveda,"Mathematics, Grade 8",Math,14,0,0,0,0,0,0
+Dana.Sepulveda,"Science, Grade 8-Composite",Science,4,2,0.5,0,0,0,0
+Lindsay.Medina,Math Intervention-7th,Math,185,120,0.648648649,73,0.394594595,19,0.102702703
+Robert.Watkins,Math Intervention-7th,Math,32,21,0.65625,18,0.5625,5,0.15625
+Jaqueline.Becerra,Pre-AP Biology,Biology,99,90,0.909090909,67,0.676767677,24,0.242424242
+Linda.Nichols,"Mathematics, Grade 4",Math,4,3,0.75,0,0,0,0
+Samantha.Medeirosort,"English Language Arts, Grade 4",Reading,1,0,0,0,0,0,0
+Yolanda.Johnson,Mathematics -Grade 8,Math,2,1,0.5,0,0,0,0
+Yolanda.Johnson,Science - Grade 8,Science,1,0,0,0,0,0,0
+Campbell.Green,English Language Arts - Grade 7,Reading,2,0,0,0,0,0,0
+Bree.Sharpe,"Advanced Science, Grade 8-Composite",Science,1,1,1,1,1,0,0
+Leticia.Gutierrezled,English Language Arts - Grade 6 ,Reading,4,1,0.25,0,0,0,0
+Jordynn.Wilson,Advanced Algebra 1,Algebra I,111,89,0.801801802,38,0.342342342,15,0.135135135
+Alejandra.Najera,English Language Arts - Grade 6 ,Reading,2,0,0,0,0,0,0
+Jerrica.Newman,English Language Arts - Grade 6 ,Reading,5,0,0,0,0,0,0
+Jerrica.Newman,Mathematics -Grade 6,Math,4,0,0,0,0,0,0
+Angela.Zimmerman,Pre-AP English I,English I,1,0,0,0,0,0,0
+Angela.Zimmerman,Pre-AP Biology,Biology,1,1,1,0,0,0,0

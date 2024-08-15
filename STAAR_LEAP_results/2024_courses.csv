@@ -1,0 +1,181 @@
+CourseName,CourseCreditType,SubjectCode
+3 English Language Arts,ELA,Reading
+3 Math,MA,Math
+3 Science,SC,Science
+3 Social Studies,SOCSTUD,Social Studies
+4 English Language Arts,ELA,Reading
+4 Math,MA,Math
+4 Science,SC,Science
+4 Social Studies,SOCSTUD,Social Studies
+5 English Language Arts,ELA,Reading
+5 Math,MA,Math
+5 Science,SC,Science
+5 Social Studies,SOCSTUD,Social Studies
+6 ELA,ENG,Reading
+6 Math,MA,Math
+6 Science,SC,Science
+6 Social Studies,SOCSTUD,Social Studies
+7 ELA,ENG,Reading
+7 Math,MA,Math
+7 Science,SC,Science
+7 Social Studies,SOCSTUD,Social Studies
+8 ELA,ENGL,Reading
+8 Math,MA,Math
+8 Science,SC,Science
+8 Social Studies,SOCSTUD,Social Studies
+ACC M/J GR8 PRE-ALG,NA,Algebra I
+ACCESS LANG ART - 3,NA,Reading
+ACCESS LANG ART - 4,NA,Reading
+ACCESS M/J GR 6 MATH,MA,Math
+ACCESS M/J GR 7 MATH,MA,Math
+ACCESS M/J LA 3,NA,Reading
+ACCESS MATH GRADE 1,MA,Math
+ACCESS MATH GRADE 2,MA,Math
+ACCESS MATH GRADE 3,MA,Math
+ACCESS MATH GRADE 4,MA,Math
+ACCESS SOC ST - 1,NA,Social Studies
+ACCESS SOC ST - 2,NA,Social Studies
+ACCESS SOC ST - 3,NA,Social Studies
+ACCESS SOC ST - 4,NA,Social Studies
+Advanced Algebra 1,MA,Algebra I
+"Advanced English Language Arts, Grade 6",ELA,Reading
+"Advanced English Language Arts, Grade 7",ELA,Reading
+"Advanced English Language Arts, Grade 8",ELA,Reading
+Advanced Geometry,MA,Geometry
+Advanced Geometry 8th Grade,MA,Geometry
+Advanced Integrated Science 6th Grade,SC,Science
+"Advanced Mathematics, Grade 6",MA,Math
+"Advanced Mathematics, Grade 7 Pre-Algebr",MA,Algebra I
+"Advanced Mathematics, Grade 8-Algebra I",MA,Algebra I
+"Advanced Science, Grade 6-Earth Science",SC,Science
+"Advanced Science, Grade 7-Life Science",SC,Science
+"Advanced Science, Grade 8-Composite",SC,Science
+"Advanced Social Studies, Gr 8-U.S. Histo",SS,Social Studies
+"Advanced Social Studies, Gr 8-U.S. Histo",SC,Social Studies
+"Advanced Social Studies, Grade 6-World H",SS,Social Studies
+"Advanced Social Studies, Grade 7-Texas H",SS,Social Studies
+"Advanced Social Studies, Grade 7-Texas H",English,Social Studies
+"Advanced Social Studies, Grade 7-Texas H",MA,Social Studies
+Algebra 1,MA,Algebra I
+ALGEBRA I,MA,Algebra I
+Algebra I ,MA,Algebra I
+Algebra I ,NA,Algebra I
+AP Biology,SC,Biology
+AP English Language & Composition,NA,English I
+AP U.S. History,NA,U.S. History
+AP U.S. History,SS,U.S. History
+AP US History,SS,U.S. History
+Biology,SC,Biology
+Biology ,SC,Biology
+Biology II: AP Biology,NA,Biology
+English 7,ELA,Reading
+English 8,ELA,Reading
+English I,ELA,English I
+English I ,ELA,English I 
+English II,ELA,English II
+English II ,ELA,English II 
+English Language Arts ,ELA,Reading
+English Language Arts - Grade 6 ,ELA,Reading
+English Language Arts - Grade 7,ELA,Reading
+English Language Arts - Grade 8,ELA,Reading
+"English Language Arts, Grade 3",ELA,Reading
+"English Language Arts, Grade 4",ELA,Reading
+"English Language Arts, Grade 5",ELA,Reading
+Geometry,MA,Geometry
+Geometry,NA,Geometry
+Geometry ,MA,Geometry
+Humanities ,SS,Social Studies
+Humanities ,NA,Social Studies
+Humanities - Grade 6,SS,Social Studies
+Humanities - Grade 7,SS,Social Studies
+Humanities - Grade 8,SS,Social Studies
+IB Biology HL-Year I,SC,Biology
+IB Biology HL-Year II,SC,Biology
+IB Biology SL-Year I,SC,Biology
+IB Biology SL-Year II,SC,Biology
+LANG ARTS GRADE 3,ELA,Reading
+LANG ARTS GRADE 4,ELA,Reading
+Locally Developed English Language Arts ,ELA,Reading
+Locally Developed English Language Arts ,NA,Reading
+Locally Developed Mathematics A,MA,Math
+Locally Developed Mathematics A,NA,Math
+Locally Developed Science A,SC,Science
+Locally Developed Science A,NA,Science
+M/J GRADE 6 MATH,MA,Math
+M/J GRADE 7 MATH,MA,Math
+M/J GRADE 8 PRE-ALG,NA,Algebra I
+M/J LANG ARTS 3,ELA,Reading
+M/J US HIST ADV,MA,U.S. History
+Math 3,MA,Math
+Math 4,MA,Math
+Math 5,MA,Math
+Math 6,MA,Math
+Math 6th Grade-Studies,MA,Math
+Math 7,MA,Math
+Math 7th Grade-Studies,MA,Math
+Math ESS,MA,Math
+MATH GRADE 3,MA,Math
+MATH GRADE 4,MA,Math
+Math Intervention-3rd,MA,Math
+Math Intervention-4th,MA,Math
+Math Intervention-5th,MA,Math
+Math Intervention-6th,MA,Math
+Math Intervention-7th,MA,Math
+Math Intervention-8th,MA,Math
+"Math, 8th Grade",MA,Math
+"Math, 8th Grade",NA,Math
+Mathematics ,MA,Math
+Mathematics -Grade 6,MA,Math
+Mathematics -Grade 7,MA,Math
+Mathematics -Grade 7,LC,Math
+Mathematics -Grade 8,MA,Math
+Mathematics -Grade 8,LC,Math
+"Mathematics, Grade 3",MA,Math
+"Mathematics, Grade 4",MA,Math
+"Mathematics, Grade 5",MA,Math
+"Mathematics, Grade 8",MA,Math
+"Mathematics, Grade 8-Algebra I",MA,Math
+Pre-AP Biology,SC,Biology
+Pre-AP Biology,SCI,Biology
+Pre-AP Biology (8th Grade),SC,Biology
+Pre-AP English I,ELA,English I
+Pre-AP English II,ELA,Engllish II
+"Pre-AP English Language Arts, Grade 8",ELA,Reading
+Pre-AP Geometry 8th Grade,MA,Geometry
+Science ,SC,Science
+Science ,SS,Science
+Science - Grade 6 ,SC,Science
+Science - Grade 7,SC,Science
+Science - Grade 8,SC,Science
+Science 11th Grade-Studies,SC,Science
+Science 3,SC,Science
+Science 4,SC,Science
+Science 5,SC,Science
+Science 6,SC,Science
+Science 7,SC,Science
+Science 8,SC,Science
+Science ESS,SC,Science
+SCIENCE GRADE 3,SC,Science
+SCIENCE GRADE 4,SC,Science
+"Science, Grade 3",SC,Science
+"Science, Grade 4",SC,Science
+"Science, Grade 5",SC,Science
+"Science, Grade 8-Composite",SC,Science
+Soc Stud 8,SS,Social Studies
+Soc Stud ESS,SS,Social Studies
+Soc Studies 3,SS,Social Studies
+SOC STUDIES 3,SS,Social Studies
+Soc Studies 4,SS,Social Studies
+SOC STUDIES 4,SS,Social Studies
+Soc Studies 5,SS,Social Studies
+Soc Studies 6,SS,Social Studies
+Soc Studies 7,SS,Social Studies
+Soc. Stu 8,SS,Social Studies
+"Social Studies, Grade 3",SS,Social Studies
+"Social Studies, Grade 4",SS,Social Studies
+"Social Studies, Grade 5",SS,Social Studies
+"Social Studies, Grade 6-World History",SS,Social Studies
+"Social Studies, Grade 7-Texas History",SC,Social Studies
+"Social Studies, Grade 7-Texas History",SS,Social Studies
+U.S. History ,SS,U.S. History
+US History,SS,U.S. History

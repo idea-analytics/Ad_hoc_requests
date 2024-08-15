@@ -1,0 +1,57 @@
+ADUserID,CourseName,SubjectCode,std_n,n_approaches,percent_approaches,n_meets,percent_meets,n_masters,percent_masters
+Dalanda.Tolliver,English 8,Reading,192,94,0.489583333,31,0.161458333,2,0.010416667
+Abisola.Mojeed,English 7,Reading,108,56,0.518518519,25,0.231481481,1,0.009259259
+Dalanda.Tolliver,English 7,Reading,192,94,0.489583333,31,0.161458333,2,0.010416667
+Henry.Forsythe,English 8,Reading,105,40,0.380952381,16,0.152380952,1,0.00952381
+Cassandra.Richard,English 8,Reading,103,38,0.368932039,14,0.13592233,0,0
+Antone.Leblanc,English 8,Reading,53,24,0.452830189,10,0.188679245,1,0.018867925
+Imonie.Rushing,English 8,Reading,112,54,0.482142857,22,0.196428571,3,0.026785714
+Angela.Flowers,English 7,Reading,61,29,0.475409836,8,0.131147541,2,0.032786885
+Imonie.Rushing,English 7,Reading,112,54,0.482142857,22,0.196428571,3,0.026785714
+,English 8,Reading,1,0,0,0,0,0,0
+Nicholas.Thomas,Math 6,Math,199,31,0.155778894,3,0.015075377,0,0
+Walter.Brownjr,Math 6,Math,77,20,0.25974026,1,0.012987013,0,0
+Nicholas.Thomas,Math 5,Math,199,31,0.155778894,3,0.015075377,0,0
+Brianna.Lee,"Math, 8th Grade",Math,162,42,0.259259259,9,0.055555556,0,0
+Christopher.Baylor,Math 6,Math,106,20,0.188679245,2,0.018867925,0,0
+Terry.Danyn,"Math, 8th Grade",Math,172,44,0.255813953,7,0.040697674,0,0
+Richard.Vance,Math 6,Math,54,11,0.203703704,2,0.037037037,0,0
+Dalanda.Tolliver,Math 7,Math,97,16,0.164948454,1,0.010309278,0,0
+Ashley.Taylor,Math 6,Math,139,34,0.244604317,6,0.043165468,2,0.014388489
+Latasha.Patrick,Math 7,Math,111,27,0.243243243,3,0.027027027,0,0
+Fredrick.Hamilton,"Math, 8th Grade",Math,124,37,0.298387097,7,0.056451613,0,0
+Andreunna.Duhon,Math 3,Math,83,14,0.168674699,6,0.072289157,0,0
+Ashley.Taylor,Math 7,Math,139,34,0.244604317,6,0.043165468,2,0.014388489
+Fredrick.Hamilton,Math 7,Math,124,37,0.298387097,7,0.056451613,0,0
+Jemetreus.Richardson,Math 5,Math,76,12,0.157894737,3,0.039473684,0,0
+Jhan.English,Math ESS,Math,2,0,0,0,0,0,0
+Jesse.Jackson,Math 4,Math,81,26,0.320987654,9,0.111111111,0,0
+Kanesha.Willis,Math 5,Math,111,27,0.243243243,11,0.099099099,1,0.009009009
+Nicholas.Thomas,Math 4,Math,199,31,0.155778894,3,0.015075377,0,0
+Antonio.Delaine,Math 4,Math,95,16,0.168421053,4,0.042105263,0,0
+Celeste.Harlow,Math ESS,Math,1,0,0,0,0,0,0
+Imari.Lloyd,Math ESS,Math,6,0,0,0,0,0,0
+Charles.Paul,Math ESS,Math,3,0,0,0,0,0,0
+Dhiyaauddeen.Abdulla,Math ESS,Math,9,0,0,0,0,0,0
+Wenell.Williamsruss,Math 3,Math,81,16,0.197530864,2,0.024691358,0,0
+Crystal.Robertsonada,Math 3,Math,62,13,0.209677419,6,0.096774194,1,0.016129032
+Dalanda.Tolliver,Soc. Stu 8,Social Studies,21,5,0.238095238,0,0,0,0
+Imonie.Rushing,Soc Studies 6,Social Studies,14,1,0.071428571,0,0,0,0
+Angela.Flowers,Soc Studies 6,Social Studies,7,0,0,0,0,0,0
+Fredlicia.Phillips,Soc Studies 7,Social Studies,10,6,0.6,3,0.3,0,0
+Cassandra.Richard,Soc Stud 8,Social Studies,10,4,0.4,3,0.3,1,0.1
+Dalanda.Tolliver,Soc Studies 7,Social Studies,21,5,0.238095238,0,0,0,0
+Imonie.Rushing,Soc Studies 7,Social Studies,14,1,0.071428571,0,0,0,0
+,Soc Stud 8,Social Studies,8,1,0.125,1,0.125,1,0.125
+Kendrick.Henson,Soc Studies 6,Social Studies,8,0,0,0,0,0,0
+Ashley.Taylor,Soc Studies 7,Social Studies,4,0,0,0,0,0,0
+Celeste.Harlow,Soc Stud ESS,Social Studies,1,0,0,0,0,0,0
+Dymond.Dooley,Soc Studies 6,Social Studies,7,2,0.285714286,0,0,0,0
+Imari.Lloyd,Soc Stud ESS,Social Studies,1,0,0,0,0,0,0
+Jhan.English,Soc Stud ESS,Social Studies,1,0,0,0,0,0,0
+Ashley.Taylor,Soc Stud 8,Social Studies,4,0,0,0,0,0,0
+Natalie.Batiste,Soc Studies 5,Social Studies,4,1,0.25,0,0,0,0
+Justyce.Dixon,Soc Studies 5,Social Studies,5,2,0.4,0,0,0,0
+Michael.Hollins,Soc Studies 5,Social Studies,11,5,0.454545455,3,0.272727273,1,0.090909091
+Dhiyaauddeen.Abdulla,Soc Stud ESS,Social Studies,2,0,0,0,0,0,0
+Jennifer.Harrison,Soc Studies 5,Social Studies,6,1,0.166666667,0,0,0,0

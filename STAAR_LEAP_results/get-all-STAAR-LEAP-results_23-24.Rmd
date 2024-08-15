@@ -1,0 +1,401 @@
+---
+title: "STAAR LEAP outcome by teacher 2023-2025"
+author: "Aline Orr"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+
+
+```{r cars}
+library(ideadata)
+library(tidyverse)
+library(janitor)
+library(here)
+#install.packages("DescTools") 
+library(DescTools)
+```
+
+# Student Enrollment and student records
+
+
+```{r cars}
+
+enrol_table <- get_table(.table_name = "StudentClassEnrollment",
+                       .database_name = "PROD1", 
+                       .schema = "Schools", 
+                       .server_name = "RGVPDSD-DWPRD1") %>%
+  filter(AcademicYear == "2023-2024") %>%
+  collect()
+
+unique_courses <- enrol_table %>%
+  select(CourseName, CourseCreditType) %>%
+  distinct() 
+
+write.csv(unique_courses, here::here("STAAR_LEAP_results","2024_courses.csv"))
+
+
+Stu_records <- get_table(.table_name = "Students",
+                       .database_name = "PROD1", 
+                       .schema = "Schools", 
+                       .server_name = "RGVPDSD-DWPRD1") %>%
+  filter(AcademicYear == "2023-2024",
+         GradeLevelID >= "3") %>%
+  collect()
+
+stus <- Stu_records %>%
+  select(StudentNumber, GradeLevelID, StudentStateID)
+
+std_enrol <- enrol_table %>%
+  inner_join(stus, by = "StudentNumber") %>%
+  mutate(StudentStateID = as.character(StudentStateID))%>%
+  select(StudentNumber, StudentStateID, GradeLevelID, SchoolNumber, ADUserID, CourseName, CourseCreditType)%>%
+  distinct()
+
+courses_2024 <- read_csv(here::here("STAAR_LEAP_results","2024_courses.csv"))
+
+tch_courses <- std_enrol %>%
+  left_join(courses_2024, by = c("CourseName" = "CourseName", "CourseCreditType" = "CourseCreditType"))
+
+```
+
+# STAAR Results (2023-2024)
+
+```{r}
+STAAR_23_24 <- get_table(.table_name = "STAAR", .database_name = "Dashboard", 
+                   .schema = "dbo", .server_name = "RGVPDRA-DASQL") %>%
+  filter(TestVersion == "S", 
+         ScoreCode == "S",
+       #  AdminDate %in% c("0421", "0521")) %>%
+         SchoolYear == "2023-2024") %>%
+    select(StudentNumber,
+         LocalStudentID,
+         GradeLevel,
+         SubjectCode,
+         AdminDate,
+         ScoreCode,
+         ScaleScore,
+         Approaches = LevelII,
+         Meets = LevelIIFinal,
+         Masters = LevelIII) %>%
+  mutate(LocalStudentID = as.numeric(LocalStudentID),
+         StudentNumber = if_else(LocalStudentID %in% c(0, NA), StudentID, LocalStudentID),
+         StudentNumber = as.numeric(StudentNumber)) %>%
+  filter(StudentNumber != 0) %>%
+  select(-StudentID, -LocalStudentID, -ScoreCode) %>%
+   group_by(StudentNumber) %>%
+  distinct() %>%
+  collect()
+
+STAAR_clean <- STAAR_23_24 %>%
+  group_by(StudentNumber, SubjectCode) %>%
+  mutate(std_n = n(),
+         max_score = max(ScaleScore)) %>%
+  filter(ScaleScore == max_score)%>%
+  mutate(n_std = n())%>%
+ungroup()
+
+STAAR_unique <- STAAR_clean %>%
+  select(SubjectCode)%>%
+  distinct()
+
+# %>% select(-std_n, -n_std)
+
+tch_assess <- tch_courses %>%
+  inner_join(STAAR_clean, by = c("StudentNumber" = "StudentNumber" , "SubjectCode" = "SubjectCode"))%>%
+  filter(!is.na(ScaleScore))
+
+tch_percents <- tch_assess %>%
+  mutate(Approaches = as.numeric(Approaches),
+         Meets = as.numeric(Meets),
+         Masters = as.numeric(Masters),
+         Meets1 = case_when((Meets == 1 & Masters == 0) ~ 1,
+                            TRUE ~ 0),
+         Approaches1 = case_when((Approaches == 1 & Meets == 0) ~ 1,
+                               TRUE ~ 0))%>%
+  group_by(ADUserID, SubjectCode) %>%
+  mutate(std_n = n(),
+  # summing up, not mutually exclusive levels
+         n_approaches = sum(Approaches),
+         percent_approaches = n_approaches/std_n,
+         n_meets = sum(Meets),
+         percent_meets = n_meets/std_n,
+         n_masters = sum(Masters),
+         percent_masters = n_masters/std_n,
+  )%>%
+  
+  ungroup()%>%
+  select(ADUserID, CourseName, SubjectCode, std_n, n_approaches, percent_approaches, n_meets, percent_meets, n_masters, percent_masters) %>%
+  distinct()%>%
+  filter(!is.na(ADUserID))
+         # ,
+         # n_apprchs != 0)
+
+
+write.csv(tch_percents, here::here("STAAR_LEAP_results", "STAAR_and_EOC_percent_levels.csv"))
+
+
+```
+
+
+## LEAP tables (2023-2024)
+
+```{r pressure, echo=FALSE}
+
+leap_eoc <- read_csv(here::here("STAAR_LEAP_results","LA_2024_LEAP_EOC_2.csv"))
+ 
+ 
+
+leap_38 <- read_csv(here::here("STAAR_LEAP_results","LA_2024_LEAP_Grds_3_8.csv")) %>%
+  mutate(StudentNumber = as.numeric(StudentNumber))
+  
+
+```
+
+## LEAP38 results
+
+```{r pressure, echo=FALSE}
+
+leap_38_ELA <- leap_38 %>%
+  select(LASID,
+        StudentNumber,
+         ELAVoidFlag,
+         ELAScaleScore,
+         AchievementLevel = ELAAchievement)%>%
+  mutate(SubjectCode = "Reading") %>%
+  distinct()%>%
+  group_by(LASID)%>%
+ # mutate(cnt_id = n())
+  mutate(max_ela = max(ELAScaleScore))%>%
+  filter(ELAScaleScore == max_ela)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID,  StudentNumber, SubjectCode, AchievementLevel)
+
+
+leap_38_math <- leap_38 %>%
+  select(LASID,
+          StudentNumber,
+         MathVoidFlag,
+         MathScaleScore,
+         AchievementLevel = MathAchievement)%>%
+   mutate(SubjectCode = "Math") %>%
+  distinct()%>%
+  group_by(LASID)%>%
+ # mutate(cnt_id = n())
+  mutate(max_math = max(MathScaleScore))%>%
+  filter(MathScaleScore == max_math)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID,  StudentNumber, SubjectCode, AchievementLevel)
+
+
+leap_38_ss <- leap_38 %>%
+  select(LASID,
+          StudentNumber,
+         SocialVoidFlag,
+         SocialScaleScore,
+         AchievementLevel = SocialAchievement)%>%
+     mutate(SubjectCode = "Social Studies") %>%
+  distinct()%>%
+  group_by(LASID)%>%
+ # mutate(cnt_id = n())
+  mutate(max_ss = max(SocialScaleScore))%>%
+  filter(SocialScaleScore == max_ss)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID,  StudentNumber, SubjectCode, AchievementLevel)
+
+
+leap_38_sci <- leap_38 %>%
+  select(LASID,
+          StudentNumber,
+         ScienceVoidFlag,
+         ScienceScaleScore,
+         AchievementLevel = ScienceAchievement)%>%
+       mutate(SubjectCode = "Sciences") %>%
+  distinct() %>%
+   group_by(LASID)%>%
+ # mutate(cnt_id = n())
+  mutate(max_sci = max(ScienceScaleScore))%>%
+  filter(ScienceScaleScore == max_sci)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID,  StudentNumber, SubjectCode, AchievementLevel) %>%
+  distinct()
+
+#Combine all Leap 3-8 tables
+
+leap38_all <- rbind(leap_38_ELA, 
+                    leap_38_math,
+                    leap_38_sci,
+                    leap_38_ss)%>%
+  mutate(Approaches = as.numeric(case_when(AchievementLevel %in% c("Basic", "Mastery", "Advanced") ~ "1",
+                                TRUE ~ "0")),
+         Meets = as.numeric(case_when(AchievementLevel %in% c("Mastery", "Advanced") ~ "1",
+                           TRUE ~ "0")),
+         Masters = as.numeric(case_when(AchievementLevel == "Advanced" ~ "1",
+                             TRUE ~ "0"))
+         )%>%
+  inner_join(tch_courses, by = c("StudentNumber" = "StudentNumber", "SubjectCode" = "SubjectCode"))%>%
+  group_by(ADUserID, SubjectCode) %>%
+  mutate(std_n = n(),
+  # summing up, not mutually exclusive levels
+         n_approaches = sum(Approaches),
+         percent_approaches = n_approaches/std_n,
+         n_meets = sum(Meets),
+         percent_meets = n_meets/std_n,
+         n_masters = sum(Masters),
+         percent_masters = n_masters/std_n
+  ) %>%
+  select(ADUserID, CourseName, SubjectCode, std_n, n_approaches, percent_approaches, n_meets, percent_meets, n_masters, percent_masters)%>%
+  distinct()
+
+write.csv(leap38_all, here::here("STAAR_LEAP_results", "LEAP_3-8_percent_levels.csv"))  
+
+```
+
+#LEAP EOC performance and percentages
+
+```{r}
+leap_eoc_AL <- leap_eoc %>%
+  select(LASID,
+         StudentNumber,
+         ALScaleScore,
+         AchievementLevel = ALAchievementLevel)%>%
+  mutate(SubjectCode = "Algebra I") %>%
+  distinct()%>%
+  group_by(StudentNumber)%>%
+ # mutate(cnt_id = n())
+  mutate(max_alg = max(ALScaleScore))%>%
+  filter(ALScaleScore == max_alg)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID, StudentNumber, SubjectCode, AchievementLevel)
+
+leap_eoc_E1 <- leap_eoc %>%
+  select(LASID,
+         StudentNumber,
+         E1ScaleScore,
+         AchievementLevel = E1AchievementLevel)%>%
+  mutate(SubjectCode = "English I") %>%
+  distinct()%>%
+  group_by(StudentNumber)%>%
+ # mutate(cnt_id = n())
+  mutate(max_e1 = max(E1ScaleScore))%>%
+  filter(E1ScaleScore == max_e1)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID, StudentNumber, SubjectCode, AchievementLevel)
+
+leap_eoc_E2 <- leap_eoc %>%
+  select(LASID,
+         StudentNumber,
+         E2ScaleScore,
+         AchievementLevel = E2AchievementLevel)%>%
+  mutate(SubjectCode = "English II") %>%
+  distinct()%>%
+  group_by(StudentNumber)%>%
+ # mutate(cnt_id = n())
+  mutate(max_e2 = max(E2ScaleScore))%>%
+  filter(E2ScaleScore == max_e2)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID, StudentNumber, SubjectCode, AchievementLevel) %>%
+   mutate(Approaches = as.numeric(case_when(AchievementLevel %in% c("Basic", "Mastery", "Advanced") ~ "1",
+                                TRUE ~ "0")),
+         Meets = as.numeric(case_when(AchievementLevel %in% c("Mastery", "Advanced") ~ "1",
+                           TRUE ~ "0")),
+         Masters = as.numeric(case_when(AchievementLevel == "Advanced" ~ "1",
+                             TRUE ~ "0"))
+         )%>%
+  inner_join(tch_courses %>% filter(CourseName == "Pre-AP English II"), by = c("StudentNumber" = "StudentNumber")) %>%
+   group_by(ADUserID, SubjectCode.x) %>%
+  mutate(std_n = n(),
+  # summing up, not mutually exclusive levels
+         n_approaches = sum(Approaches),
+         percent_approaches = n_approaches/std_n,
+         n_meets = sum(Meets),
+         percent_meets = n_meets/std_n,
+         n_masters = sum(Masters),
+         percent_masters = n_masters/std_n
+  ) %>%
+  select(ADUserID, CourseName, SubjectCode.x, std_n, n_approaches, percent_approaches, n_meets, percent_meets, n_masters, percent_masters)%>%
+  distinct()
+
+write.csv(leap_eoc_E2, here::here("STAAR_LEAP_results", "Leap_EOC_E2_percent_levels.csv"))
+
+leap_eoc_GM <- leap_eoc %>%
+  select(LASID,
+         StudentNumber,
+         GMScaleScore,
+         AchievementLevel = GMAchievementLevel)%>%
+  mutate(SubjectCode = "Geometry") %>%
+  distinct()%>%
+  group_by(StudentNumber)%>%
+ # mutate(cnt_id = n())
+  mutate(max_GM = max(GMScaleScore))%>%
+  filter(GMScaleScore == max_GM)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID, StudentNumber, SubjectCode, AchievementLevel)
+
+leap_eoc_US <- leap_eoc %>%
+  select(LASID,
+         StudentNumber,
+         USScaleScore,
+         AchievementLevel = USAchievementLevel)%>%
+  mutate(SubjectCode = "U.S. History") %>%
+  distinct()%>%
+  group_by(StudentNumber)%>%
+ # mutate(cnt_id = n())
+  mutate(max_US = max(USScaleScore))%>%
+  filter(USScaleScore == max_US)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID, StudentNumber, SubjectCode, AchievementLevel)
+
+leap_eoc_BL <- leap_eoc %>%
+  select(LASID,
+         StudentNumber,
+         BLScaleScore,
+         AchievementLevel = BLAchievementLevel)%>%
+  mutate(SubjectCode = "Biology") %>%
+  distinct()%>%
+  group_by(StudentNumber)%>%
+ # mutate(cnt_id = n())
+  mutate(max_BL = max(BLScaleScore))%>%
+  filter(BLScaleScore == max_BL)%>%
+  mutate(std_cnt = n()) %>%
+  select(LASID, StudentNumber, SubjectCode, AchievementLevel)
+
+#Combine all LEAP EOC tables
+
+leapEOC_all <- rbind(leap_eoc_E2)%>%
+  
+  # leap_eoc_AL,
+  #                   leap_eoc_BL,
+  #                   leap_eoc_E1,
+  #                   leap_eoc_E2,
+  #                   leap_eoc_GM,
+  #                   leap_eoc_US)%>%
+  mutate(Approaches = as.numeric(case_when(AchievementLevel %in% c("Basic", "Mastery", "Advanced") ~ "1",
+                                TRUE ~ "0")),
+         Meets = as.numeric(case_when(AchievementLevel %in% c("Mastery", "Advanced") ~ "1",
+                           TRUE ~ "0")),
+         Masters = as.numeric(case_when(AchievementLevel == "Advanced" ~ "1",
+                             TRUE ~ "0"))
+         )%>%
+  inner_join(tch_courses, by = c("StudentNumber" = "StudentNumber", "SubjectCode" = "SubjectCode"))%>%
+  group_by(ADUserID, SubjectCode) %>%
+  mutate(std_n = n(),
+  # summing up, not mutually exclusive levels
+         n_approaches = sum(Approaches),
+         percent_approaches = n_approaches/std_n,
+         n_meets = sum(Meets),
+         percent_meets = n_meets/std_n,
+         n_masters = sum(Masters),
+         percent_masters = n_masters/std_n
+  ) %>%
+  select(ADUserID, CourseName, SubjectCode, std_n, n_approaches, percent_approaches, n_meets, percent_meets, n_masters, percent_masters)%>%
+  distinct()
+
+write.csv(leapEOC_all, here::here("STAAR_LEAP_results", "Leap_EOC_percent_levels.csv"))
+  
+```

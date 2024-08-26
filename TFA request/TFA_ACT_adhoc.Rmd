@@ -100,13 +100,49 @@ teacher_student_3 <- teacher_student_2 %>%
 #   count() %>%
 #   filter(n>1)
 
-# duplicates are due to TFA data and multiple courses the student is listed in.
+# duplicates each record 2x
+```
+
+# select columns to export
+
+```{r}
+teacher_student_4 <- teacher_student_3 %>% 
+  
+  select(SchoolYear,
+         NCES_District_ID,
+         StudentID,
+         School,
+         Grade.Level,
+         Student.Number,
+         Class.Year,
+         Class.Cohort,
+         Test.Date,
+         Grade.Level.Taken,
+         English,
+         Mathematics,
+         Reading,
+         Science,
+         Composite,
+         Writing,
+         STEM,
+         ELA,
+         Exam.Number,
+         Highest.Composite,
+         Highest.English,
+         Highest.Mathematics,
+         Highest.Reading,
+         Highest.Science,
+         Growth.Previous.Exam,
+         Number.Exams.Taken,
+         max_Test.Date)
+
+# still duplicates records 2x
 ```
 
 
 # export to csv and double-check data and request form.
 
 ```{r}
-write.csv(teacher_student_3, "act-tfa.csv")
+write.csv(teacher_student_4, "act-tfa-2.csv")
 ```
 

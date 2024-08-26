@@ -93,3 +93,20 @@ teacher_student_3 <- teacher_student_2 %>%
   filter(!is.na(max_Test.Date))
 ```
 
+```{r}
+# check duplicates
+# duplicates_teacher_student_3 <- teacher_student_3 %>% 
+#   group_by(StudentID) %>%
+#   count() %>%
+#   filter(n>1)
+
+# duplicates are due to TFA data and multiple courses the student is listed in.
+```
+
+
+# export to csv and double-check data and request form.
+
+```{r}
+write.csv(teacher_student_3, "act-tfa.csv")
+```
+

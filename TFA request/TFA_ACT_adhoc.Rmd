@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # load packages
 
-```{r}
+```{r load libraries}
 library(ideadata)
 library(tidyverse)
 library(here)
@@ -27,23 +27,69 @@ library(readxl)
 See TFA ad hoc request.Rmd for the code on linking teachers to students.
 Pull in the TFA_tch_student_link_file.csv which lists the student numbers needed.
 
-```{r cars}
+```{r get teacher-student data}
 teacher_student <- read.csv(here::here("TFA request", "TFA_tch_student_link_file.csv"))
 ```
 
 
 # get ACT data ---------------------------
-```{r}
+
+Because DW has not been fully restored:
+Pull in EOY exam-level-data file which already has highest scores calculated
+   for ACT including composite and each subject score, and test date.
+   It is appropriate to report the highest scores (composite and subject-level) as 
+      of EOY because some students may have missed ACT test administrations 
+      during the year (like October, April), but an EOY file with documented exam scores
+      for each test date throughout a student's career is most comprehensive. 
+
+If DW restored fully and need to pull and clean ACT data, see table:
+    # conn_act <- get_table(.table_name = "StudentScores",
+    #                       .server_name = "RGVPDSD-DWSRC2",
+    #                       .database_name = "SRC_ACT",
+    #                       .schema = "ACT") 
+
+```{r get act data}
 # determine if import file works or if need to pull and clean. 
-exam-level-act <- read.csv(here::here("TFA request", "act-exam-level-data.csv"))
+exam_level_act <- read.csv(here::here("TFA request", "act-exam-level-data.csv"))
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+# clean act data -------------------
+```{r remove most dupes with max test date}
+#take one row per student, use the most recent test date 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+act_max_date <- exam_level_act %>% 
+group_by(Student.Number) %>%
+  mutate(max_Test.Date = max(Test.Date)) %>%
+  filter(Test.Date == max_Test.Date) %>% 
+  mutate(StudentID = Student.Number)
+
+# check duplicates
+# duplicates_act_max_date <-act_max_date %>%
+#   group_by(StudentID) %>%
+#   count() %>% 
+#   filter(n>1)
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# join act data to the student list for TFA
+
+```{r join tfa list and act scores}
+# teacher_student %>% 
+#   left_join(act_max_date,
+#             by = c("StudentID"))
+
+teacher_student_2 <- teacher_student %>% 
+  left_join(act_max_date,
+            by = c("StudentID"))
+```
+
+
+# clean up teacher-student list by removing students who do not have a max test date.
+
+```{r remove students without act scores}
+teacher_student_3 <- teacher_student_2 %>% 
+  filter(!is.na(max_Test.Date))
+```
+

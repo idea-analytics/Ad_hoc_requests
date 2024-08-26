@@ -1,0 +1,49 @@
+---
+title: "TFA_ACT_adhoc"
+author: "Marlena Coco"
+date: "2024-08-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# load packages
+
+```{r}
+library(ideadata)
+library(tidyverse)
+library(here)
+library(janitor)
+library(DescTools)
+library(readr)
+library(readxl)
+```
+
+# get teacher-student data -----------------
+
+See TFA ad hoc request.Rmd for the code on linking teachers to students.
+Pull in the TFA_tch_student_link_file.csv which lists the student numbers needed.
+
+```{r cars}
+teacher_student <- read.csv(here::here("TFA request", "TFA_tch_student_link_file.csv"))
+```
+
+
+# get ACT data ---------------------------
+```{r}
+# determine if import file works or if need to pull and clean. 
+exam-level-act <- read.csv(here::here("TFA request", "act-exam-level-data.csv"))
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

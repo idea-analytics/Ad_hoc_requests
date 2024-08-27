@@ -63,14 +63,8 @@ tch_link <- TFA_staff %>%
   relocate(EmployeeID, .after = NCES_District_ID)
   
 
+write.csv(tch_link,"TFA_tch_student_link_file.csv", row.names = FALSE)
+
+
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

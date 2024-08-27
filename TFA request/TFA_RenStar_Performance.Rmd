@@ -1,0 +1,155 @@
+---
+title: "TFA RenStar"
+author: "Edison Coronado"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## TFA Get RenStar Performance
+
+```{r cars}
+
+#Load packages
+
+library(ideadata)
+library(tidyverse)
+library(here)
+library(janitor)
+library(DescTools)
+
+# staff_emp <- get_table(.table_name = "Employees",
+#                        .database_name = "PROD1", 
+#                        .schema = "Staffing", 
+#                        .server_name = "RGVPDSD-DWPRD1") %>%
+#   collect()
+# 
+# TFA_staff <- staff_emp %>%
+#   filter(NameID %in% c('18298',
+#                        '61028',
+#                        '92139',
+#                        '91118',
+#                        '90917',
+#                        '92011',
+#                        '94642',
+#                        '91181',
+#                        '91984')) 
+#   
+# tfa_ids <- TFA_staff %>%
+#   select(EmployeeKey)%>%
+#   pull()
+  
+
+
+tch_link <- read.csv("TFA_tch_student_link_file.csv")
+
+student_ids <- tch_link %>%
+  select(StudentID) %>% pull()
+
+
+# School Year*	NCES District ID*	Student ID*	Administration Date*	Term	Assessment Subject*	Scale Score*	Percentile Rank	Grade Equivalent	Student Growth Percentile (SGP)	Benchmark Level
+
+ren_star_math_eoy <- get_table(.table_name = "StarMathV2",
+                     .database_name = "SRC_AR", 
+                     .schema = "dbo", 
+                     .server_name = "RGVPDSD-DWSRC4") %>%
+  filter(AcademicYear == "2023-2024") %>%
+  filter(StudentIdentifier %in% student_ids) %>%
+  filter(ScreeningPeriodWindowName == "EOY Testing Window") %>% 
+  mutate(TermAssessmentSubject = "Math",
+         WindowName = "EOY") %>%
+  select(SchoolYear = AcademicYear,
+         NCESDistrictID = SchoolIdentifier,
+         StudentID = StudentIdentifier,
+         AdministrationDate = CompletedDate,
+         TermAssessmentSubject,
+         ScaleScore = ScaledScore,
+         PercentileRank,
+         GradeEquivalent,
+         StudentGrowthPercentile = StudentGrowthPercentileFallSpring,
+         BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
+         WindowName) %>%
+  collect()
+  
+ren_star_math_moy <- get_table(.table_name = "StarMathV2",
+                     .database_name = "SRC_AR", 
+                     .schema = "dbo", 
+                     .server_name = "RGVPDSD-DWSRC4") %>%
+  filter(AcademicYear == "2023-2024") %>%
+  filter(StudentIdentifier %in% student_ids) %>%
+  filter(ScreeningPeriodWindowName == "MOY Testing Window") %>% 
+  mutate(TermAssessmentSubject = "Math",
+         WindowName = "MOY") %>%
+  select(SchoolYear = AcademicYear,
+         NCESDistrictID = SchoolIdentifier,
+         StudentID = StudentIdentifier,
+         AdministrationDate = CompletedDate,
+         TermAssessmentSubject,
+         ScaleScore = ScaledScore,
+         PercentileRank,
+         GradeEquivalent,
+         StudentGrowthPercentile = StudentGrowthPercentileFallWinter,
+         BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
+         WindowName) %>%
+  collect()
+
+
+ren_star_reading_eoy <- get_table(.table_name = "StarReadingV2",
+                     .database_name = "SRC_AR", 
+                     .schema = "dbo", 
+                     .server_name = "RGVPDSD-DWSRC4") %>%
+  filter(AcademicYear == "2023-2024") %>%
+  filter(StudentIdentifier %in% student_ids) %>%
+  filter(ScreeningPeriodWindowName == "EOY Testing Window") %>%
+  mutate(TermAssessmentSubject = "Reading",
+         WindowName = "EOY") %>%
+  select(SchoolYear = AcademicYear,
+         NCESDistrictID = SchoolIdentifier,
+         StudentID = StudentIdentifier,
+         AdministrationDate = CompletedDate,
+         TermAssessmentSubject,
+         ScaleScore = ScaledScore,
+         PercentileRank,
+         GradeEquivalent,
+         StudentGrowthPercentile = StudentGrowthPercentileFallSpring,
+         BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
+         WindowName) %>%
+  collect()
+  
+ren_star_reading_moy <- get_table(.table_name = "StarReadingV2",
+                     .database_name = "SRC_AR", 
+                     .schema = "dbo", 
+                     .server_name = "RGVPDSD-DWSRC4") %>%
+  filter(AcademicYear == "2023-2024") %>%
+  filter(StudentIdentifier %in% student_ids) %>%
+  filter(ScreeningPeriodWindowName == "MOY Testing Window") %>%
+  mutate(TermAssessmentSubject = "Reading",
+         WindowName = "MOY") %>%
+  select(SchoolYear = AcademicYear,
+         NCESDistrictID = SchoolIdentifier,
+         StudentID = StudentIdentifier,
+         AdministrationDate = CompletedDate,
+         TermAssessmentSubject,
+         ScaleScore = ScaledScore,
+         PercentileRank,
+         GradeEquivalent,
+         StudentGrowthPercentile = StudentGrowthPercentileFallWinter,
+         BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
+         WindowName) %>%
+  collect()
+  
+
+ren_star_performance <- ren_star_math_eoy %>%
+  union_all(ren_star_math_moy) %>%
+  union_all(ren_star_reading_eoy) %>%
+  union_all(ren_star_reading_moy) 
+
+
+write.csv(ren_star_performance, "TFA_student_renstar_performance.csv")
+
+```
+
+

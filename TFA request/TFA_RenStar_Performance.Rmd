@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## TFA Get RenStar Performance
 
-```{r cars}
+```{r renstar}
 
 #Load packages
 

@@ -1,0 +1,99 @@
+---
+title: "TFA TELPAS"
+author: "Edison Coronado"
+date: "2024-08-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r telpas}
+#Load packages
+
+library(ideadata)
+library(tidyverse)
+library(here)
+library(janitor)
+library(DescTools)
+
+
+tch_link <- read.csv("TFA_tch_student_link_file.csv")
+
+student_ids <- tch_link %>%
+  select(StudentID) %>% pull()
+
+
+  # School Year*	
+  # NCES School ID*	
+  # Student ID*	
+  # Reading Score Code	
+  # Reading Scale Score	
+  # Reading Proficiency Rating	
+  # Writing Score Code
+  # Writing Scale Score		
+  # Writing Proficiency Rating	
+  # Listening Score Code	
+  # Listening Scale Score	
+  # Listening Proficiency Rating	
+  # Speaking Score Code	
+  # Speaking Scale Score	
+  # Speaking Proficiency Rating	
+  # Composite Score	
+  # Composite Rating*	
+  # Yearly Progress Indicator
+
+telpas <- get_table(.table_name = "TELPASResult", 
+                               .database_name = "Dashboard", 
+                               .schema = "dbo", 
+                               .server_name = "RGVPDRA-DASQL") %>%
+  filter(SchoolYear == "2023-2024" & RawRecord !='MockTELPAS') %>%
+  collect() %>%
+  filter(LocalStudentID %in% student_ids) %>%
+  mutate(ListeningRating = as.numeric(ListeningRating),
+          SpeakingRating  = as.numeric(SpeakingRating),
+          WritingRating   = as.numeric(WritingRating),
+          ReadingRating   = as.numeric(ReadingRating)) %>%
+  mutate(WritingProficiencyRating = case_when(WritingRating == 1 ~ "Beg",
+                                              WritingRating == 2 ~ "Int",
+                                              WritingRating == 3 ~ "Adv",
+                                              WritingRating == 4 ~ "AdH"),
+         ListeningProficiencyRating = case_when(ListeningRating == 1 ~ "Beg",
+                                              ListeningRating == 2 ~ "Int",
+                                              ListeningRating == 3 ~ "Adv",
+                                              ListeningRating == 4 ~ "AdH"),
+         SpeakingProficiencyRating = case_when(SpeakingRating == 1 ~ "Beg",
+                                              SpeakingRating == 2 ~ "Int",
+                                              SpeakingRating == 3 ~ "Adv",
+                                              SpeakingRating == 4 ~ "AdH"),
+         ReadingProficiencyRating = case_when(ReadingRating == 1 ~ "Beg",
+                                              ReadingRating == 2 ~ "Int",
+                                              ReadingRating == 3 ~ "Adv",
+                                              ReadingRating == 4 ~ "AdH")) %>%
+  select( 
+      SchoolYear,
+      NCESSchoolID = CountyDistrictCampusNumber,
+      StudentID = LocalStudentID, 
+      ReadingScoreCode,
+      ReadingScaleScore = ReadingRating,
+      ReadingProficiencyRating,
+      WritingScoreCode,
+      WritingScaleScore = WritingRating,
+      WritingProficiencyRating,
+      ListeningScoreCode,
+      ListeningScaleScore = ListeningRating,
+      ListeningProficiencyRating,
+      SpeakingScoreCode,
+      SpeakingScaleScore = SpeakingRating,
+      SpeakingProficiencyRating,
+      CompositeScore,
+      CompositeRating,
+      YearlyProgressIndicator) 
+
+
+write.csv(telpas, "TFA_TELPAS.csv")
+
+```
+

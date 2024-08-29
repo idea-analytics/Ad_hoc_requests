@@ -57,8 +57,9 @@ ren_star_math_eoy <- get_table(.table_name = "StarMathV2",
                      .schema = "dbo", 
                      .server_name = "RGVPDSD-DWSRC4") %>%
   filter(AcademicYear == "2023-2024") %>%
-  filter(StudentIdentifier %in% student_ids) %>%
   filter(ScreeningPeriodWindowName == "EOY Testing Window") %>% 
+  collect() %>%
+  filter(StudentIdentifier %in% student_ids) %>%
   mutate(TermAssessmentSubject = "Math",
          WindowName = "EOY") %>%
   select(SchoolYear = AcademicYear,
@@ -71,16 +72,16 @@ ren_star_math_eoy <- get_table(.table_name = "StarMathV2",
          GradeEquivalent,
          StudentGrowthPercentile = StudentGrowthPercentileFallSpring,
          BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
-         WindowName) %>%
-  collect()
+         WindowName) 
   
 ren_star_math_moy <- get_table(.table_name = "StarMathV2",
                      .database_name = "SRC_AR", 
                      .schema = "dbo", 
                      .server_name = "RGVPDSD-DWSRC4") %>%
   filter(AcademicYear == "2023-2024") %>%
-  filter(StudentIdentifier %in% student_ids) %>%
   filter(ScreeningPeriodWindowName == "MOY Testing Window") %>% 
+  collect() %>%
+  filter(StudentIdentifier %in% student_ids) %>%
   mutate(TermAssessmentSubject = "Math",
          WindowName = "MOY") %>%
   select(SchoolYear = AcademicYear,
@@ -93,8 +94,7 @@ ren_star_math_moy <- get_table(.table_name = "StarMathV2",
          GradeEquivalent,
          StudentGrowthPercentile = StudentGrowthPercentileFallWinter,
          BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
-         WindowName) %>%
-  collect()
+         WindowName) 
 
 
 ren_star_reading_eoy <- get_table(.table_name = "StarReadingV2",
@@ -102,8 +102,9 @@ ren_star_reading_eoy <- get_table(.table_name = "StarReadingV2",
                      .schema = "dbo", 
                      .server_name = "RGVPDSD-DWSRC4") %>%
   filter(AcademicYear == "2023-2024") %>%
-  filter(StudentIdentifier %in% student_ids) %>%
   filter(ScreeningPeriodWindowName == "EOY Testing Window") %>%
+  collect() %>%
+  filter(StudentIdentifier %in% student_ids) %>%
   mutate(TermAssessmentSubject = "Reading",
          WindowName = "EOY") %>%
   select(SchoolYear = AcademicYear,
@@ -116,14 +117,14 @@ ren_star_reading_eoy <- get_table(.table_name = "StarReadingV2",
          GradeEquivalent,
          StudentGrowthPercentile = StudentGrowthPercentileFallSpring,
          BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
-         WindowName) %>%
-  collect()
+         WindowName) 
   
 ren_star_reading_moy <- get_table(.table_name = "StarReadingV2",
                      .database_name = "SRC_AR", 
                      .schema = "dbo", 
                      .server_name = "RGVPDSD-DWSRC4") %>%
   filter(AcademicYear == "2023-2024") %>%
+  collect() %>%
   filter(StudentIdentifier %in% student_ids) %>%
   filter(ScreeningPeriodWindowName == "MOY Testing Window") %>%
   mutate(TermAssessmentSubject = "Reading",
@@ -138,8 +139,7 @@ ren_star_reading_moy <- get_table(.table_name = "StarReadingV2",
          GradeEquivalent,
          StudentGrowthPercentile = StudentGrowthPercentileFallWinter,
          BenchmarkLevel = RenaissanceBenchmarkCategoryLevel,
-         WindowName) %>%
-  collect()
+         WindowName) 
   
 
 ren_star_performance <- ren_star_math_eoy %>%

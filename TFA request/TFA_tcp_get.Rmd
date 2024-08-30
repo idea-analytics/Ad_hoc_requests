@@ -1,0 +1,91 @@
+---
+title: "TFA_tcp_get"
+author: "Ilissa Madrigal"
+date: "2024-08-27"
+output: html_document
+---
+
+
+```{r load libraries}
+# install.packages("tidyverse")
+# install.packages("here")
+# install.packages("janitor")
+ # install.packages("DescTools")
+# install.packages("readr")
+# install.packages("readxl")
+# install.packages("devtools")
+
+
+
+library(dplyr)
+library(ideadata)
+library(tidyverse)
+library(here)
+library(janitor)
+# library(DescTools)
+library(readr)
+library(readxl)
+```
+
+
+
+
+
+
+```{r get teacher-student data}
+
+# get teacher-student data
+# See TFA ad hoc request.Rmd for the code on linking teachers to students
+# Pull in the TFA_tch_student_link_file.csv which lists the student numbers needed.
+
+teacher_student <- read.csv(here::here("TFA request", "TFA_tch_student_link_file.csv"))
+
+#For GET and TCP request, only EEIDs are needed, so we need to remove all other columns. 
+teacher_eeids <- teacher_student %>%
+  select(EmployeeID) %>% 
+  distinct() 
+teacher_eeids
+
+
+```
+
+```{r}
+# get teacher tcp data
+#need to rename by column
+
+teacher_tcp <- read.csv(here::here("TFA request", "tcp report june.csv")) %>%
+rename(EmployeeID = 1)
+
+
+tcp_comp <- teacher_eeids %>%
+  left_join(teacher_tcp, join_by(EmployeeID)) %>%
+  select(EmployeeID,TCPPlacementLevel, CompositeScore)
+tcp_comp
+
+write.csv(tcp_comp, "TFA_tcp_composite.csv")
+```
+
+
+```{r}
+
+teacher_get <- read.csv(here::here("TFA request", "APR_Ratings_report_fromCS_062124.csv")) %>%
+  rename(EmployeeID = 1) %>%
+  mutate(EmployeeID = as.integer(EmployeeID))
+
+tfa_get <- teacher_eeids %>%
+  left_join(teacher_get, join_by(EmployeeID)) %>%
+  janitor::clean_names("title")
+tfa_get
+
+
+#column names had spaces, we renamed without spaces
+names(tfa_get) <- gsub("\\W+", "", names(tfa_get))
+
+
+tfa_get_final <- tfa_get %>%
+  select(-Tfa)
+tfa_get_final
+
+write.csv(tfa_get_final, "TFA_GET_scores.csv")
+
+```

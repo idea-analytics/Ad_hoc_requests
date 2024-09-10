@@ -1,0 +1,54 @@
+---
+title: "Get_STAAR_TELPAS_data"
+author: "Aline Orr"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## STAAR & Telpas
+
+
+```{r cars}
+
+library(ideadata)
+library(tidyverse)
+library(here)
+library(janitor)
+library(DescTools)
+
+tch_file <- read_csv("TFA_tch_student_link_file.csv") %>%
+  mutate(StudentID = as.character(StudentID))
+
+STAAR_data <- get_table(.table_name = "STAAR",
+                        .schema = "dbo",
+                        .database_name = "Dashboard",
+                        .server_name = "RGVPDRA-DASQL") %>%
+  filter(SchoolYear == "2023-2024",
+         score_code == "S",
+         test_version == "S"
+         ) %>%
+  collect() %>%
+  clean_names()
+ 
+STAAR <- STAAR_data %>%
+  select(school_year, local_student_id, subject_code, test_version, scale_score, approaches=level_ii, meets = level_ii_final, masters = level_iii) %>%
+  mutate(approaches1 = as.numeric(approaches),
+         meets1 = as.numeric(meets),
+         masters1 = as.numeric(masters),
+         performance_level = case_when(masters1 == 1 ~ "Masters",
+                                       meets1 == 1 & masters1 == 0 ~ "Meets",
+                                       approaches1 == 1 & meets == 0 ~ "Approaches",
+                                       TRUE ~ "Did not meet")) %>%
+  select(-approaches1, -meets1, -masters1, - approaches, -meets, -masters)%>%
+  inner_join(tch_file %>% select(StudentID), by = c("local_student_id" = "StudentID"))
+
+write.csv(STAAR, here::here("TFA request", "TFA_STAAR_data.csv"))
+  
+
+
+```
+
